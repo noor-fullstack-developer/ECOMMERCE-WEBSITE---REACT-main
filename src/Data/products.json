@@ -1,0 +1,1016 @@
+[
+  {
+    "id": 1,
+    "name": "Black Onyx Pendant ",
+    "price": 4299,
+    "material": "Sterling Silver",
+    "stone": "Moonstone",
+    "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
+    "category": "rings",
+    "image": "./src/Data/img/ring-01.png"
+  },
+  {
+    "id": 2,
+    "name": "Black Onyx Pendant ",
+    "price": 4299,
+    "material": "Sterling Silver",
+    "stone": "Moonstone",
+    "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
+    "category": "rings",
+    "image": "./src/data/img/ring-02.png"
+  },
+  {
+    "id": 3,
+    "name": "Black Onyx Pendant ",
+    "price": 4299,
+    "material": "Sterling Silver",
+    "stone": "Moonstone",
+    "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
+    "category": "rings",
+    "image": "./src/data/img/ring-03.png"
+  },
+  {
+    "id": 4,
+    "name": "Black Onyx Pendant ",
+    "price": 4299,
+    "material": "Sterling Silver",
+    "stone": "Moonstone",
+    "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
+    "category": "rings",
+    "image": "./src/data/img/ring-04.png"
+  },
+  {
+    "id": 5,
+    "name": "Black Onyx Pendant ",
+    "price": 4299,
+    "material": "Sterling Silver",
+    "stone": "Moonstone",
+    "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
+    "category": "rings",
+    "image": "./src/data/img/ring-05.png"
+  },
+  {
+    "id": 6,
+    "name": "Black Onyx Pendant ",
+    "price": 4299,
+    "material": "Sterling Silver",
+    "stone": "Moonstone",
+    "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
+    "category": "rings",
+    "image": "./src/data/img/ring-06.png"
+  },
+  {
+    "id": 7,
+    "name": "Black Onyx Pendant ",
+    "price": 4299,
+    "material": "Sterling Silver",
+    "stone": "Moonstone",
+    "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
+    "category": "rings",
+    "image": "./src/data/img/ring-07.png"
+  },
+  {
+    "id": 8,
+    "name": "Black Onyx Pendant ",
+    "price": 4299,
+    "material": "Sterling Silver",
+    "stone": "Moonstone",
+    "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
+    "category": "rings",
+    "image": "./src/data/img/ring-08.png"
+  },
+  {
+    "id": 9,
+    "name": "Black Onyx Pendant ",
+    "price": 4299,
+    "material": "Sterling Silver",
+    "stone": "Moonstone",
+    "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
+    "category": "rings",
+    "grade": "great",
+    "image": "./src/data/img/ring-09.png"
+  },
+  {
+    "id": 10,
+    "name": "Black Onyx Pendant ",
+    "price": 4299,
+    "material": "Sterling Silver",
+    "stone": "Moonstone",
+    "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
+    "category": "rings",
+    "image": "./src/data/img/ring-10.png"
+  },
+  {
+    "id": 11,
+    "name": "Black Onyx Pendant ",
+    "price": 4299,
+    "material": "Sterling Silver",
+    "stone": "Moonstone",
+    "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
+    "category": "rings",
+    "image": "./src/data/img/ring-11.png"
+  },
+  {
+    "id": 12,
+    "name": "Black Onyx Pendant ",
+    "price": 4299,
+    "material": "Sterling Silver",
+    "stone": "Moonstone",
+    "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
+    "category": "rings",
+    "image": "./src/data/img/ring-12.png"
+  },
+  {
+    "id": 13,
+    "name": "Black Onyx Pendant ",
+    "price": 4299,
+    "material": "Sterling Silver",
+    "stone": "Moonstone",
+    "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
+    "category": "rings",
+    "image": "./src/data/img/ring-13.png"
+  },
+  {
+    "id": 14,
+    "name": "Black Onyx Pendant ",
+    "price": 4299,
+    "material": "Sterling Silver",
+    "stone": "Moonstone",
+    "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
+    "category": "rings",
+    "categorie": "favorite",
+    "image": "./src/data/img/ring-14.png"
+  },
+  {
+    "id": 15,
+    "name": "Black Onyx Pendant ",
+    "price": 4299,
+    "material": "Sterling Silver",
+    "stone": "Moonstone",
+    "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
+    "category": "rings",
+    "image": "./src/data/img/ring-15.png"
+  },
+  {
+    "id": 16,
+    "name": "Black Onyx Pendant ",
+    "price": 4299,
+    "material": "Sterling Silver",
+    "stone": "Moonstone",
+    "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
+    "category": "rings",
+    "image": "./src/data/img/ring-16.png"
+  },
+  {
+    "id": 17,
+    "name": "Black Onyx Pendant ",
+    "price": 4299,
+    "material": "Sterling Silver",
+    "stone": "Moonstone",
+    "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
+    "category": "rings",
+    "categorie": "favorite",
+    "image": "./src/data/img/ring-17.png"
+  },
+  {
+    "id": 18,
+    "name": "Black Onyx Pendant ",
+    "price": 4299,
+    "material": "Sterling Silver",
+    "stone": "Moonstone",
+    "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
+    "category": "rings",
+    "image": "./src/data/img/ring-18.png"
+  },
+  {
+    "id": 19,
+    "name": "Black Onyx Pendant ",
+    "price": 4299,
+    "material": "Sterling Silver",
+    "stone": "Moonstone",
+    "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
+    "category": "rings",
+    "image": "./src/data/img/ring-19.png"
+  },
+  {
+    "id": 20,
+    "name": "Black Onyx Pendant ",
+    "price": 4299,
+    "material": "Sterling Silver",
+    "stone": "Moonstone",
+    "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
+    "category": "rings",
+    "image": "./src/data/img/ring-20.png"
+  },
+  {
+    "id": 21,
+    "name": "Black Onyx Pendant ",
+    "price": 4299,
+    "material": "Sterling Silver",
+    "stone": "Moonstone",
+    "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
+    "category": "Necklace",
+    "image": "./src/Data/img/Necklace-01.png"
+  },
+  {
+    "id": 22,
+    "name": "Black Onyx Pendant ",
+    "price": 4299,
+    "material": "Sterling Silver",
+    "stone": "Moonstone",
+    "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
+    "category": "Necklace",
+    "image": "./src/Data/img/Necklace-02.png"
+  },
+  {
+    "id": 23,
+    "name": "Black Onyx Pendant ",
+    "price": 4299,
+    "material": "Sterling Silver",
+    "stone": "Moonstone",
+    "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
+    "category": "Necklace",
+    "image": "./src/Data/img/Necklace-03.png"
+  },
+  {
+    "id": 24,
+    "name": "Black Onyx Pendant ",
+    "price": 4299,
+    "material": "Sterling Silver",
+    "stone": "Moonstone",
+    "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
+    "category": "Necklace",
+    "image": "./src/Data/img/Necklace-04.png"
+  },
+  {
+    "id": 25,
+    "name": "Black Onyx Pendant ",
+    "price": 4299,
+    "material": "Sterling Silver",
+    "stone": "Moonstone",
+    "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
+    "category": "Necklace",
+    "image": "./src/Data/img/Necklace-05.png"
+  },
+  {
+    "id": 26,
+    "name": "Black Onyx Pendant 26",
+    "price": 2047,
+    "material": "22k Gold",
+    "stone": "Topaz",
+    "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
+    "category": "Necklace",
+    "image": "./src/Data/img/Necklace-06.png"
+  },
+  {
+    "id": 27,
+    "name": "Dual Ring Diamond Mangalsutra 27",
+    "price": 1727,
+    "material": "18k Gold",
+    "stone": "Onyx",
+    "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
+    "category": "Necklace",
+    "image": "./src/Data/img/Necklace-07.png"
+  },
+  {
+    "id": 28,
+    "name": "Diamond Mangalsutra 28",
+    "price": 6,
+    "material": "18k Gold",
+    "stone": "Moonstone",
+    "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
+    "category": "Necklace",
+    "image": "./src/Data/img/Necklace-08.png"
+  },
+  {
+    "id": 29,
+    "name": "Black Onyx Pendant 29",
+    "price": 4512,
+    "material": "Sterling Silver",
+    "stone": "Sapphire",
+    "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
+    "category": "Necklace",                                 
+    "image": "./src/Data/img/Necklace-09.png"
+  },
+  {
+    "id": 30,
+    "name": "Ruby Solitaire Mangalsutra 30",
+    "price": 4543,
+    "material": "22k Gold",
+    "stone": "Topaz",
+    "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
+    "category": "Necklace",
+    "categorie": "favorite",
+    "image": "./src/Data/img/Necklace-10.png"
+  },
+  {
+    "id": 31,
+    "name": "Ruby Diamond Pendant 31",
+    "price": 3351,
+    "material": "Platinum",
+    "stone": "Emerald",
+    "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
+    "category": "Necklace",
+    "categorie": "favorite",
+    "image": "./src/Data/img/Necklace-11.png"
+  },
+  {
+    "id": 32,
+    "name": "Love Birds Mangalsutra 32",
+    "price": 3341,
+    "material": "Platinum",
+    "stone": "Sapphire",
+    "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
+    "category": "Necklace",
+    "image": "./src/Data/img/Necklace-12.png"
+  },
+  {
+    "id": 33,
+    "name": "Lotus Diamond Mangalsutra 33",
+    "price": 60,
+    "material": "22k Gold",
+    "stone": "Topaz",
+    "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
+    "category": "Necklace",
+    "image": "./src/Data/img/Necklace-13.png"
+  },
+  {
+    "id": 34,
+    "name": "Ruby Solitaire Mangalsutra 34",
+    "price": 3977,
+    "material": "22k Gold",
+    "stone": "None",
+    "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
+    "category": "Necklace",
+    "image": "./src/Data/img/Necklace-14.png"
+  },
+  {
+    "id": 35,
+    "name": "Silver Moonstone Pendant 35",
+    "price": 4575,
+    "material": "18k Gold",
+    "stone": "Emerald",
+    "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
+    "category": "Necklace",
+    "image": "./src/Data/img/Necklace-15.png"
+  },
+  {
+    "id": 36,
+    "name": "Blue Topaz Heart Necklace 36",
+    "price": 2455,
+    "material": "18k Gold",
+    "stone": "Topaz",
+    "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
+    "category": "Necklace",
+    "image": "./src/Data/img/Necklace-16.png"
+  },
+  {
+    "id": 37,
+    "name": "Ruby Solitaire Mangalsutra 37",
+    "price": 2273,
+    "material": "22k Gold",
+    "stone": "Ruby",
+    "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
+    "category": "Necklace",
+    "image": "./src/Data/img/Necklace-17.png"
+  },
+  {
+    "id": 38,
+    "name": "Silver Moonstone Pendant 38",
+    "price": 903,
+    "material": "Platinum",
+    "stone": "Diamond",
+    "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
+    "category": "Necklace",
+    "image": "./src/Data/img/Necklace-18.png"
+  },
+  {
+    "id": 39,
+    "name": "Love Birds Mangalsutra 39",
+    "price": 2130,
+    "material": "22k Gold",
+    "stone": "Ruby",
+    "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
+    "category": "Necklace",
+    "image": "./src/Data/img/Necklace-19.png"
+  },
+  {
+    "id": 40,
+    "name": "Lotus Diamond Mangalsutra 40",
+    "price": 2644,
+    "material": "Sterling Silver",
+    "stone": "Onyx",
+    "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
+    "category": "Necklace",
+    "image": "./src/Data/img/Necklace-20.png"
+  },
+  {
+    "id": 41,
+    "name": "Ruby Diamond Pendant 41",
+    "price": 1728,
+    "material": "22k Gold",
+    "stone": "None",
+    "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
+    "category": "mangalsutra",
+    "image": "./src/data/img/mangalsutra-01.png"
+  },
+  {
+    "id": 42,
+    "name": "Silver Moonstone Pendant 42",
+    "price": 1458,
+    "material": "22k Gold",
+    "stone": "Emerald",
+    "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
+    "category": "mangalsutra",
+    "categorie": "favorite",
+    "image": "./src/data/img/mangalsutra-02.png"
+  },
+  {
+    "id": 43,
+    "name": "Ruby Solitaire Mangalsutra 43",
+    "price": 4972,
+    "material": "Platinum",
+    "stone": "Moonstone",
+    "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
+    "category": "mangalsutra",
+    "image": "./src/data/img/mangalsutra-03.png"
+  },
+  {
+    "id": 44,
+    "name": "Love Birds Mangalsutra 44",
+    "price": 4373,
+    "material": "18k Gold",
+    "stone": "Topaz",
+    "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
+    "category": "mangalsutra",
+    "categorie": "favorite",
+    "image": "./src/data/img/mangalsutra-04.png"
+  },
+  {
+    "id": 45,
+    "name": "Black Onyx Pendant 45",
+    "price": 4669,
+    "material": "Platinum",
+    "stone": "Topaz",
+    "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
+    "category": "mangalsutra",
+    "image": "./src/data/img/mangalsutra-05.png"
+  },
+  {
+    "id": 46,
+    "name": "Diamond Mangalsutra 46",
+    "price": 47,
+    "material": "18k Gold",
+    "stone": "None",
+    "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
+    "category": "mangalsutra",
+    "image": "./src/data/img/mangalsutra-06.png"
+  },
+  {
+    "id": 47,
+    "name": "Diamond Mangalsutra 47",
+    "price": 43,
+    "material": "Sterling Silver",
+    "stone": "Ruby",
+    "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
+    "category": "mangalsutra",
+    "image": "./src/data/img/mangalsutra-07.png"
+  },
+  {
+    "id": 48,
+    "name": "Ruby Solitaire Mangalsutra 48",
+    "price": 4987,
+    "material": "Sterling Silver",
+    "stone": "Emerald",
+    "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
+    "category": "mangalsutra",
+    "image": "./src/data/img/mangalsutra-08.png"
+  },
+  {
+    "id": 49,
+    "name": "Love Birds Mangalsutra 49",
+    "price": 2364,
+    "material": "22k Gold",
+    "stone": "None",
+    "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
+    "category": "mangalsutra",
+    "grade": "great",
+    "image": "./src/data/img/mangalsutra-09.png"
+  },
+  {
+    "id": 50,
+    "name": "Black Onyx Pendant 50",
+    "price": 856,
+    "material": "Platinum",
+    "stone": "None",
+    "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
+    "category": "mangalsutra",
+    "image": "./src/data/img/mangalsutra-10.png"
+  },
+  {
+    "id": 51,
+    "name": "Ruby Solitaire Mangalsutra 51",
+    "price": 3083,
+    "material": "18k Gold",
+    "stone": "Sapphire",
+    "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
+    "category": "mangalsutra",
+    "image": "./src/data/img/mangalsutra-11.png"
+  },
+  {
+    "id": 52,
+    "name": "Blue Topaz Heart Necklace 52",
+    "price": 4967,
+    "material": "22k Gold",
+    "stone": "Ruby",
+    "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
+    "category": "mangalsutra",
+    "image": "./src/data/img/mangalsutra-12.png"
+  },
+  {
+    "id": 53,
+    "name": "Diamond Mangalsutra 53",
+    "price": 2651,
+    "material": "Sterling Silver",
+    "stone": "Emerald",
+    "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
+    "category": "mangalsutra",
+    "image": "./src/data/img/mangalsutra-13.png"
+  },
+  {
+    "id": 54,
+    "name": "Ruby Solitaire Mangalsutra 54",
+    "price": 1244,
+    "material": "18k Gold",
+    "stone": "Moonstone",
+    "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
+    "category": "mangalsutra",
+    "image": "./src/data/img/mangalsutra-14.png"
+  },
+  {
+    "id": 55,
+    "name": "Ruby Solitaire Mangalsutra 55",
+    "price": 4440,
+    "material": "Sterling Silver",
+    "stone": "Ruby",
+    "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
+    "category": "mangalsutra",
+    "image": "./src/data/img/mangalsutra-15.png"
+  },
+  {
+    "id": 56,
+    "name": "Ruby Solitaire Mangalsutra 56",
+    "price": 1194,
+    "material": "18k Gold",
+    "stone": "Emerald",
+    "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
+    "category": "mangalsutra",
+    "image": "./src/data/img/mangalsutra-16.png"
+  },
+  {
+    "id": 57,
+    "name": "Ruby Solitaire Mangalsutra 57",
+    "price": 1513,
+    "material": "22k Gold",
+    "stone": "Moonstone",
+    "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
+    "category": "mangalsutra",
+    "image": "./src/data/img/mangalsutra-17.png"
+  },
+  {
+    "id": 58,
+    "name": "Lotus Diamond Mangalsutra 58",
+    "price": 3332,
+    "material": "Platinum",
+    "stone": "Topaz",
+    "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
+    "category": "mangalsutra",
+    "image": "./src/data/img/mangalsutra-18.png"
+  },
+  {
+    "id": 59,
+    "name": "Lotus Diamond Mangalsutra 59",
+    "price": 2237,
+    "material": "22k Gold",
+    "stone": "Moonstone",
+    "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
+    "category": "mangalsutra",
+    "image": "./src/data/img/mangalsutra-19.png"
+  },
+  {
+    "id": 60,
+    "name": "Ruby Solitaire Mangalsutra 60",
+    "price": 2786,
+    "material": "Sterling Silver",
+    "stone": "Topaz",
+    "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
+    "category": "mangalsutra",
+    "image": "./src/data/img/mangalsutra-20.png"
+  },
+  {
+    "id": 61,
+    "name": "Dual Ring Diamond Mangalsutra 61",
+    "price": 4143,
+    "material": "Sterling Silver",
+    "stone": "Diamond",
+    "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
+    "category": "earring",
+    "categorie": "favorite",
+    "grade": "great",
+    "image": "./src/data/img/earring-01.png"
+  },
+  {
+    "id": 62,
+    "name": "Lotus Diamond Mangalsutra 62",
+    "price": 1919,
+    "material": "Platinum",
+    "stone": "Topaz",
+    "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
+    "category": "earring",
+    "image": "./src/data/img/earring-02.png"
+  },
+  {
+    "id": 63,
+    "name": "Gold Infinity Necklace 63",
+    "price": 3465,
+    "material": "22k Gold",
+    "stone": "Sapphire",
+    "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
+    "category": "earring",
+    "image": "./src/data/img/earring-03.png"
+  },
+  {
+    "id": 64,
+    "name": "Lotus Diamond Mangalsutra 64",
+    "price": 724,
+    "material": "18k Gold",
+    "stone": "None",
+    "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
+    "category": "earring",
+    "image": "./src/data/img/earring-04.png"
+  },
+  {
+    "id": 65,
+    "name": "Black Onyx Pendant 65",
+    "price": 3791,
+    "material": "22k Gold",
+    "stone": "Sapphire",
+    "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
+    "category": "earring",
+    "categorie": "favorite",
+    "image": "./src/data/img/earring-05.png"
+  },
+  {
+    "id": 66,
+    "name": "Gold Infinity Necklace 66",
+    "price": 3184,
+    "material": "Platinum",
+    "stone": "Ruby",
+    "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
+    "category": "earring",
+    "image": "./src/data/img/earring-06.png"
+  },
+  {
+    "id": 67,
+    "name": "Diamond Mangalsutra 67",
+    "price": 4275,
+    "material": "Sterling Silver",
+    "stone": "None",
+    "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
+    "category": "earring",
+    "image": "./src/data/img/earring-07.png"
+  },
+  {
+    "id": 68,
+    "name": "Blue Topaz Heart Necklace 68",
+    "price": 592,
+    "material": "18k Gold",
+    "stone": "Moonstone",
+    "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
+    "category": "earring",
+    "image": "./src/data/img/earring-08.png"
+  },
+  {
+    "id": 69,
+    "name": "Gold Infinity Necklace 69",
+    "price": 3400,
+    "material": "Sterling Silver",
+    "stone": "Diamond",
+    "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
+    "category": "earring",
+    "image": "./src/data/img/earring-09.png"
+  },
+  {
+    "id": 70,
+    "name": "Ruby Diamond Pendant 70",
+    "price": 984,
+    "material": "Platinum",
+    "stone": "Sapphire",
+    "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
+    "category": "earring",
+    "image": "./src/data/img/earring-10.png"
+  },
+  {
+    "id": 71,
+    "name": "Diamond Mangalsutra 71",
+    "price": 1360,
+    "material": "Sterling Silver",
+    "stone": "Moonstone",
+    "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
+    "category": "earring",
+    "image": "./src/data/img/earring-11.png"
+  },
+  {
+    "id": 72,
+    "name": "Blue Topaz Heart Necklace 72",
+    "price": 5,
+    "material": "18k Gold",
+    "stone": "Diamond",
+    "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
+    "category": "earring",
+    "image": "./src/data/img/earring-12.png"
+  },
+  {
+    "id": 73,
+    "name": "Dual Ring Diamond Mangalsutra 73",
+    "price": 2415,
+    "material": "18k Gold",
+    "stone": "Ruby",
+    "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
+    "category": "earring",
+    "image": "./src/data/img/earring-13.png"
+  },
+  {
+    "id": 74,
+    "name": "Lotus Diamond Mangalsutra 74",
+    "price": 2803,
+    "material": "Platinum",
+    "stone": "Emerald",
+    "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
+    "category": "earring",
+    "image": "./src/data/img/earring-14.png"
+  },
+  {
+    "id": 75,
+    "name": "Dual Ring Diamond Mangalsutra 75",
+    "price": 935,
+    "material": "Platinum",
+    "stone": "Onyx",
+    "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
+    "category": "earring",
+    "image": "./src/data/img/earring-15.png"
+  },
+  {
+    "id": 76,
+    "name": "Lotus Diamond Mangalsutra 76",
+    "price": 604,
+    "material": "18k Gold",
+    "stone": "Diamond",
+    "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
+    "category": "earring",
+    "image": "./src/data/img/earring-16.png"
+  },
+  {
+    "id": 77,
+    "name": "Love Birds Mangalsutra 77",
+    "price": 579,
+    "material": "18k Gold",
+    "stone": "Moonstone",
+    "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
+    "category": "earring",
+    "image": "./src/data/img/earring-17.png"
+  },
+  {
+    "id": 78,
+    "name": "Dual Ring Diamond Mangalsutra 78",
+    "price": 3413,
+    "material": "22k Gold",
+    "stone": "Topaz",
+    "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
+    "category": "earring",
+    "image": "./src/data/img/earring-18.png"
+  },
+  {
+    "id": 79,
+    "name": "Black Onyx Pendant 79",
+    "price": 4515,
+    "material": "Sterling Silver",
+    "stone": "Onyx",
+    "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
+    "category": "earring",
+    "image": "./src/data/img/earring-19.png"
+  },
+  {
+    "id": 80,
+    "name": "Dual Ring Diamond Mangalsutra 80",
+    "price": 2917,
+    "material": "Platinum",
+    "stone": "Emerald",
+    "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
+    "category": "earring",
+    "image": "./src/data/img/earring-20.png"
+  },
+  {
+    "id": 81,
+    "name": "Dual Ring Diamond Mangalsutra 81",
+    "price": 3828,
+    "material": "Sterling Silver",
+    "stone": "Sapphire",
+    "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
+    "category": "braslet",
+    "categorie": "favorite",
+    "image": "./src/data/img/braslet-01.png"
+  },
+  {
+    "id": 82,
+    "name": "Ruby Diamond Pendant 82",
+    "price": 3221,
+    "material": "Sterling Silver",
+    "stone": "Diamond",
+    "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
+    "category": "braslet",
+    "image": "./src/data/img/braslet-02.png"
+  },
+  {
+    "id": 83,
+    "name": "Black Onyx Pendant 83",
+    "price": 3122,
+    "material": "18k Gold",
+    "stone": "Topaz",
+    "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
+    "category": "braslet",
+    "image": "./src/data/img/braslet-03.png"
+  },
+  {
+    "id": 84,
+    "name": "Diamond Mangalsutra 84",
+    "price": 4390,
+    "material": "22k Gold",
+    "stone": "Sapphire",
+    "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
+    "category": "braslet",
+    "image": "./src/data/img/braslet-04.png"
+  },
+  {
+    "id": 85,
+    "name": "Love Birds Mangalsutra 85",
+    "price": 4451,
+    "material": "22k Gold",
+    "stone": "Moonstone",
+    "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
+    "category": "braslet",
+    "image": "./src/data/img/braslet-05.png"
+  },
+  {
+    "id": 86,
+    "name": "Dual Ring Diamond Mangalsutra 86",
+    "price": 3295,
+    "material": "Platinum",
+    "stone": "None",
+    "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
+    "category": "braslet",
+    "categorie": "favorite",
+    "grade": "great",
+    "image": "./src/data/img/braslet-06.png"
+  },
+  {
+    "id": 87,
+    "name": "Lotus Diamond Mangalsutra 87",
+    "price": 3436,
+    "material": "22k Gold",
+    "stone": "Sapphire",
+    "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
+    "category": "braslet",
+    "image": "./src/data/img/braslet-07.png"
+  },
+  {
+    "id": 88,
+    "name": "Ruby Solitaire Mangalsutra 88",
+    "price": 4283,
+    "material": "Sterling Silver",
+    "stone": "Emerald",
+    "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
+    "category": "braslet",
+    "image": "./src/data/img/braslet-08.png"
+  },
+  {
+    "id": 89,
+    "name": "Ruby Diamond Pendant 89",
+    "price": 1196,
+    "material": "Platinum",
+    "stone": "Diamond",
+    "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
+    "category": "braslet",
+    "image": "./src/data/img/braslet-09.png"
+  },
+  {
+    "id": 90,
+    "name": "Dual Ring Diamond Mangalsutra 90",
+    "price": 4077,
+    "material": "18k Gold",
+    "stone": "None",
+    "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
+    "category": "braslet",
+    "image": "./src/data/img/braslet-10.png"
+  },
+  {
+    "id": 91,
+    "name": "Black Onyx Pendant 91",
+    "price": 2760,
+    "material": "18k Gold",
+    "stone": "Ruby",
+    "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
+    "category": "braslet",
+    "image": "./src/data/img/braslet-11.png"
+  },
+  {
+    "id": 92,
+    "name": "Dual Ring Diamond Mangalsutra 92",
+    "price": 1377,
+    "material": "Sterling Silver",
+    "stone": "None",
+    "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
+    "category": "braslet",
+    "image": "./src/data/img/braslet-12.png"
+  },
+  {
+    "id": 93,
+    "name": "Dual Ring Diamond Mangalsutra 93",
+    "price": 1882,
+    "material": "Sterling Silver",
+    "stone": "None",
+    "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
+    "category": "braslet",
+    "image": "./src/data/img/braslet-13.png"
+  },
+  {
+    "id": 94,
+    "name": "Gold Infinity Necklace 94",
+    "price": 2878,
+    "material": "18k Gold",
+    "stone": "Sapphire",
+    "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
+    "category": "braslet",
+    "image": "./src/data/img/braslet-14.png"
+  },
+  {
+    "id": 95,
+    "name": "Lotus Diamond Mangalsutra 95",
+    "price": 4994,
+    "material": "Sterling Silver",
+    "stone": "Diamond",
+    "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
+    "category": "braslet",
+    "image": "./src/data/img/braslet-15.png"
+  },
+  {
+    "id": 96,
+    "name": "Blue Topaz Heart Necklace 96",
+    "price": 1083,
+    "material": "Sterling Silver",
+    "stone": "Ruby",
+    "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
+    "category": "braslet",
+    "image": "./src/data/img/braslet-16.png"
+  },
+  {
+    "id": 97,
+    "name": "Silver Moonstone Pendant 97",
+    "price": 4655,
+    "material": "18k Gold",
+    "stone": "Emerald",
+    "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
+    "category": "braslet",
+    "image": "./src/data/img/braslet-17.png"
+  },
+  {
+    "id": 98,
+    "name": "Lotus Diamond Mangalsutra 98",
+    "price": 949,
+    "material": "22k Gold",
+    "stone": "Emerald",
+    "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
+    "category": "braslet",
+    "image": "./src/data/img/braslet-18.png"
+  },
+  {
+    "id": 99,
+    "name": "Diamond Mangalsutra 99",
+    "price": 1163,
+    "material": "Platinum",
+    "stone": "Diamond",
+    "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
+    "category": "braslet",
+    "image": "./src/data/img/braslet-19.png"
+  },
+  {
+    "id": 100,
+    "name": "Diamond Mangalsutra 100",
+    "price": 2630,
+    "material": "Platinum",
+    "stone": "None",
+    "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
+    "category": "braslet",
+    "image": "./src/data/img/braslet-20.png"
+  }
+]
