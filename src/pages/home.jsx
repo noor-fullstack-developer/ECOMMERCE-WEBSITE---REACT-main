@@ -8,8 +8,6 @@ import Gif3 from "../data/img.home/rings.webp";
 import Gif4 from "../data/img.home/bracelets.webp";
 import Gif5 from "../data/img.home/blue-sapphire-pendants.webp";
 import Gif6 from "../data/img.home/necklaces.jpg";
-import wedding from "../data/img.home/wedding.webp";
-import engagement from "../data/img.home/engagement.webp";
 import jan from "../data/img.home/january.jpg";
 import feb from "../data/img.home/february.jpg";
 import mar from "../data/img.home/march.jpg";
@@ -23,6 +21,7 @@ import oct from "../data/img.home/october.jpg";
 import nov from "../data/img.home/november.jpg";
 import dec from "../data/img.home/december.jpg";
 import green from "../data/img.home/green-ring.webp";
+import Cards from "../component/favcard.jsx";
 import purple from "../data/img.home/purple-ring.webp";
 import ruby from "../data/img.home/ruby-ring.webp";
 import trust1 from "../data/img.home/trust01.png";
@@ -32,19 +31,20 @@ import trust4 from "../data/img.home/trust04.png";
 import trust5 from "../data/img.home/trust05.png";
 import trust6 from "../data/img.home/trust06.png";
 import trust7 from "../data/img.home/trust07.png";
+import Review1 from "../Data/img.home/review01.webp";
+import Review2 from "../Data/img.home/review02.webp";
+import Review3 from "../Data/img.home/review03.webp";
+import Reviewr from "../Data/img.home/reviewrate.jpg";
+import Footer from "../component/footer.jsx";
 import channel01 from "../Data/img.home/channel01.svg";
 import channel02 from "../Data/img.home/channel02.svg";
 import channel03 from "../Data/img.home/channel03.jpg";
 import interveiw1 from "../Data/img.home/thumbnail01.webp";
 import interveiw2 from "../Data/img.home/thumbnail02.webp";
 import interveiw3 from "../Data/img.home/thumbnail03.webp";
-import Review1 from "../Data/img.home/review01.webp";
-import Review2 from "../Data/img.home/review02.webp";
-import Review3 from "../Data/img.home/review03.webp";
-import Reviewr from "../Data/img.home/reviewrate.jpg";
-import Footer from "../component/footer.jsx";
+import engagement from "../data/img.home/engagement.webp";
+import wedding from "../data/img.home/wedding.webp";
 import ImageSlider from "../component/Imageslider.jsx";
-import Cards from "../component/favcard.jsx";
 
 const Home = () => {
   const [favorite, setfavorite] = useState([]);
@@ -84,6 +84,7 @@ const Home = () => {
       localStorage.setItem("great", JSON.stringify(filtered));
     }
   }, []);
+
 
   return (
     <>

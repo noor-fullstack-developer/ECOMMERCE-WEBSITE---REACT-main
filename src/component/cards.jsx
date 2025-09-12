@@ -40,6 +40,12 @@ const Cards = ({ products = [] }) => {
     });
   };
 
+  const [cartItems, setCartItems] = useState([products]); 
+
+  const addlike = () => {
+    console.log({products: products.indexOf()})
+  };
+
   return (
     <div>
       <div className="grid grid-cols-4 gap-4">
@@ -67,6 +73,7 @@ const Cards = ({ products = [] }) => {
                   />
                 ) : (
                   <img
+                    onClick={addlike}
                     src={nonFavirateIcon}
                     alt="nonfavorite"
                     className="h-7"

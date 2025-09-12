@@ -7,6 +7,12 @@ import phone from "./assets/callIcon.svg";
 import email from "./assets/email.svg";
 import mg from "./assets/mg.svg";
 import location from "./assets/location.svg";
+import bhim from "../Data/img.home/BHIM-upi.png";
+import Master from "../Data/img.home/Mastercard-Logo.png";
+import Rupay from "../Data/img.home/Rupay.png";
+import Upi from "../Data/img.home/UPI.png";
+import Visa from "../Data/img.home/Visa.png";
+import ind from "../Data/img.home/ind.png";
 
 const Footer = () => {
   return (
@@ -145,6 +151,31 @@ const Footer = () => {
               <li className="mt-3 hover:underline">Solitaire Rings</li>
             </ul>
           </div>
+        </div>
+        <div className="flex gap-10">
+          <img src={Visa} className="h-16 pt-5 pb-5 my-5" alt="paymentoption" />
+          <img
+            src={Master}
+            className="h-16 pt-5 pb-5 my-5"
+            alt="paymentoption"
+          />
+          <img
+            src={Rupay}
+            className="h-16 pt-5 pb-5 my-5"
+            alt="paymentoption"
+          />
+          <img src={Upi} className="h-16 pt-5 pb-5 my-5" alt="paymentoption" />
+          <img src={bhim} className="h-16 pt-5 pb-5 my-5" alt="paymentoption" />
+        </div>
+        <div className="flex justify-between items-center align-middle px-5 py-1  bg-[#f5f5f6] w-screen">
+          <div className="flex gap-5 p-2">
+            <img src={ind} className="h-5 rounded" alt="" />
+            <p className="hover:underline cursor-pointer">INDIA</p>
+          </div>
+          <span className="text-gray-700 ">
+            © 2025 Angara Jewels Private Limited All Rights Reserved. |
+            Accessibility | Privacy Policy | T&C | Corporate
+          </span>
         </div>
       </div>
     </>
