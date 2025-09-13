@@ -1,11 +1,11 @@
 import { useState, useEffect } from "react";
 import { Routes, Route } from "react-router-dom";
-import poster from "../component/assets/poster.webp";
+import poster from "../Data/img.home/blue-sapphirebanner.webp";
 import productsData from "../Data/products.json";
 import Cards from "../component/cards";
 import Filters from "../component/filters";
 import Register from "../component/register";
-import Cart from "./Cart";
+import Cart from "./Favorites";
 
 function Gifts() {
   const [Gift, setGift] = useState([]);
@@ -14,7 +14,7 @@ function Gifts() {
     <div className="flex  justify-center items-center">
       <div className="flex flex-col align-middle mt-8 pt-4 pr-8 pl-8 pb-4 ">
         {/* Poster */}
-        <img src={poster} alt="poster" className="w-full h-[268px]" />
+        <img src={poster} alt="poster" className="w-full" />
 
         {/* Breadcrumb */}
         <div className="text-grayscale-700 font-normal truncate bg-grayscale-300 px-4 py-3">

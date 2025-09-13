@@ -1,6 +1,7 @@
 import { Routes, Route } from "react-router-dom";
 import Navbar from "./component/navbar";
-import Cart from "./pages/Cart";
+import Favorites from "./pages/Favorites.jsx";
+import ShoppingBag from "./pages/Shoppingbag.jsx";
 import Ring from "./pages/Ring";
 import Nacklace from "./pages/Nacklace";
 import Mangalsutra from "./pages/Mangalsutra";
@@ -8,6 +9,7 @@ import Earrings from "./pages/Earrings";
 import Bracelets from "./pages/Bracelets";
 import Gifts from "./pages/Gifts";
 import Home from "./pages/home";
+import Detail from "./pages/PDetail.jsx";
 
 function App() {
 
@@ -15,7 +17,9 @@ function App() {
     <>
       <Navbar />
       <Routes>
-        <Route path="/cart" element={<Cart />} />
+        <Route path="/Detail" element={<Detail />} />
+        <Route path="/Favorites" element={<Favorites />} />
+        <Route path="/ShoppingBag" element={<ShoppingBag />} />
         <Route path="/rings" element={<Ring />} />
         <Route path="/necklaces" element={<Nacklace />} />
         <Route path="/mangalsutra" element={<Mangalsutra />} />

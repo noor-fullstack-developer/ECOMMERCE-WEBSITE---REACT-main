@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "name": "Black Onyx Pendant ",
+    "name": "tragient ring ",
     "price": 4299,
     "material": "Sterling Silver",
     "stone": "Moonstone",
@@ -11,8 +11,8 @@
   },
   {
     "id": 2,
-    "name": "Black Onyx Pendant ",
-    "price": 4299,
+    "name": "Emrald Daimond ring ",
+    "price": 4399,
     "material": "Sterling Silver",
     "stone": "Moonstone",
     "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
@@ -21,8 +21,8 @@
   },
   {
     "id": 3,
-    "name": "Black Onyx Pendant ",
-    "price": 4299,
+    "name": "heart daimond ring  ",
+    "price": 4499,
     "material": "Sterling Silver",
     "stone": "Moonstone",
     "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
@@ -31,8 +31,8 @@
   },
   {
     "id": 4,
-    "name": "Black Onyx Pendant ",
-    "price": 4299,
+    "name": "oval daimond ring",
+    "price": 4599,
     "material": "Sterling Silver",
     "stone": "Moonstone",
     "description": "A beautifully designed piece of jewelry with premium craftsmanship.",

@@ -59,7 +59,7 @@ const Navbar = () => {
               height="24"
               width="24"
             />
-            <Link to="/cart">
+            <Link to="/Favorites">
               <img
                 src={FavirateIcon}
                 alt="favorite"
@@ -68,13 +68,15 @@ const Navbar = () => {
                 width="24"
               />
             </Link>
-            <img
-              src={ShoppingbagIcon}
-              alt="bag"
-              className="h-7"
-              height="24"
-              width="24"
-            />
+            <Link to="/shoppingbag">
+              <img
+                src={ShoppingbagIcon}
+                alt="bag"
+                className="h-7"
+                height="24"
+                width="24"
+              />
+            </Link>
           </div>
         </div>
 

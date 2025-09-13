@@ -85,14 +85,13 @@ const Home = () => {
     }
   }, []);
 
-
   return (
     <>
       <div className="flex flex-col items-center w-screen justify-center">
         {/* <div><Register /></div> */}
         <ImageSlider />
-        {/*this cointains the award  */}
         <div className="flex flex-col m-5 items-center w-screen">
+        {/*this cointains the award  */}
           <h1 className="mt-5 text-2xl">Award & Accolades</h1>
           <div className="flex align-middle gap-8 justify-center w-screen px-20 mt-10">
             <img
@@ -140,7 +139,7 @@ const Home = () => {
           {/* This most type of items  */}
           <div className="mt-5">
             <div className="flex justify-center items-center mb-2.5 gap-5  ">
-              <div className="flex flex-col items-center  text-gray-600">
+              <div className="flex flex-col items-center  text-gray-600 cursor-pointer hover:underline">
                 <img
                   src="./src/Data/img.home/lab-biamond.webp"
                   alt="Lab-daimond Jewllery"
@@ -148,7 +147,7 @@ const Home = () => {
                 />
                 Lab-Daimond Jewllery
               </div>
-              <div className="flex flex-col items-center  text-gray-600">
+              <div className="flex flex-col items-center  text-gray-600 cursor-pointer hover:underline">
                 <img
                   src="./src/Data/img.home/lab-gemstones.webp"
                   alt="Lab-gemstone Jewllery"
@@ -156,7 +155,7 @@ const Home = () => {
                 />
                 Lab-Gemstone Jewllery
               </div>
-              <div className="flex flex-col items-center  text-gray-600">
+              <div className="flex flex-col items-center  text-gray-600 cursor-pointer hover:underline">
                 <img
                   src="./src/Data/img.home/natural-diamond.webp"
                   alt="Natural-daimond-Jewllery"
@@ -164,7 +163,7 @@ const Home = () => {
                 />
                 Natural-Daimond Jewllery
               </div>
-              <div className="flex flex-col items-center  text-gray-600">
+              <div className="flex flex-col items-center  text-gray-600 cursor-pointer hover:underline">
                 <img
                   src="./src/Data/img.home/natural-gemstone.webp"
                   alt="Natural-gemstone-Jewllery"
@@ -172,7 +171,7 @@ const Home = () => {
                 />
                 Natural-Gemstone Jewllery
               </div>
-              <div className="flex flex-col items-center  text-gray-600">
+              <div className="flex flex-col items-center  text-gray-600 cursor-pointer hover:underline">
                 <img
                   src="./src/Data/img.home/pearl-jewellery.webp"
                   alt="Pearl Jewllery"
@@ -180,7 +179,7 @@ const Home = () => {
                 />
                 Pearl Jewllery
               </div>
-              <div className="flex flex-col items-center  text-gray-600">
+              <div className="flex flex-col items-center  text-gray-600 cursor-pointer hover:underline">
                 <img
                   src="./src/Data/img.home/mangalsutra-banner.webp"
                   alt="Mangalsutra"
@@ -227,28 +226,28 @@ const Home = () => {
           </span>
           <div className="my-10 flex justify-center align-middle items-center gap-5 ">
             <div className="flex flex-col items-center text-gray-600 text-lg h-50 hover:underline  ">
-              <img src={Gif1} alt="" className="h-50 hover:scale-105 " />
-              <p > below 25,000</p>
+              <img src={Gif1} alt="" className=" block box-border size-50 hover:scale-105 " />
+              <p> below 25,000</p>
             </div>
             <div className="flex flex-col items-center text-gray-600 text-lg h-50 hover:underline ">
-              <img src={Gif2} alt="" className="h-50 hover:scale-105 " />
-              <p > 25,000 - 50,000</p>
+              <img src={Gif2} alt="" className="h-50 scale-100 hover:scale-105 " />
+              <p> 25,000 - 50,000</p>
             </div>
             <div className="flex flex-col items-center text-gray-600 text-lg h-50 hover:underline ">
               <img src={Gif3} alt="" className="h-50 hover:scale-105 " />
-              <p > 50,000 - 1,00,000</p>
+              <p> 50,000 - 1,00,000</p>
             </div>
             <div className="flex flex-col items-center text-gray-600 text-lg h-50 hover:underline ">
               <img src={Gif4} alt="" className="h-50 hover:scale-105 " />
-              <p > Above 1,00,000</p>
+              <p> Above 1,00,000</p>
             </div>
             <div className="flex flex-col items-center text-gray-600 text-lg h-50 hover:underline ">
               <img src={Gif5} alt="" className="h-50 hover:scale-105 " />
-              <p > Birthday Gifts</p>
+              <p> Birthday Gifts</p>
             </div>
             <div className="flex flex-col items-center text-gray-600 text-lg h-50 hover:underline ">
               <img src={Gif6} alt="" className="h-50 hover:scale-105 " />
-              <p >Anniversary Gifts</p>
+              <p>Anniversary Gifts</p>
             </div>
           </div>
           {/* this is for occassion */}

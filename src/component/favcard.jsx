@@ -1,8 +1,9 @@
-import { useState, useEffect } from "react";
+import { useState } from "react";
+import { Link } from "react-router-dom";
 import nonFavirateIcon from "./assets/non-fav.svg";
 import FavirateIcon from "./assets/fav.svg";
 
-const Cards = ({ products }) => {
+const Cards = ({ products = [] }) => {
   const [currentpage, setcurrentpage] = useState(1);
   const postperpage = 4;
 
@@ -27,11 +28,21 @@ const Cards = ({ products }) => {
   });
 
   // ✅ Toggle favorite and save back to localStorage
-  const toggleFavorite = (id) => {
+  const toggleFavorite = (id, name, price, material) => {
     const key = String(id); // make sure it's always a string
     setFavorites((prev) => {
       const updated = { ...prev, [key]: !prev[key] };
       localStorage.setItem("favorites", JSON.stringify(updated));
+
+      if (updated[key]) {
+        console.log(
+          `the product ${name}${id} with ${material} has been liked `
+        );
+      } else {
+        console.log(
+          `the product ${name}${id} with ${material} has been unliked `
+        );
+      }
       return updated;
     });
   };
@@ -50,13 +61,20 @@ const Cards = ({ products }) => {
           >
             <button
               className="flex justify-end"
-              onClick={() => toggleFavorite(record.id)}
+              onClick={() =>
+                toggleFavorite(
+                  record.id,
+                  record.name,
+                  record.price,
+                  record.material
+                )
+              }
             >
               {favorites[String(record.id)] ? (
                 <img
                   src={FavirateIcon}
                   alt="favorite"
-                  className="h-7"
+                  className="h-7 cursor-pointer"
                   height="24"
                   width="24"
                 />
@@ -64,20 +82,27 @@ const Cards = ({ products }) => {
                 <img
                   src={nonFavirateIcon}
                   alt="nonfavorite"
-                  className="h-7"
+                  className="h-7 cursor-pointer"
                   height="24"
                   width="24"
                 />
               )}
             </button>
+            <Link to="/Detail">
+            <div>
+              <img
+                src={record.image}
+                alt={record.name}
+                height="300px"
+                width="300px"
+              />
+              <br />
 
-            <img src={record.image} alt="items" height="300px" width="300px" />
-            <br />
-
-            <span className="font-normal underline text-sm">
-              Amount: <span>₹ {record.price}</span>
-            </span>
-          </div>
+              <span className="font-normal underline text-sm">
+                Amount: <span>₹ {record.price}</span>
+              </span>
+          </div></Link>
+            </div>
         ))}
       </div>
 
