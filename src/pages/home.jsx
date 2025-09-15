@@ -357,11 +357,11 @@ const Home = () => {
               Rated 4.7/5 Globally
             </div>
             <div className="flex flex-col gap-5 text-gray-600 text-xs font-medium mt-5 items-center">
-              <img src={trust5} className="h-24 w-24 " alt="" />
+              <img src={trust6} className="h-24 w-24 " alt="" />
               15 Days Returns
             </div>
             <div className="flex flex-col gap-5 text-gray-600 text-xs font-medium mt-5 items-center">
-              <img src={trust6} className="h-24 w-24 " alt="" />
+              <img src={trust5} className="h-24 w-24 " alt="" />
               lifetime Exchange & buy back
             </div>
             <div className="flex flex-col gap-5 text-gray-600 text-xs font-medium mt-5 items-center">

@@ -7,9 +7,37 @@ import cartat from "../Data/Detail.img/carat-weight.webp";
 import metalrosegold from "../Data/Detail.img/metal-rose-Gold.webp";
 import metalgold from "../Data/Detail.img/metal-gold.webp";
 import metalsilver from "../Data/Detail.img/metal-silver.webp";
+import IGI from "../Data/Detail.img/IGI.webp";
+import SGL from "../Data/Detail.img/SGL.webp";
+import fav from "../component/assets/non-fav.svg";
+import trust2 from "../data/img.home/trust02.png";
+import trust3 from "../data/img.home/trust03.png";
+import trust4 from "../data/img.home/trust04.png";
+import trust5 from "../data/img.home/trust05.png";
+import trust6 from "../data/img.home/trust06.png";
+import add from "../component/assets/add.svg";
+import sub from "../component/assets/sub.svg";
 import products from "../Data/products.json"; // ✅ Product list
 
 function PDetail() {
+  const [isOpen, setIsOpen] = useState(false);
+  const handleClick = () => {
+    setIsOpen(!isOpen);
+    if (!isOpen) {
+    }
+  };
+    const [isOpenB, setIsOpenB] = useState(false);
+  const handleClick1 = () => {
+    setIsOpenB(!isOpenB);
+    if (!isOpenB) {
+    }
+  };
+    const [isOpenM, setIsOpenM] = useState(false);
+  const handleClick2 = () => {
+    setIsOpenM(!isOpenM);
+    if (!isOpenM) {
+    }
+  };
   // const [productDetail, setProductDetail] = useState(null);
 
   // // ✅ Load product detail from localStorage
@@ -59,7 +87,7 @@ function PDetail() {
               </div>
               {/*This is for Mrp */}
               <div className="flex items-end mt-2">
-                <span className="text-2xl mr-2">₹39,468</span>{" "}
+                <span className="text-2xl mr-2">₹39,468</span>
                 <span className="text-xl text-gray-600 line-through mr-2">
                   ₹41,545
                 </span>
@@ -71,15 +99,44 @@ function PDetail() {
               <div className="text-green-600 mt-2 text-sm ">
                 Exclusive Offer:Flat 5% Off
               </div>
+              {/*This is filter of light */}
               <div className="flex mt-5 flex-col">
                 {/*THis is types and diffrent qalities */}
-                <div className="flex justify-between shadow-[0_0_0_1px_rgba(0,0,0,0.25)] p-5">
-                  <span>GemStone Quality : as product</span>
-                  <div className="flex gap-2">
-                    <button>
-                      <img src={compare} alt="compare" className="h-5" />
-                    </button>
-                    <p className="text-sm">Compare</p>
+                <div className="flex flex-col  shadow-[0_0_0_1px_rgba(0,0,0,0.25)] p-5">
+                  <div className="flex justify-between">
+                    <span>GemStone Quality : as product</span>
+                    <div className="flex gap-2">
+                      <button>
+                        <img src={compare} alt="compare" className="h-5" />
+                      </button>
+                      <p className="text-sm">Compare</p>
+                    </div>
+                  </div>
+                  <div className="flex gap-7 items-center mt-5">
+                    <div className="flex flex-col items-center  text-gray-600 cursor-pointer">
+                      <img
+                        src={gemstone}
+                        className="h-11 shadow-[0_0_0_1px_rgba(0,0,0,0.10)] p-2"
+                        alt=""
+                      />
+                      <p className="text-xs">F-G VS</p>
+                    </div>
+                    <div className="flex flex-col items-center  text-gray-600 cursor-pointer">
+                      <img
+                        src={gemstone}
+                        className="h-11 shadow-[0_0_0_1px_rgba(0,0,0,0.10)] p-2"
+                        alt=""
+                      />
+                      <p className="text-xs">E VVS</p>
+                    </div>
+                    <div className="flex flex-col items-center  text-gray-600 cursor-pointer">
+                      <img
+                        src={gemstone}
+                        className="h-11 shadow-[0_0_0_1px_rgba(0,0,0,0.10)] p-2"
+                        alt=""
+                      />
+                      <p className="text-xs">D VVS</p>
+                    </div>
                   </div>
                 </div>
                 {/*This is Total Carat */}
@@ -102,32 +159,32 @@ function PDetail() {
                         src={cartat}
                         className="flex  h-16 focus:shadow-[0_0_0_1px_rgba(0,0,0,0.5)] shadow-[0_0_0_1px_rgba(0,0,0,0.10)] gap-5 p-2"
                         alt="carat 1"
-                      />{" "}
-                      1 cts{" "}
+                      />
+                      <p className="text-sm">1 CTS</p>
                     </div>
                     <div className="flex flex-col items-center  text-gray-600 cursor-pointer ">
                       <img
                         src={cartat}
                         className="flex  h-16 focus:shadow-[0_0_0_1px_rgba(0,0,0,0.5)] shadow-[0_0_0_1px_rgba(0,0,0,0.10)] gap-5 p-2"
                         alt="carat 3"
-                      />{" "}
-                      3 cts{" "}
+                      />
+                      <p className="text-sm">3 CTS</p>
                     </div>
                     <div className="flex flex-col items-center  text-gray-600 cursor-pointer ">
                       <img
                         src={cartat}
                         className="flex  h-16 focus:shadow-[0_0_0_1px_rgba(0,0,0,0.5)] shadow-[0_0_0_1px_rgba(0,0,0,0.10)] gap-5 p-2"
                         alt="carat 5"
-                      />{" "}
-                      5 cts
+                      />
+                      <p className="text-sm">5 CTS</p>
                     </div>
                     <div className="flex flex-col items-center  text-gray-600 cursor-pointer ">
                       <img
                         src={cartat}
                         className="flex  h-16 focus:shadow-[0_0_0_1px_rgba(0,0,0,0.5)] shadow-[0_0_0_1px_rgba(0,0,0,0.10)] gap-5 p-2"
                         alt="carat 7"
-                      />{" "}
-                      7 cts
+                      />
+                      <p className="text-sm">7 CTS</p>
                     </div>
                   </div>
                 </div>
@@ -135,7 +192,7 @@ function PDetail() {
                 <div className="flex flex-col shadow-[0_0_0_1px_rgba(0,0,0,0.25)] p-5">
                   <div className="flex justify-between">
                     <span>
-                      Metal Type :<p>14K Yellow Gold</p>
+                      Metal Type :<>14K Yellow Gold</>
                     </span>
                     <div className="flex gap-2">
                       <button>
@@ -145,12 +202,197 @@ function PDetail() {
                     </div>
                   </div>
                   <div className="flex gap-7 items-center mt-5">
-                    <div className="flex flex-col items-center  text-gray-600 cursor-pointer"><img className="flex  h-12 focus:shadow-[0_0_0_1px_rgba(0,0,0,0.5)] shadow-[0_0_0_1px_rgba(0,0,0,0.10)] gap-5 p-2" src={metalsilver} alt="" /><p>White Glod</div>
-                    <div className="flex flex-col items-center  text-gray-600 cursor-pointer"><img className="flex  h-12 focus:shadow-[0_0_0_1px_rgba(0,0,0,0.5)] shadow-[0_0_0_1px_rgba(0,0,0,0.10)] gap-5 p-2" src={metalgold} alt="" /><p>Yellow Gold</div>
-                    <div className="flex flex-col items-center  text-gray-600 cursor-pointer"><img className="flex  h-12 focus:shadow-[0_0_0_1px_rgba(0,0,0,0.5)] shadow-[0_0_0_1px_rgba(0,0,0,0.10)] gap-5 p-2" src={metalrosegold} alt="" /><p></p>Rose Gold</div>
+                    <div className="flex flex-col items-center  text-gray-600 cursor-pointer">
+                      <img
+                        className="flex  h-12 focus:shadow-[0_0_0_1px_rgba(0,0,0,0.5)] shadow-[0_0_0_1px_rgba(0,0,0,0.10)] gap-5 p-2"
+                        src={metalsilver}
+                        alt=""
+                      />
+                      <p className="text-sm">White Glod</p>
+                    </div>
+                    <div className="flex flex-col items-center  text-gray-600 cursor-pointer">
+                      <img
+                        className="flex  h-12 focus:shadow-[0_0_0_1px_rgba(0,0,0,0.5)] shadow-[0_0_0_1px_rgba(0,0,0,0.10)] gap-5 p-2"
+                        src={metalgold}
+                        alt=""
+                      />
+                      <p className="text-sm">Yellow Gold</p>
+                    </div>
+                    <div className="flex flex-col items-center  text-gray-600 cursor-pointer">
+                      <img
+                        className="flex  h-12 focus:shadow-[0_0_0_1px_rgba(0,0,0,0.5)] shadow-[0_0_0_1px_rgba(0,0,0,0.10)] gap-5 p-2"
+                        src={metalrosegold}
+                        alt=""
+                      />
+                      <p className="text-sm">Rose Gold</p>
+                    </div>
                   </div>
                 </div>
               </div>
+              <div className="mt-5">
+                <span className="font-normal ">CERTIFICATE ADD ONS</span>
+                <div className="flex gap-5 mt-2">
+                  <div className="flex shadow-[0_0_0_1px_rgba(0,0,0,0.25)] p-2 gap-5">
+                    <div className="flex ">
+                      <input type="radio" name="IGI" />
+                      <img src={IGI} className="h-12" alt="" />
+                    </div>
+                    <div>
+                      <p className="font-semibold">+₹1,000</p>
+                      <p className="font-semibold">+3 days</p>
+                    </div>
+                  </div>
+                  <div className="flex shadow-[0_0_0_1px_rgba(0,0,0,0.25)] p-2 gap-5">
+                    <div className="flex ">
+                      <input type="radio" name="SGL" />
+                      <img src={SGL} className="h-12" alt="" />
+                    </div>
+                    <div>
+                      <p className="font-semibold">+₹500</p>
+                      <p className="font-semibold">+1 days</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+              {/*This is button section*/}
+              <div className="flex justify-between gap-10 mt-5 items-center hover:underline">
+                <button className="shadow-[0_0_0_1px_rgba(0,0,0,1)] hover:shadow-[0_0_0_2px_rgba(0,0,0,1)] p-3">
+                  <img src={fav} alt="" />
+                </button>
+                <div className="flex justify-between w-xl bg-black p-2 gap-20 ">
+                  <div className="flex justify-between items-center text-white">
+                    <p className="text-xl flex font-semibold items-center text-[20px] p-2">
+                      ₹1,10,994
+                      <p className="line-through text-[10px]">₹1,16,836</p>
+                    </p>
+                  </div>
+                  <p className="font-bold text-lg pt-2 text-white ">
+                    ADD TO BAG
+                  </p>
+                </div>
+              </div>
+              {/*This is some info*/}
+              <span className="flex justify-center mt-5 gap-1 text-sm">
+                Order <p className="text-yellow-700 font-medium text-sm">Now</p>{" "}
+                and get it by{" "}
+                <p className="text-yellow-700 font-medium text-sm">
+                  Web,24th Sept
+                </p>
+              </span>
+              {/* This is Archivement */}
+              <div className="flex ">
+                <div className="flex flex-col gap-5 text-gray-600 text-xs font-medium mt-5 ">
+                  <img
+                    src={trust2}
+                    className="h-10 w-10 rounded-xl bg-gray-700 border-gray-700"
+                    alt=""
+                  />
+                  <p className="text-black flex justify-center items-center align-middle">
+                    BIS HallMark
+                  </p>
+                </div>
+                <div className="flex flex-col gap-5 text-gray-600 text-xs font-medium mt-5 ">
+                  <img
+                    src={trust3}
+                    className="h-10 w-10 rounded-xl bg-gray-700 border-gray-700"
+                    alt=""
+                  />
+                  <p className="text-black flex justify-center items-center align-middle">
+                    Angara Certified
+                  </p>
+                </div>
+                <div className="flex flex-col gap-5 text-gray-600 text-xs font-medium mt-5 ">
+                  <img
+                    src={trust4}
+                    className="h-10 w-10 rounded-xl bg-gray-700 border-gray-700"
+                    alt=""
+                  />
+                  <p className="text-black flex justify-center items-center align-middle">
+                    Rated 4.7/5 Globally
+                  </p>
+                </div>
+                <div className="flex flex-col gap-5 text-gray-600 text-xs font-medium mt-5 ">
+                  <img
+                    src={trust6}
+                    className="h-10 w-10 rounded-xl bg-gray-700 border-gray-700"
+                    alt=""
+                  />
+                  <p className="text-black flex justify-center items-center align-middle">
+                    15 Days Returns
+                  </p>
+                </div>
+                <div className="flex flex-col gap-5 text-gray-600 text-xs font-medium mt-5 ">
+                  <img
+                    src={trust5}
+                    className="h-10 w-10 rounded-xl bg-gray-700 border-gray-700"
+                    alt=""
+                  />
+                  <p className="text-black flex justify-center items-center align-middle">
+                    lifetime Exchange & buy back
+                  </p>
+                </div>
+                <div></div>
+              </div>
+              <div className="flex justify-between items-center gap-15 mt-3 mb- ml-3 p-4 bg-gray-100 font-[rubik] shadow-[0_0_0_1px_rgba(0,0,0,0.5)]">
+                <p className=" text-gray-700">Product Detail</p>
+                <img
+                  src={isOpen ? sub : add}
+                  alt="toggle"
+                  className="cursor-pointer w-5 h-5"
+                  onClick={handleClick}
+                />
+              </div>
+              {/* Yeh content sirf tab dikhega jab isOpen true hoga */}
+              {isOpen && (
+                <div className="ml-6 text-gray-600 flex flex-col gap-2 shadow-[0_1px_0_rgba(0,0,0,0.1)]">
+                  <span className="text-sm">
+                    This 14kt white gold tennis bracelet looks classic with a
+                    distinctive edge. It is embellished with glittering
+                    lab-grown diamonds that are secured in a unique prong
+                    setting.
+                  </span>
+                </div>
+              )}
+              <div className="flex justify-between items-center gap-15  mb- ml-3 p-4 bg-gray-100 font-[rubik] shadow-[0_0_0_1px_rgba(0,0,0,0.5)]">
+                <p className=" text-gray-700">Price Break Up</p>
+                <img
+                  src={isOpenB ? sub : add}
+                  alt="toggle"
+                  className="cursor-pointer w-5 h-5"
+                  onClick={handleClick1}
+                />
+              </div>
+              {/* Yeh content sirf tab dikhega jab isOpen true hoga */}
+              {isOpenB && (
+                <div className="ml-6 text-gray-600 flex flex-col gap-2 shadow-[0_1px_0_rgba(0,0,0,0.1)]">
+                  <span className="text-sm">
+                    This 14kt white gold tennis bracelet looks classic with a
+                    distinctive edge. It is embellished with glittering
+                    lab-grown diamonds that are secured in a unique prong
+                    setting.
+                  </span>
+                </div>
+              )}
+              <div className="flex justify-between items-center gap-15 mb- ml-3 p-4 bg-gray-100 font-[rubik] shadow-[0_0_0_1px_rgba(0,0,0,0.5)]">
+                <p className=" text-gray-700">Manufacturer & Origin</p>
+                <img
+                  src={isOpenM ? sub : add}
+                  alt="toggle"
+                  className="cursor-pointer w-5 h-5"
+                  onClick={handleClick2}
+                />
+              </div>
+              {/* Yeh content sirf tab dikhega jab isOpen true hoga */}
+              {isOpenM && (
+                <div className="ml-6 text-gray-600 flex flex-col gap-2 shadow-[0_1px_0_rgba(0,0,0,0.1)]">
+                  <span className="text-sm">
+                    This 14kt white gold tennis bracelet looks classic with a
+                    distinctive edge. It is embellished with glittering
+                    lab-grown diamonds that are secured in a unique prong
+                    setting.
+                  </span>
+                </div>
+              )}
             </div>
           </div>
           <div className="You-May-Also-Like">YOU MAY ALSO LIKE</div>
