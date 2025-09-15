@@ -2,6 +2,11 @@ import React, { useState, useEffect } from "react";
 import Footer from "../component/footer";
 import star from "../assets/star.svg";
 import compare from "../assets/compare.png";
+import gemstone from "../Data/Detail.img/Qulity.webp";
+import cartat from "../Data/Detail.img/carat-weight.webp";
+import metalrosegold from "../Data/Detail.img/metal-rose-Gold.webp";
+import metalgold from "../Data/Detail.img/metal-gold.webp";
+import metalsilver from "../Data/Detail.img/metal-silver.webp";
 import products from "../Data/products.json"; // ✅ Product list
 
 function PDetail() {
@@ -66,15 +71,83 @@ function PDetail() {
               <div className="text-green-600 mt-2 text-sm ">
                 Exclusive Offer:Flat 5% Off
               </div>
-              {/*THis is types and diffrent qalities */}
-              <div className="flex flex-col shadow-[0_0_0_1px_rgba(0,0,0,0.25)] p-5">
-                <div className="flex justify-between">
+              <div className="flex mt-5 flex-col">
+                {/*THis is types and diffrent qalities */}
+                <div className="flex justify-between shadow-[0_0_0_1px_rgba(0,0,0,0.25)] p-5">
                   <span>GemStone Quality : as product</span>
                   <div className="flex gap-2">
                     <button>
                       <img src={compare} alt="compare" className="h-5" />
                     </button>
                     <p className="text-sm">Compare</p>
+                  </div>
+                </div>
+                {/*This is Total Carat */}
+                <div className="flex flex-col shadow-[0_0_0_1px_rgba(0,0,0,0.25)] p-5">
+                  <div className="flex justify-between">
+                    <span>
+                      Total carat Weight: <>1 carats</>
+                    </span>
+                    <div className="flex gap-2">
+                      <button>
+                        <img src={compare} alt="compare" className="h-5" />
+                      </button>
+                      <p className="text-sm">Compare</p>
+                    </div>
+                  </div>
+                  {/*This is sub img  */}
+                  <div className="flex gap-7 items-center mt-5">
+                    <div className="flex flex-col items-center  text-gray-600 cursor-pointer ">
+                      <img
+                        src={cartat}
+                        className="flex  h-16 focus:shadow-[0_0_0_1px_rgba(0,0,0,0.5)] shadow-[0_0_0_1px_rgba(0,0,0,0.10)] gap-5 p-2"
+                        alt="carat 1"
+                      />{" "}
+                      1 cts{" "}
+                    </div>
+                    <div className="flex flex-col items-center  text-gray-600 cursor-pointer ">
+                      <img
+                        src={cartat}
+                        className="flex  h-16 focus:shadow-[0_0_0_1px_rgba(0,0,0,0.5)] shadow-[0_0_0_1px_rgba(0,0,0,0.10)] gap-5 p-2"
+                        alt="carat 3"
+                      />{" "}
+                      3 cts{" "}
+                    </div>
+                    <div className="flex flex-col items-center  text-gray-600 cursor-pointer ">
+                      <img
+                        src={cartat}
+                        className="flex  h-16 focus:shadow-[0_0_0_1px_rgba(0,0,0,0.5)] shadow-[0_0_0_1px_rgba(0,0,0,0.10)] gap-5 p-2"
+                        alt="carat 5"
+                      />{" "}
+                      5 cts
+                    </div>
+                    <div className="flex flex-col items-center  text-gray-600 cursor-pointer ">
+                      <img
+                        src={cartat}
+                        className="flex  h-16 focus:shadow-[0_0_0_1px_rgba(0,0,0,0.5)] shadow-[0_0_0_1px_rgba(0,0,0,0.10)] gap-5 p-2"
+                        alt="carat 7"
+                      />{" "}
+                      7 cts
+                    </div>
+                  </div>
+                </div>
+                {/*This is Metal Type */}
+                <div className="flex flex-col shadow-[0_0_0_1px_rgba(0,0,0,0.25)] p-5">
+                  <div className="flex justify-between">
+                    <span>
+                      Metal Type :<p>14K Yellow Gold</p>
+                    </span>
+                    <div className="flex gap-2">
+                      <button>
+                        <img src={compare} alt="compare" className="h-5" />
+                      </button>
+                      <p className="text-sm">Compare</p>
+                    </div>
+                  </div>
+                  <div className="flex gap-7 items-center mt-5">
+                    <div className="flex flex-col items-center  text-gray-600 cursor-pointer"><img className="flex  h-12 focus:shadow-[0_0_0_1px_rgba(0,0,0,0.5)] shadow-[0_0_0_1px_rgba(0,0,0,0.10)] gap-5 p-2" src={metalsilver} alt="" /><p>White Glod</div>
+                    <div className="flex flex-col items-center  text-gray-600 cursor-pointer"><img className="flex  h-12 focus:shadow-[0_0_0_1px_rgba(0,0,0,0.5)] shadow-[0_0_0_1px_rgba(0,0,0,0.10)] gap-5 p-2" src={metalgold} alt="" /><p>Yellow Gold</div>
+                    <div className="flex flex-col items-center  text-gray-600 cursor-pointer"><img className="flex  h-12 focus:shadow-[0_0_0_1px_rgba(0,0,0,0.5)] shadow-[0_0_0_1px_rgba(0,0,0,0.10)] gap-5 p-2" src={metalrosegold} alt="" /><p></p>Rose Gold</div>
                   </div>
                 </div>
               </div>
