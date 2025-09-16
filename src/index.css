@@ -1,2 +1,23 @@
 @import "tailwindcss";
 @import "react-slideshow-image/dist/styles.css";
+.marquee {
+  animation: marquee 30s linear infinite;
+  display: flex;
+  width: max-content;
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+.headcss{
+    font-size: var(--text-2xl) /* 1.5rem = 24px */;
+    line-height: var(--tw-leading, var(--text-2xl--line-height) /* calc(2 / 1.5) ≈ 1.3333 */);
+    margin-top: calc(var(--spacing) * 10);
+    --tw-font-weight: var(--font-weight-semibold) /* 600 */;
+    font-weight: var(--font-weight-semibold);
+}

@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import { Link } from "react-router-dom";
 import Footer from "../component/footer";
 import star from "../assets/star.svg";
 import compare from "../assets/compare.png";
@@ -17,7 +18,22 @@ import trust5 from "../data/img.home/trust05.png";
 import trust6 from "../data/img.home/trust06.png";
 import add from "../component/assets/add.svg";
 import sub from "../component/assets/sub.svg";
+import Infinite from "../component/infinite.jsx";
 import products from "../Data/products.json"; // ✅ Product list
+import vogue from "../assets/inftslider/VOUGE.svg";
+import Economic from "../assets/inftslider/Economic.svg";
+import india from "../assets/inftslider/indiatoday.svg";
+import cnbc from "../assets/inftslider/CNBC.svg";
+import retail from "../assets/inftslider/Retail.svg";
+import news from "../assets/inftslider/news18.svg";
+import refine from "../assets/inftslider/Rifinary.svg";
+import forbos from "../assets/inftslider/forbse.svg";
+import hello from "../assets/inftslider/hello.svg";
+import austrelia from "../assets/inftslider/Australia.svg";
+import by from "../assets/inftslider/byrdie.svg";
+import knot from "../assets/inftslider/knot.svg";
+import prevent from "../assets/inftslider/prevention.svg";
+import mideum from "../assets/inftslider/Medium.svg";
 
 function PDetail() {
   const [isOpen, setIsOpen] = useState(false);
@@ -26,13 +42,13 @@ function PDetail() {
     if (!isOpen) {
     }
   };
-    const [isOpenB, setIsOpenB] = useState(false);
+  const [isOpenB, setIsOpenB] = useState(false);
   const handleClick1 = () => {
     setIsOpenB(!isOpenB);
     if (!isOpenB) {
     }
   };
-    const [isOpenM, setIsOpenM] = useState(false);
+  const [isOpenM, setIsOpenM] = useState(false);
   const handleClick2 = () => {
     setIsOpenM(!isOpenM);
     if (!isOpenM) {
@@ -261,10 +277,10 @@ function PDetail() {
                 </button>
                 <div className="flex justify-between w-xl bg-black p-2 gap-20 ">
                   <div className="flex justify-between items-center text-white">
-                    <p className="text-xl flex font-semibold items-center text-[20px] p-2">
+                    <span className="text-xl flex font-semibold items-center text-[20px] p-2">
                       ₹1,10,994
                       <p className="line-through text-[10px]">₹1,16,836</p>
-                    </p>
+                    </span>
                   </div>
                   <p className="font-bold text-lg pt-2 text-white ">
                     ADD TO BAG
@@ -273,8 +289,8 @@ function PDetail() {
               </div>
               {/*This is some info*/}
               <span className="flex justify-center mt-5 gap-1 text-sm">
-                Order <p className="text-yellow-700 font-medium text-sm">Now</p>{" "}
-                and get it by{" "}
+                Order <p className="text-yellow-700 font-medium text-sm">Now</p>
+                and get it by
                 <p className="text-yellow-700 font-medium text-sm">
                   Web,24th Sept
                 </p>
@@ -396,7 +412,53 @@ function PDetail() {
             </div>
           </div>
           <div className="You-May-Also-Like">YOU MAY ALSO LIKE</div>
-          <div className="feacheredin">Feacered in</div>
+
+          <div
+            className="relative max-w-[100rem] p-6 overflow-hidden"
+            onMouseOver={(e) =>
+              (e.currentTarget.querySelector(
+                ".marquee"
+              ).style.animationPlayState = "paused")
+            }
+            onMouseOut={(e) =>
+              (e.currentTarget.querySelector(
+                ".marquee"
+              ).style.animationPlayState = "running")
+            }
+          >
+            <div className="pointer-events-none absolute top-0 left-0 h-full w-50 bg-gradient-to-r from-white to-transparent z-10"></div>
+            <div className="pointer-events-none absolute top-0 right-0 h-full w-50 bg-gradient-to-l from-white to-transparent z-10"></div>
+            <div className="flex gap-20 marquee">
+              <Link to="/AngaraNews"><img className="h-8" src={vogue}     alt="" /></Link>
+              <Link to="/AngaraNews"><img className="h-8" src={Economic}  alt="" /></Link>
+              <Link to="/AngaraNews"><img className="h-8" src={india}     alt="" /></Link>
+              <Link to="/AngaraNews"><img className="h-8" src={cnbc}      alt="" /></Link>
+              <Link to="/AngaraNews"><img className="h-8" src={retail}    alt="" /></Link>
+              <Link to="/AngaraNews"><img className="h-8" src={news}      alt="" /></Link>
+              <Link to="/AngaraNews"><img className="h-8" src={refine}    alt="" /></Link>
+              <Link to="/AngaraNews"><img className="h-8" src={forbos}    alt="" /></Link>
+              <Link to="/AngaraNews"><img className="h-8" src={hello}     alt="" /></Link>
+              <Link to="/AngaraNews"><img className="h-8" src={austrelia} alt="" /></Link>
+              <Link to="/AngaraNews"><img className="h-8" src={by}        alt="" /></Link>
+              <Link to="/AngaraNews"><img className="h-8" src={knot}      alt="" /></Link>
+              <Link to="/AngaraNews"><img className="h-8" src={prevent}   alt="" /></Link>
+              <Link to="/AngaraNews"><img className="h-8" src={mideum}    alt="" /></Link>
+              <Link to="/AngaraNews"><img className="h-8" src={vogue}     alt="" /></Link>
+              <Link to="/AngaraNews"><img className="h-8" src={Economic}  alt="" /></Link>
+              <Link to="/AngaraNews"><img className="h-8" src={india}     alt="" /></Link>
+              <Link to="/AngaraNews"><img className="h-8" src={cnbc}      alt="" /></Link>
+              <Link to="/AngaraNews"><img className="h-8" src={retail}    alt="" /></Link>
+              <Link to="/AngaraNews"><img className="h-8" src={news}      alt="" /></Link>
+              <Link to="/AngaraNews"><img className="h-8" src={refine}    alt="" /></Link>
+              <Link to="/AngaraNews"><img className="h-8" src={forbos}    alt="" /></Link>
+              <Link to="/AngaraNews"><img className="h-8" src={hello}     alt="" /></Link>
+              <Link to="/AngaraNews"><img className="h-8" src={austrelia} alt="" /></Link>
+              <Link to="/AngaraNews"><img className="h-8" src={by}        alt="" /></Link>
+              <Link to="/AngaraNews"><img className="h-8" src={knot}      alt="" /></Link>
+              <Link to="/AngaraNews"><img className="h-8" src={prevent}   alt="" /></Link>
+              <Link to="/AngaraNews"><img className="h-8" src={mideum}    alt="" /></Link>
+            </div>
+          </div>
           <div className="verfied-review">verified review</div>
           <div className="review">reviews</div>
           <div className="recently-viewd">recentlyviewed</div>

@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 import nonFavirateIcon from "../component/assets/non-fav.svg";
 import FavirateIcon from "../component/assets/fav.svg";
 import products from "../Data/products.json";
+import nonfav from "../Data/img/nonfav.png";
 
 const Favorites = () => {
   const [favorites, setFavorites] = useState({});
@@ -29,11 +30,13 @@ const Favorites = () => {
   return (
     <div className="p-5 flex flex-col px-80">
       <h2 className="text-2xl font-bold mb-5">
-        My WatchList({favorites.length})
+        My WatchList({likedProducts.length})
       </h2>
 
       {likedProducts.length === 0 ? (
-        <p className="text-gray-500">No favorite products yet.</p>
+        <div className="flex justify-center items-center align-middle">
+          <img src={nonfav} alt="" className="h-[40rem] w-[40rem]" />
+        </div>
       ) : (
         <div className="grid grid-cols-4 gap-4">
           {likedProducts.map((record) => (

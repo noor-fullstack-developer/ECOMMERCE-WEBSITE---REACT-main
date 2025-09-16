@@ -10,6 +10,7 @@ import Bracelets from "./pages/Bracelets";
 import Gifts from "./pages/Gifts";
 import Home from "./pages/home";
 import Detail from "./pages/PDetail.jsx";
+import AngaraNews from "./pages/news.jsx";
 
 function App() {
 
@@ -17,6 +18,7 @@ function App() {
     <>
       <Navbar />
       <Routes>
+        <Route path="/AngaraNews" element={<AngaraNews />} />
         <Route path="/Detail" element={<Detail />} />
         <Route path="/Favorites" element={<Favorites />} />
         <Route path="/ShoppingBag" element={<ShoppingBag />} />

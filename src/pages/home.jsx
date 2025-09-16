@@ -45,6 +45,8 @@ import interveiw3 from "../Data/img.home/thumbnail03.webp";
 import engagement from "../data/img.home/engagement.webp";
 import wedding from "../data/img.home/wedding.webp";
 import ImageSlider from "../component/Imageslider.jsx";
+import Aword from "../component/aword.jsx";
+import Featuredin from "../component/featuredin.jsx";
 
 const Home = () => {
   const [favorite, setfavorite] = useState([]);
@@ -91,50 +93,9 @@ const Home = () => {
         {/* <div><Register /></div> */}
         <ImageSlider />
         <div className="flex flex-col m-5 items-center w-screen">
-        {/*this cointains the award  */}
+          {/*this cointains the award  */}
           <h1 className="mt-5 text-2xl">Award & Accolades</h1>
-          <div className="flex align-middle gap-8 justify-center w-screen px-20 mt-10">
-            <img
-              src="./src/Data/img.home/award-01.webp"
-              className="h-[100px] "
-              alt="inc 5000"
-            />
-            <img
-              src="./src/Data/img.home/award-02.webp"
-              className="h-[100px] "
-              alt=" 5 year champ"
-            />
-            <img
-              src="./src/Data/img.home/award-03.webp"
-              className="h-[100px] "
-              alt="costomer award"
-            />
-            <img
-              src="./src/Data/img.home/award-07.webp"
-              className="h-[100px] "
-              alt="costomer award"
-            />
-            <img
-              src="./src/Data/img.home/award-08.webp"
-              className="h-[100px] "
-              alt="costomer award"
-            />
-            <img
-              src="./src/Data/img.home/award-04.webp"
-              className="h-[100px] "
-              alt="circle of Excellance"
-            />
-            <img
-              src="./src/Data/img.home/award-05.webp"
-              className="h-[100px] "
-              alt="circle of Excellance"
-            />
-            <img
-              src="./src/Data/img.home/award-06.webp"
-              className="h-[100px] "
-              alt="circle of Excellance"
-            />
-          </div>
+          <Aword />
 
           {/* This most type of items  */}
           <div className="mt-5">
@@ -226,11 +187,19 @@ const Home = () => {
           </span>
           <div className="my-10 flex justify-center align-middle items-center gap-5 ">
             <div className="flex flex-col items-center text-gray-600 text-lg h-50 hover:underline  ">
-              <img src={Gif1} alt="" className=" block box-border size-50 hover:scale-105 " />
+              <img
+                src={Gif1}
+                alt=""
+                className=" block box-border size-50 hover:scale-105 "
+              />
               <p> below 25,000</p>
             </div>
             <div className="flex flex-col items-center text-gray-600 text-lg h-50 hover:underline ">
-              <img src={Gif2} alt="" className="h-50 scale-100 hover:scale-105 " />
+              <img
+                src={Gif2}
+                alt=""
+                className="h-50 scale-100 hover:scale-105 "
+              />
               <p> 25,000 - 50,000</p>
             </div>
             <div className="flex flex-col items-center text-gray-600 text-lg h-50 hover:underline ">
@@ -373,82 +342,7 @@ const Home = () => {
           <span className="text-2xl tracking-wider font-semibold mt-20 my-10">
             Featured In
           </span>
-          <div className="flex justify-around gap-10 items-center ">
-            <div className="flex flex-col gap-2 items-start w-110 text-xs">
-              <a href="https://www.youtube.com/watch?v=OjUJhIkXBhw">
-                <img
-                  src={interveiw1}
-                  className="h-90 cursor-pointer w-100"
-                  alt="interview"
-                />
-              </a>
-              <img src={channel01} className="h-10" alt="channel-logo" />
-              How did a spark of tradition, a meeting with Ratan Tata, and a
-              love for coloured gemstones shape Angara into a $100M global
-              brand? Watch Ankur & Aditi Daga...
-              <button className="underline mt-6 w-full cursor-pointer text-sm tracking-wider font-semibold">
-                Watch Out
-              </button>
-            </div>
-            <div className="flex flex-col gap-2 items-start w-110 text-xs">
-              <a href="youtube.com/watch?v=_Xx0hxNuug8&embeds_referring_euri=https%3A%2F%2Fwww.angara.com%2Fin-en&source_ve_path=MjM4NTE">
-                <img
-                  src={interveiw2}
-                  className="h-90 cursor-pointer w-100"
-                  alt="interview"
-                />
-              </a>
-              <img src={channel02} className="h-9" alt="channel-logo" />
-              Coloured gemstones embody cultural significance and carry deeper
-              meaning. Angara is bringing back this segment of the jewellery
-              industry with...
-              <button className="underline mt-6 w-full cursor-pointer text-sm tracking-wider font-semibold">
-                Watch Out
-              </button>
-            </div>
-            <div className="flex flex-col gap-2 items-start w-110 text-xs">
-              <a href="youtube.com/watch?v=18XiqLpjuDM&embeds_referring_euri=https%3A%2F%2Fwww.angara.com%2Fin-en&source_ve_path=MjM4NTE">
-                <img
-                  src={interveiw3}
-                  className="h-90 cursor-pointer w-100"
-                  alt="interview"
-                />
-              </a>
-              <img src={channel03} className="h-7" alt="channel-logo" />A couple
-              from Jaipur quietly built one of America's most trusted diamond
-              jewellery brands
-              <button className="underline mt-6 w-full  cursor-pointer text-sm tracking-wider font-semibold ">
-                Watch Out
-              </button>
-            </div>
-          </div>
-          {/*Reviews of clients */}
-          <span className="text-2xl tracking-wider font-semibold mt-20 my-10">
-            Your Words, Not Ours
-          </span>
-          <div className=" flex items-start gap-5 justify-around ">
-            <div className="flex w-120  h-120 flex-col gap-3 text-gray-600 text-lg items-center bg-gray-50 p-15">
-              <img src={Review1} className="h-29 w-29" alt="review-img" />
-              Absolutly beautiful...
-              <img src={Reviewr} className="h-12" alt="rates" />I was given this
-              ring in yellow gold by my husband today for my birthday.and it...
-              <p className="font-semibold">Rebecca D.</p>
-            </div>
-            <div className="flex w-120  h-120 flex-col gap-3 text-gray-600 text-lg items-center bg-gray-50 p-15">
-              <img src={Review2} className="h-29 w-29" alt="review-img" />
-              Emrald Necklace...
-              <img src={Reviewr} className="h-12" alt="rates" />
-              Got this for my girlfriend for her birthday and it's absolutely
-              beautiful. She I... <p className="font-semibold">Zackary C.</p>
-            </div>
-            <div className="flex w-120  h-120 flex-col gap-3 text-gray-600 text-lg items-center bg-gray-50 p-15">
-              <img src={Review3} className="h-29 w-29" alt="review-img" />
-              Exquisite gift for my granddaughter's 18th birthday..
-              <img src={Reviewr} className="h-12" alt="rates" />
-              The Fresh pearl is absolutely beautiful,flawless and has a
-              beautiful sheen... <p className="font-semibold">Nancy J.</p>
-            </div>
-          </div>
+          <Featuredin />
           {/*This is second look section*/}
           <span className="text-2xl tracking-wider font-semibold mt-20 my-10">
             Need a Second Look?
