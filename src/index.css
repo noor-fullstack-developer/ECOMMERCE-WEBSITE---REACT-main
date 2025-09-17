@@ -20,4 +20,9 @@
     margin-top: calc(var(--spacing) * 10);
     --tw-font-weight: var(--font-weight-semibold) /* 600 */;
     font-weight: var(--font-weight-semibold);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: var(--color-gray-800) /* #1f2937 */;
 }
