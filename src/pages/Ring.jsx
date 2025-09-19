@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { Routes, Route } from "react-router-dom";
 import poster from "../Data/img.home/blue-sapphirebanner.webp";
 import productsData from "../Data/products.json";
+import Favcard from "../component/favcard.jsx";
 import Cards from "../component/cards";
 import Filters from "../component/filters";
 import Register from "../component/register";
@@ -21,6 +22,14 @@ function Ring() {
   const paravisible = () => {
     setIsvisible(!Isvisible);
   };
+
+  const [great, setgreat] = useState([]);
+
+  useEffect(() => {
+    // filter only rings
+    const filtered = productsData.filter((p) => p.grade === "great");
+    setgreat(filtered);
+  }, []);
 
   return (
     <div className="flex  justify-center items-center">
@@ -107,6 +116,16 @@ function Ring() {
             </div>
             <div className="p-6">
               <Cards products={Ring} /> {/* ✅ Pass only rings */}
+            </div>
+          </div>
+        </div>
+        <span className="text-2xl tracking-wider flex justify-center items-center align-middle font-semibold mt-20 my-10">
+          Need a Second Look?
+        </span>
+        <div className="flex justify-around items-center align-middle">
+          <div>
+            <div className="mt-6 mb-10">
+              <Favcard products={great} />
             </div>
           </div>
         </div>

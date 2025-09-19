@@ -16,7 +16,7 @@ import ind from "../Data/img.home/ind.png";
 
 const Footer = () => {
   return (
-    <>
+    <div className="mt-10">
       <div className="flex flex-col items-center">
         {/* Offer Text */}
         <div className="text-xl font-semibold mb-2 ">
@@ -178,7 +178,7 @@ const Footer = () => {
           </span>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

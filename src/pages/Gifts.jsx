@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import { Routes, Route } from "react-router-dom";
 import poster from "../Data/img.home/blue-sapphirebanner.webp";
 import productsData from "../Data/products.json";
+import Favcard from "../component/favcard.jsx"
 import Cards from "../component/cards";
 import Filters from "../component/filters";
 import Register from "../component/register";
@@ -9,6 +10,14 @@ import Cart from "./Favorites";
 
 function Gifts() {
   const [Gift, setGift] = useState([]);
+
+  useEffect(() => {
+    // filter only rings
+    const filtered = productsData.filter((p) => p.grade === "great");
+    setgreat(filtered);
+  }, []);
+
+  const [great, setgreat] = useState([]);
 
   return (
     <div className="flex  justify-center items-center">
@@ -46,7 +55,9 @@ function Gifts() {
           <div className="w-5/4">
             <div className="flex justify-between align-middle">
               <div className="flex align-middle">
-                <span className="text-xl">{productsData.length} Custmized Gifts</span>
+                <span className="text-xl">
+                  {productsData.length} Custmized Gifts
+                </span>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
@@ -87,6 +98,16 @@ function Gifts() {
             </div>
             <div className="p-6">
               <Cards products={productsData} /> {/* ✅ Pass only Gift */}
+            </div>
+          </div>
+        </div>
+        <span className="text-2xl tracking-wider flex justify-center items-center align-middle font-semibold mt-20 my-10">
+          Need a Second Look?
+        </span>
+        <div className="flex justify-around items-center align-middle">
+          <div>
+            <div className="mt-6 mb-10">
+              <Favcard products={great} />
             </div>
           </div>
         </div>

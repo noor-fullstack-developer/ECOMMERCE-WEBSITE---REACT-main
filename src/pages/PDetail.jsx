@@ -34,25 +34,28 @@ import by from "../assets/inftslider/byrdie.svg";
 import knot from "../assets/inftslider/knot.svg";
 import prevent from "../assets/inftslider/prevention.svg";
 import mideum from "../assets/inftslider/Medium.svg";
+import { motion, AnimatePresence } from "framer-motion";
 
 function PDetail() {
   const [isOpen, setIsOpen] = useState(false);
   const handleClick = () => {
     setIsOpen(!isOpen);
-    if (!isOpen) {
-    }
   };
   const [isOpenB, setIsOpenB] = useState(false);
   const handleClick1 = () => {
     setIsOpenB(!isOpenB);
-    if (!isOpenB) {
-    }
   };
   const [isOpenM, setIsOpenM] = useState(false);
   const handleClick2 = () => {
     setIsOpenM(!isOpenM);
-    if (!isOpenM) {
-    }
+  };
+  const [Review, setReview] = useState(false);
+  const openner = () => {
+    setReview(!Review);
+  };
+  const [Question, setQuestion] = useState(false);
+  const Qopenner = () => {
+    setQuestion(!Question);
   };
   // const [productDetail, setProductDetail] = useState(null);
 
@@ -73,6 +76,10 @@ function PDetail() {
   //     </div>
   //   );
   // }
+
+  const submited = () => {
+    alert("The Review had been succesfully registered");
+  };
 
   return (
     <div className=" flex flex-col items-center px-80 w-screen ">
@@ -411,7 +418,10 @@ function PDetail() {
               )}
             </div>
           </div>
-          <div className="You-May-Also-Like">YOU MAY ALSO LIKE</div>
+          <div className="headcss mb-5">
+            YOU MAY ALSO LIKE
+            <span> we have to make it </span>
+          </div>
 
           <div
             className="relative max-w-[100rem] p-6 overflow-hidden"
@@ -426,41 +436,202 @@ function PDetail() {
               ).style.animationPlayState = "running")
             }
           >
+            <span className="headcss mb-15">Featured In</span>
             <div className="pointer-events-none absolute top-0 left-0 h-full w-50 bg-gradient-to-r from-white to-transparent z-10"></div>
             <div className="pointer-events-none absolute top-0 right-0 h-full w-50 bg-gradient-to-l from-white to-transparent z-10"></div>
-            <div className="flex gap-20 marquee">
-              <Link to="/AngaraNews"><img className="h-8" src={vogue}     alt="" /></Link>
-              <Link to="/AngaraNews"><img className="h-8" src={Economic}  alt="" /></Link>
-              <Link to="/AngaraNews"><img className="h-8" src={india}     alt="" /></Link>
-              <Link to="/AngaraNews"><img className="h-8" src={cnbc}      alt="" /></Link>
-              <Link to="/AngaraNews"><img className="h-8" src={retail}    alt="" /></Link>
-              <Link to="/AngaraNews"><img className="h-8" src={news}      alt="" /></Link>
-              <Link to="/AngaraNews"><img className="h-8" src={refine}    alt="" /></Link>
-              <Link to="/AngaraNews"><img className="h-8" src={forbos}    alt="" /></Link>
-              <Link to="/AngaraNews"><img className="h-8" src={hello}     alt="" /></Link>
-              <Link to="/AngaraNews"><img className="h-8" src={austrelia} alt="" /></Link>
-              <Link to="/AngaraNews"><img className="h-8" src={by}        alt="" /></Link>
-              <Link to="/AngaraNews"><img className="h-8" src={knot}      alt="" /></Link>
-              <Link to="/AngaraNews"><img className="h-8" src={prevent}   alt="" /></Link>
-              <Link to="/AngaraNews"><img className="h-8" src={mideum}    alt="" /></Link>
-              <Link to="/AngaraNews"><img className="h-8" src={vogue}     alt="" /></Link>
-              <Link to="/AngaraNews"><img className="h-8" src={Economic}  alt="" /></Link>
-              <Link to="/AngaraNews"><img className="h-8" src={india}     alt="" /></Link>
-              <Link to="/AngaraNews"><img className="h-8" src={cnbc}      alt="" /></Link>
-              <Link to="/AngaraNews"><img className="h-8" src={retail}    alt="" /></Link>
-              <Link to="/AngaraNews"><img className="h-8" src={news}      alt="" /></Link>
-              <Link to="/AngaraNews"><img className="h-8" src={refine}    alt="" /></Link>
-              <Link to="/AngaraNews"><img className="h-8" src={forbos}    alt="" /></Link>
-              <Link to="/AngaraNews"><img className="h-8" src={hello}     alt="" /></Link>
-              <Link to="/AngaraNews"><img className="h-8" src={austrelia} alt="" /></Link>
-              <Link to="/AngaraNews"><img className="h-8" src={by}        alt="" /></Link>
-              <Link to="/AngaraNews"><img className="h-8" src={knot}      alt="" /></Link>
-              <Link to="/AngaraNews"><img className="h-8" src={prevent}   alt="" /></Link>
-              <Link to="/AngaraNews"><img className="h-8" src={mideum}    alt="" /></Link>
-            </div>
+            <Link to="/AngaraNews">
+              <div className="flex gap-20 marquee">
+                <img className="h-8" src={vogue} alt="" />
+                <img className="h-8" src={Economic} alt="" />
+                <img className="h-8" src={india} alt="" />
+                <img className="h-8" src={cnbc} alt="" />
+                <img className="h-8" src={retail} alt="" />
+                <img className="h-8" src={news} alt="" />
+                <img className="h-8" src={refine} alt="" />
+                <img className="h-8" src={forbos} alt="" />
+                <img className="h-8" src={hello} alt="" />
+                <img className="h-8" src={austrelia} alt="" />
+                <img className="h-8" src={by} alt="" />
+                <img className="h-8" src={knot} alt="" />
+                <img className="h-8" src={prevent} alt="" />
+                <img className="h-8" src={mideum} alt="" />
+                <img className="h-8" src={vogue} alt="" />
+                <img className="h-8" src={Economic} alt="" />
+                <img className="h-8" src={india} alt="" />
+                <img className="h-8" src={cnbc} alt="" />
+                <img className="h-8" src={retail} alt="" />
+                <img className="h-8" src={news} alt="" />
+                <img className="h-8" src={refine} alt="" />
+                <img className="h-8" src={forbos} alt="" />
+                <img className="h-8" src={hello} alt="" />
+                <img className="h-8" src={austrelia} alt="" />
+                <img className="h-8" src={by} alt="" />
+                <img className="h-8" src={knot} alt="" />
+                <img className="h-8" src={prevent} alt="" />
+                <img className="h-8" src={mideum} alt="" />
+              </div>
+            </Link>
           </div>
-          <div className="verfied-review">verified review</div>
-          <div className="review">reviews</div>
+          {/* Question no. */}
+          <div className="flex flex-col p-10 justify-around items-center">
+            <span className="headcss">Verified Customer Reviews</span>
+            <div className="flex p-10 justify-around items-center">
+              <div className="flex align-middle h-5">
+                <img src={star} alt="star" />
+                <img src={star} alt="star" />
+                <img src={star} alt="star" />
+                <img src={star} alt="star" />
+                <img src={star} alt="star" />
+              </div>
+              <span>2 Reviews</span>
+            </div>
+            <button
+              className="font-light hover:shadow-[0_0_0_1px_rgba(0,0,0,1)] shadow-[0_0_0_1px_rgba(0,0,0,0.25)] px-10 my-5 py-2"
+              onClick={openner}
+            >
+              Write A Review
+            </button>
+            {Review && (
+              <motion.form
+                initial={{ opacity: 0, height: 0 }}
+                animate={{ opacity: 1, height: "auto" }}
+                exit={{ opacity: 0, height: 0 }}
+                transition={{ duration: 0.5 }}
+                className="w-[85rem] shadow-[0_0_15px_0_rgba(0,0,0,0.25)] p-6"
+              >
+                <div className="flex gap-5 flex-col">
+                  <span className="font-light text-gray-700">
+                    WRITE A REVIEW
+                  </span>
+                  <span className="font-light text-gray-700 text-[15px]">
+                    * Indicates a required field
+                  </span>
+                  <div className="flex items-center gap-2">
+                    <span>Score:</span>
+                    <img src={star} className="h-4" alt="stars" />
+                    <img src={star} className="h-4" alt="stars" />
+                    <img src={star} className="h-4" alt="stars" />
+                    <img src={star} className="h-4" alt="stars" />
+                    <img src={star} className="h-4" alt="stars" />
+                  </div>
+                  {/*Input of title */}
+                  <div className="flex flex-col gap-2">
+                    <span className="font-light text-gray-700">*Title:</span>
+                    <input
+                      placeholder="Enter Title Here"
+                      className="border p-3"
+                      required
+                    ></input>
+                  </div>
+                  {/*input of review */}
+                  <div className="flex flex-col gap-2">
+                    <span className="font-light text-gray-700">*Review:</span>
+                    <input
+                      placeholder="Enter Review Here"
+                      className="border p-5"
+                      required
+                    ></input>
+                  </div>
+                  {/*User name and Email */}
+                  <div className="flex justify-between gap-4 items-center">
+                    <div className="flex flex-col gap-2 w-1/2">
+                      <span className="font-light text-gray-700">
+                        *Use your name:
+                      </span>
+                      <input
+                        placeholder="Enter Title Here"
+                        className="border p-2"
+                        required
+                      ></input>
+                    </div>
+                    <div className="flex flex-col w-1/2 gap-2">
+                      <span className="font-light text-gray-700">*Email:</span>
+                      <input
+                        placeholder="Enter Title Here"
+                        className="border p-2"
+                        type="Email"
+                        required
+                      ></input>
+                    </div>
+                  </div>
+                  <button
+                    className="bg-black text-white w-1/6 p-2 font-bold tracking-widest"
+                    type="submit"
+                    onClick={submited}
+                  >
+                    Post
+                  </button>
+                </div>
+              </motion.form>
+            )}
+
+            <button
+              className="font-light hover:shadow-[0_0_0_1px_rgba(0,0,0,1)] shadow-[0_0_0_1px_rgba(0,0,0,0.25)] px-10 my-5 py-2"
+              onClick={Qopenner}
+            >
+              Ask A Question
+            </button>
+            {Question && (
+              <motion.form
+                initial={{ opacity: 0, height: 0 }}
+                animate={{ opacity: 1, height: "auto" }}
+                exit={{ opacity: 0, height: 0 }}
+                transition={{ duration: 0.5 }}
+                className="w-[85rem] shadow-[0_0_15px_0_rgba(0,0,0,0.25)] p-6"
+              >
+                <div className="flex gap-5 flex-col">
+                  <span className="font-light text-gray-700">
+                    ASK A QUESTION
+                  </span>
+                  <span className="font-light text-gray-700 text-[15px]">
+                    * Indicates a required field
+                  </span>
+                  {/*Input of Question */}
+                  <div className="flex flex-col gap-2">
+                    <span className="font-light text-gray-700">*Question:</span>
+                    <input
+                      placeholder="Enter Question Here"
+                      className="border p-3"
+                      required
+                    ></input>
+                  </div>
+                  {/*User name and Email */}
+                  <div className="flex justify-between gap-4 items-center">
+                    <div className="flex flex-col gap-2 w-1/2">
+                      <span className="font-light text-gray-700">
+                        *Use your name:
+                      </span>
+                      <input
+                        placeholder="Enter Title Here"
+                        className="border p-2"
+                        required
+                      ></input>
+                    </div>
+                    <div className="flex flex-col w-1/2 gap-2">
+                      <span className="font-light text-gray-700">*Email:</span>
+                      <input
+                        placeholder="Enter Title Here"
+                        className="border p-2"
+                        type="Email"
+                        required
+                      ></input>
+                    </div>
+                  </div>
+                  <button
+                    className="bg-black text-white w-1/6 p-2 font-bold tracking-widest"
+                    type="submit"
+                    onClick={submited}
+                  >
+                    Post
+                  </button>
+                </div>
+              </motion.form>
+            )}
+          </div>
+
+          <div className="flex flex-col justify-start w-[99rem]">
+            <span className="shadow-[0_1px_0_0_rgba(0,0,0,0.25)] font-semibold text-lg p-4">Reviews</span>
+          </div>
           <div className="recently-viewd">recentlyviewed</div>
         </div>
         <Footer />

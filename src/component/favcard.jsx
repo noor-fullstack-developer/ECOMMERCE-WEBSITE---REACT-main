@@ -5,7 +5,7 @@ import FavirateIcon from "./assets/fav.svg";
 
 const Cards = ({ products = [] }) => {
   const [currentpage, setcurrentpage] = useState(1);
-  const postperpage = 4;
+  const postperpage = 5;
 
   const lastPostIndex = currentpage * postperpage;
   const firstpageindx = lastPostIndex - postperpage;
@@ -48,15 +48,15 @@ const Cards = ({ products = [] }) => {
   };
 
   return (
-    <div className="flex justify-between items-center mt-5">
-      <button onClick={handlePrev} disabled={currentpage === 1}>
+    <div className="flex justify-between items-center mt-5 ">
+      <button className="hover:border p-2 mr-2" onClick={handlePrev} disabled={currentpage === 1}>
         {"<"}
       </button>
 
-      <div className="grid grid-cols-4 gap-4">
+      <div className="grid grid-cols-5 gap-4">
         {currentpost.map((record) => (
           <div
-            className="hover:shadow-gray-500 hover:shadow-lg p-5 gap-2.5"
+            className="hover:shadow-gray-500 hover:shadow-lg p-2 gap-2.5"
             key={record.id}
           >
             <button
@@ -88,16 +88,16 @@ const Cards = ({ products = [] }) => {
                 />
               )}
             </button>
-            <Link to="/Detail">
+            <Link to={`/Detail/${record.id}${record.name}`}>
             <div>
               <img
                 src={record.image}
                 alt={record.name}
-                height="300px"
-                width="300px"
+                height="200px"
+                width="200px"
               />
               <br />
-
+              <p>{record.name}</p>
               <span className="font-normal underline text-sm">
                 Amount: <span>₹ {record.price}</span>
               </span>
@@ -106,7 +106,7 @@ const Cards = ({ products = [] }) => {
         ))}
       </div>
 
-      <button onClick={handleNext} disabled={currentpage === totalPages}>
+      <button className="hover:border p-2 ml-2" onClick={handleNext} disabled={currentpage === totalPages}>
         {">"}
       </button>
     </div>

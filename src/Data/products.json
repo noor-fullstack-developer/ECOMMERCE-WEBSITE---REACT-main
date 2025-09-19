@@ -37,6 +37,7 @@
     "stone": "Moonstone",
     "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
     "category": "rings",
+    "grade": "great",
     "image": "./src/data/img/ring-04.png"
   },
   {
@@ -210,6 +211,7 @@
     "stone": "Moonstone",
     "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
     "category": "Necklace",
+    "grade": "great",
     "image": "./src/Data/img/Necklace-01.png"
   },
   {
@@ -250,6 +252,7 @@
     "stone": "Moonstone",
     "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
     "category": "Necklace",
+    "grade": "great",
     "image": "./src/Data/img/Necklace-05.png"
   },
   {
@@ -433,6 +436,7 @@
     "stone": "Moonstone",
     "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
     "category": "mangalsutra",
+    "grade": "great",
     "image": "./src/data/img/mangalsutra-03.png"
   },
   {
@@ -494,7 +498,6 @@
     "stone": "None",
     "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
     "category": "mangalsutra",
-    "grade": "great",
     "image": "./src/data/img/mangalsutra-09.png"
   },
   {
@@ -525,6 +528,7 @@
     "stone": "Ruby",
     "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
     "category": "mangalsutra",
+    "grade": "great",
     "image": "./src/data/img/mangalsutra-12.png"
   },
   {
@@ -616,7 +620,6 @@
     "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
     "category": "earring",
     "categorie": "favorite",
-    "grade": "great",
     "image": "./src/data/img/earring-01.png"
   },
   {
@@ -627,6 +630,7 @@
     "stone": "Topaz",
     "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
     "category": "earring",
+    "grade": "great",
     "image": "./src/data/img/earring-02.png"
   },
   {
@@ -668,6 +672,7 @@
     "stone": "Ruby",
     "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
     "category": "earring",
+    "grade": "great",
     "image": "./src/data/img/earring-06.png"
   },
   {
@@ -859,6 +864,7 @@
     "stone": "Moonstone",
     "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
     "category": "braslet",
+    "grade": "great",
     "image": "./src/data/img/braslet-05.png"
   },
   {
@@ -870,7 +876,6 @@
     "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
     "category": "braslet",
     "categorie": "favorite",
-    "grade": "great",
     "image": "./src/data/img/braslet-06.png"
   },
   {
@@ -931,6 +936,7 @@
     "stone": "None",
     "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
     "category": "braslet",
+    "grade": "great",
     "image": "./src/data/img/braslet-12.png"
   },
   {

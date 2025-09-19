@@ -19,7 +19,7 @@ function App() {
       <Navbar />
       <Routes>
         <Route path="/AngaraNews" element={<AngaraNews />} />
-        <Route path="/Detail" element={<Detail />} />
+        <Route path="/Detail/:id" element={<Detail />} />
         <Route path="/Favorites" element={<Favorites />} />
         <Route path="/ShoppingBag" element={<ShoppingBag />} />
         <Route path="/rings" element={<Ring />} />

@@ -86,7 +86,7 @@ const Cards = ({ products = [] }) => {
                   />
                 )}
               </button>
-              <Link to="/Detail">
+              <Link to={`/Detail/${record.id}${record.name}`}>
                 <div>
                   <img
                     src={record.image}
