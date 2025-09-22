@@ -8,11 +8,11 @@ import angara from "./assets/angara.svg";
 
 const Navbar = () => {
   return (
-    <>
-      <div className="bg-black text-white p-2 m-0 text-xs flex justify-center items-center">
+    <div className="shadow-[0_0_25px_rgba(0,0,0,0.15)]">
+      <div className="bg-black text-white p-2 m-0 text-xs flex justify-center items-center ">
         <p>Free Shipping | Free 15-Day Return</p>
       </div>
-      <div className="flex-col justify-between items-center pt-3 ml-10 mr-10">
+      <div className="flex-col justify-between pb-1 items-center pt-3 ml-10 mr-10 ">
         <div className="flex justify-between items-center mb-10">
           {/* Contact */}
           <div className="flex gap-2 items-center">
@@ -134,7 +134,7 @@ const Navbar = () => {
           </ul>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

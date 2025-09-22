@@ -49,7 +49,11 @@ const Cards = ({ products = [] }) => {
 
   return (
     <div className="flex justify-between items-center mt-5 ">
-      <button className="hover:border p-2 mr-2" onClick={handlePrev} disabled={currentpage === 1}>
+      <button
+        className="hover:border p-2 mr-2"
+        onClick={handlePrev}
+        disabled={currentpage === 1}
+      >
         {"<"}
       </button>
 
@@ -59,54 +63,59 @@ const Cards = ({ products = [] }) => {
             className="hover:shadow-gray-500 hover:shadow-lg p-2 gap-2.5"
             key={record.id}
           >
-            <button
-              className="flex justify-end"
-              onClick={() =>
-                toggleFavorite(
-                  record.id,
-                  record.name,
-                  record.price,
-                  record.material
-                )
-              }
-            >
-              {favorites[String(record.id)] ? (
-                <img
-                  src={FavirateIcon}
-                  alt="favorite"
-                  className="h-7 cursor-pointer"
-                  height="24"
-                  width="24"
-                />
-              ) : (
-                <img
-                  src={nonFavirateIcon}
-                  alt="nonfavorite"
-                  className="h-7 cursor-pointer"
-                  height="24"
-                  width="24"
-                />
-              )}
-            </button>
             <Link to={`/Detail/${record.id}${record.name}`}>
-            <div>
-              <img
-                src={record.image}
-                alt={record.name}
-                height="200px"
-                width="200px"
-              />
-              <br />
-              <p>{record.name}</p>
-              <span className="font-normal underline text-sm">
-                Amount: <span>₹ {record.price}</span>
-              </span>
-          </div></Link>
-            </div>
+              <div>
+                <img
+                  src={record.image}
+                  alt={record.name}
+                  height="200px"
+                  width="200px"
+                />
+                <br />
+                <p>{record.name}</p>
+                <div className="font-normal underline flex justify-between items-center text-sm">
+                  <span>Amount: ₹ {record.price}</span>
+                  <button
+                    className="flex justify-end"
+                    onClick={() =>
+                      toggleFavorite(
+                        record.id,
+                        record.name,
+                        record.price,
+                        record.material
+                      )
+                    }
+                  >
+                    {favorites[String(record.id)] ? (
+                      <img
+                        src={FavirateIcon}
+                        alt="favorite"
+                        className="h-7 cursor-pointer"
+                        height="24"
+                        width="24"
+                      />
+                    ) : (
+                      <img
+                        src={nonFavirateIcon}
+                        alt="nonfavorite"
+                        className="h-7 cursor-pointer"
+                        height="24"
+                        width="24"
+                      />
+                    )}
+                  </button>
+                </div>
+              </div>
+            </Link>
+          </div>
         ))}
       </div>
 
-      <button className="hover:border p-2 ml-2" onClick={handleNext} disabled={currentpage === totalPages}>
+      <button
+        className="hover:border p-2 ml-2"
+        onClick={handleNext}
+        disabled={currentpage === totalPages}
+      >
         {">"}
       </button>
     </div>

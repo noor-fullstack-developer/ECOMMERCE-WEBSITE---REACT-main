@@ -66,27 +66,27 @@ const Footer = () => {
           <div>
             <span className="font-semibold text-lg text-black">Assistance</span>
             <ul className="font-light">
-              <li className="mt-3 hover:underline">15-days Returns</li>
-              <li className="mt-3 hover:underline">Resizing Policy</li>
-              <li className="mt-3 hover:underline">
+              <li className="mt-3 hover:underline cursor-pointer">15-days Returns</li>
+              <li className="mt-3 hover:underline cursor-pointer">Resizing Policy</li>
+              <li className="mt-3 hover:underline cursor-pointer">
                 Lifetime Exchange Buy back
               </li>
-              <li className="mt-3 hover:underline">Cancellation Policy</li>
-              <li className="mt-3 hover:underline">Track Your Order</li>
-              <li className="mt-3 hover:underline">FAQs</li>
-              <li className="pt-5 hover:underline flex gap-2 items-center">
+              <li className="mt-3 hover:underline cursor-pointer">Cancellation Policy</li>
+              <li className="mt-3 hover:underline cursor-pointer">Track Your Order</li>
+              <li className="mt-3 hover:underline cursor-pointer">FAQs</li>
+              <li className="pt-5 hover:underline flex gap-2 items-center cursor-pointer">
                 <img src={phone} className="h-5" alt="phone" />
                 +91-900-100-1313
               </li>
-              <li className="pt-5 hover:underline flex gap-2 items-center">
+              <li className="pt-5 hover:underline flex gap-2 items-center cursor-pointer">
                 <img src={email} className="h-5" alt="email" />
                 Email Us
               </li>
-              <li className="pt-5 hover:underline flex gap-2 items-center">
+              <li className="pt-5 hover:underline flex gap-2 items-center cursor-pointer">
                 <img src={mg} className="h-5" alt="whatsapp" />
                 Chat on WhatsApp
               </li>
-              <li className="pt-5 hover:underline flex gap-2 items-start">
+              <li className="pt-5 flex gap-2 items-start">
                 <img src={location} className="h-5 mt-1" alt="location" />
                 <span>
                   Angara Jewels Pvt.Ltd. <br />
@@ -101,18 +101,18 @@ const Footer = () => {
           <div>
             <span className="font-semibold text-lg text-black">ABOUT US</span>
             <ul className="font-light">
-              <li className="mt-3 hover:underline">Our Story</li>
-              <li className="mt-3 hover:underline">Angara Blog</li>
-              <li className="mt-3 hover:underline">Angara In The Press</li>
+              <li className="mt-3 hover:underline cursor-pointer">Our Story</li>
+              <li className="mt-3 hover:underline cursor-pointer">Angara Blog</li>
+              <li className="mt-3 hover:underline cursor-pointer">Angara In The Press</li>
             </ul>
 
             <span className="block mt-6 font-semibold text-lg text-black">
               CERTIFICATES
             </span>
             <ul className="font-light">
-              <li className="mt-3 hover:underline">BIS Hallmarking</li>
-              <li className="mt-3 hover:underline">IGI Certificate</li>
-              <li className="mt-3 hover:underline">SGL Certificate</li>
+              <li className="mt-3 hover:underline cursor-pointer">BIS Hallmarking</li>
+              <li className="mt-3 hover:underline cursor-pointer">IGI Certificate</li>
+              <li className="mt-3 hover:underline cursor-pointer">SGL Certificate</li>
             </ul>
           </div>
 
@@ -122,10 +122,10 @@ const Footer = () => {
               EXPERIENCE ANGARA
             </span>
             <ul className="font-light">
-              <li className="mt-3 hover:underline">The Angara Difference</li>
-              <li className="mt-3 hover:underline">Free Shipping</li>
-              <li className="mt-3 hover:underline">Payment Options</li>
-              <li className="mt-3 hover:underline">Gold Rate</li>
+              <li className="mt-3 hover:underline cursor-pointer">The Angara Difference</li>
+              <li className="mt-3 hover:underline cursor-pointer">Free Shipping</li>
+              <li className="mt-3 hover:underline cursor-pointer">Payment Options</li>
+              <li className="mt-3 hover:underline cursor-pointer">Gold Rate</li>
             </ul>
           </div>
 
@@ -133,22 +133,22 @@ const Footer = () => {
           <div>
             <span className="font-semibold text-lg text-black">SHOP</span>
             <ul className="font-light">
-              <li className="mt-3 hover:underline">Diamond Rings</li>
-              <li className="mt-3 hover:underline">Lab Grown Emerald Rings</li>
-              <li className="mt-3 hover:underline">
+              <li className="mt-3 hover:underline cursor-pointer">Diamond Rings</li>
+              <li className="mt-3 hover:underline cursor-pointer">Lab Grown Emerald Rings</li>
+              <li className="mt-3 hover:underline cursor-pointer">
                 Lab Grown Blue Sapphire Rings
               </li>
-              <li className="mt-3 hover:underline">Blue Sapphire Pendants</li>
-              <li className="mt-3 hover:underline">
+              <li className="mt-3 hover:underline cursor-pointer">Blue Sapphire Pendants</li>
+              <li className="mt-3 hover:underline cursor-pointer">
                 Lab Grown Diamond Jewellery
               </li>
-              <li className="mt-3 hover:underline">Amethyst Jewellery</li>
-              <li className="mt-3 hover:underline">Aquamarine Jewellery</li>
-              <li className="mt-3 hover:underline">Engagement Rings</li>
-              <li className="mt-3 hover:underline">Initials Pendants</li>
-              <li className="mt-3 hover:underline">Birthstone Jewellery</li>
-              <li className="mt-3 hover:underline">Hoop Earrings</li>
-              <li className="mt-3 hover:underline">Solitaire Rings</li>
+              <li className="mt-3 hover:underline cursor-pointer">Amethyst Jewellery</li>
+              <li className="mt-3 hover:underline cursor-pointer">Aquamarine Jewellery</li>
+              <li className="mt-3 hover:underline cursor-pointer">Engagement Rings</li>
+              <li className="mt-3 hover:underline cursor-pointer">Initials Pendants</li>
+              <li className="mt-3 hover:underline cursor-pointer">Birthstone Jewellery</li>
+              <li className="mt-3 hover:underline cursor-pointer">Hoop Earrings</li>
+              <li className="mt-3 hover:underline cursor-pointer">Solitaire Rings</li>
             </ul>
           </div>
         </div>

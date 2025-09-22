@@ -78,6 +78,7 @@
     "stone": "Moonstone",
     "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
     "category": "rings",
+    "recent": "trues",
     "image": "./src/data/img/ring-08.png"
   },
   {
@@ -89,6 +90,7 @@
     "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
     "category": "rings",
     "grade": "great",
+    "recent": "trues",
     "image": "./src/data/img/ring-09.png"
   },
   {
@@ -99,6 +101,7 @@
     "stone": "Moonstone",
     "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
     "category": "rings",
+    "recent": "trues",
     "image": "./src/data/img/ring-10.png"
   },
   {
@@ -253,6 +256,7 @@
     "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
     "category": "Necklace",
     "grade": "great",
+    "recent": "trues",
     "image": "./src/Data/img/Necklace-05.png"
   },
   {
@@ -283,6 +287,7 @@
     "stone": "Moonstone",
     "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
     "category": "Necklace",
+    "recent": "trues",
     "image": "./src/Data/img/Necklace-08.png"
   },
   {
@@ -937,6 +942,7 @@
     "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
     "category": "braslet",
     "grade": "great",
+    "recent": "trues",
     "image": "./src/data/img/braslet-12.png"
   },
   {

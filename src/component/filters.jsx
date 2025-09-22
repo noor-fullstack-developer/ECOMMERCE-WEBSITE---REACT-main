@@ -7,9 +7,6 @@ const Filters = () => {
   const [isOpen, setIsOpen] = useState(false);
   const handleClick = () => {
     setIsOpen(!isOpen);
-    if (!isOpen) {
-      
-    }
   };
 
   const [isopenJ, setIsopenJ] = useState(false);

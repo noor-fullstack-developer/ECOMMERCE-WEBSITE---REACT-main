@@ -34,9 +34,18 @@ import by from "../assets/inftslider/byrdie.svg";
 import knot from "../assets/inftslider/knot.svg";
 import prevent from "../assets/inftslider/prevention.svg";
 import mideum from "../assets/inftslider/Medium.svg";
+import Favcard from "../component/favcard.jsx";
 import { motion, AnimatePresence } from "framer-motion";
 
 function PDetail() {
+
+  const [Recent, setRecent] = useState([]);
+  useEffect(() => {
+    const filtered = products.filter((p) => p.recent === "trues");
+    setRecent(filtered);
+  }, []);
+  
+
   const [isOpen, setIsOpen] = useState(false);
   const handleClick = () => {
     setIsOpen(!isOpen);
@@ -57,25 +66,6 @@ function PDetail() {
   const Qopenner = () => {
     setQuestion(!Question);
   };
-  // const [productDetail, setProductDetail] = useState(null);
-
-  // // ✅ Load product detail from localStorage
-  // useEffect(() => {
-  //   const saved = localStorage.getItem("productDetail");
-  //   if (saved) {
-  //     const parsed = JSON.parse(saved);
-  //     const foundProduct = products.find((p) => p.id === parsed.id);
-  //     if (foundProduct) setProductDetail(foundProduct);
-  //   }
-  // }, []);
-
-  // if (!productDetail) {
-  //   return (
-  //     <div className="p-5 text-center text-gray-500">
-  //       No product selected yet.
-  //     </div>
-  //   );
-  // }
 
   const submited = () => {
     alert("The Review had been succesfully registered");
@@ -483,7 +473,7 @@ function PDetail() {
                 <img src={star} alt="star" />
                 <img src={star} alt="star" />
               </div>
-              <span>2 Reviews</span>
+              <span>0 Reviews</span>
             </div>
             <button
               className="font-light hover:shadow-[0_0_0_1px_rgba(0,0,0,1)] shadow-[0_0_0_1px_rgba(0,0,0,0.25)] px-10 my-5 py-2"
@@ -632,7 +622,10 @@ function PDetail() {
           <div className="flex flex-col justify-start w-[99rem]">
             <span className="shadow-[0_1px_0_0_rgba(0,0,0,0.25)] font-semibold text-lg p-4">Reviews</span>
           </div>
-          <div className="recently-viewd">recentlyviewed</div>
+          <div className="flex flex-col justify-start w-[85rem]">
+            <span className="headcss">Recently Viewed</span>
+            <Favcard products={Recent}/>
+          </div>
         </div>
         <Footer />
       </div>

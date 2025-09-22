@@ -11,9 +11,9 @@ import Gifts from "./pages/Gifts";
 import Home from "./pages/home";
 import Detail from "./pages/PDetail.jsx";
 import AngaraNews from "./pages/news.jsx";
+import whatapp from "./assets/Whatsapp.png";
 
 function App() {
-
   return (
     <>
       <Navbar />
@@ -30,6 +30,13 @@ function App() {
         <Route path="/gifts" element={<Gifts />} />
         <Route path="/" element={<Home />} />
       </Routes>
+      <a href="https://api.whatsapp.com/send?phone=917666666061&text=Hi">
+        <img
+          src={whatapp}
+          alt="logo"
+          className="bg-green-500 p-3 fixed right-4 bottom-16 rounded-4xl w-16 h-16"
+        />
+      </a>
     </>
   );
 }
