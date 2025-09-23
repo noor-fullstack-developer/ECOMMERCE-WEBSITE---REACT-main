@@ -627,6 +627,7 @@ function PDetail() {
             <Favcard products={Recent}/>
           </div>
         </div>
+        This
         <Footer />
       </div>
     </div>
