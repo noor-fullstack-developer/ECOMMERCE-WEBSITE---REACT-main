@@ -75,7 +75,6 @@ const Favorites = () => {
                 )}
               </button>
 
-              {/* Product details */}
               <Link to="/Detail">
                 <img
                   src={record.image}

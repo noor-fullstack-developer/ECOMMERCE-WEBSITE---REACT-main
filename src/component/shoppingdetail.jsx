@@ -1,14 +1,16 @@
 import React from "react";
-import { useState } from "react";
+import {useEffect, useState } from "react";
+import product from "../Data/products.json"
 import down from "../assets/down.svg";
-import braslet from "../Data/img/braslet-02.png";
 import tick from "../assets/tick.svg";
+import braslet from "../Data/img/braslet-02.png";
 
 const ShopperD = () => {
   const [Open, setOpen] = useState(true);
   const handleclick = () => {
     setOpen(!Open);
   };
+
   return (
     <>
       <div className="flex flex-col p-5 w-1/5">

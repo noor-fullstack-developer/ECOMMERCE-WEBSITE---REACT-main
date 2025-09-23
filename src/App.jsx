@@ -18,8 +18,7 @@ function App() {
     <>
       <Navbar />
       <Routes>
-        <Route path="/AngaraNews" element={<AngaraNews />} />
-        <Route path="/Detail/:id" element={<Detail />} />
+        <Route path="/" element={<Home />} />
         <Route path="/Favorites" element={<Favorites />} />
         <Route path="/ShoppingBag" element={<ShoppingBag />} />
         <Route path="/rings" element={<Ring />} />
@@ -28,7 +27,8 @@ function App() {
         <Route path="/earrings" element={<Earrings />} />
         <Route path="/bracelets" element={<Bracelets />} />
         <Route path="/gifts" element={<Gifts />} />
-        <Route path="/" element={<Home />} />
+        <Route path="/Detail/:id" element={<Detail />} />
+        <Route path="/AngaraNews" element={<AngaraNews />} />
       </Routes>
       <a href="https://api.whatsapp.com/send?phone=917666666061&text=Hi">
         <img

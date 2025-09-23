@@ -28,7 +28,7 @@ const Cards = ({ products = [] }) => {
   });
 
   // ✅ Toggle favorite and save back to localStorage
-  const toggleFavorite = (id, name, price, material) => {
+  const toggleFavorite = (id, name, material) => {
     const key = String(id); // make sure it's always a string
     setFavorites((prev) => {
       const updated = { ...prev, [key]: !prev[key] };

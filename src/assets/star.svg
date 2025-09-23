@@ -1,3 +1,18 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="32" height="32" fill="currentColor">
-  <path d="M12 2 L14.59 8.26 L21.51 9.27 L16.5 14.14 L17.77 21.02 L12 17.77 L6.23 21.02 L7.5 14.14 L2.49 9.27 L9.41 8.26 Z" />
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 160 32" width="160" height="32"
+  fill="currentColor">
+  <path
+    d="M12 2 L14.59 8.26 L21.51 9.27 L16.5 14.14 L17.77 21.02 L12 17.77 L6.23 21.02 L7.5 14.14 L2.49 9.27 L9.41 8.26 Z"
+    transform="translate(0,0)" />
+  <path
+    d="M12 2 L14.59 8.26 L21.51 9.27 L16.5 14.14 L17.77 21.02 L12 17.77 L6.23 21.02 L7.5 14.14 L2.49 9.27 L9.41 8.26 Z"
+    transform="translate(32,0)" />
+  <path
+    d="M12 2 L14.59 8.26 L21.51 9.27 L16.5 14.14 L17.77 21.02 L12 17.77 L6.23 21.02 L7.5 14.14 L2.49 9.27 L9.41 8.26 Z"
+    transform="translate(64,0)" />
+  <path
+    d="M12 2 L14.59 8.26 L21.51 9.27 L16.5 14.14 L17.77 21.02 L12 17.77 L6.23 21.02 L7.5 14.14 L2.49 9.27 L9.41 8.26 Z"
+    transform="translate(96,0)" />
+  <path
+    d="M12 2 L14.59 8.26 L21.51 9.27 L16.5 14.14 L17.77 21.02 L12 17.77 L6.23 21.02 L7.5 14.14 L2.49 9.27 L9.41 8.26 Z"
+    transform="translate(128,0)" />
 </svg>
