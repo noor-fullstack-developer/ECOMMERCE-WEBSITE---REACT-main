@@ -26,3 +26,11 @@
     text-align: center;
     color: var(--color-gray-800) /* #1f2937 */;
 }
+.zoomin {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+.zoomout {
+  transform: scale(1);
+  transition: transform 0.3s ease;
+}

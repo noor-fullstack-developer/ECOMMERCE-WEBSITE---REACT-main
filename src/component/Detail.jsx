@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
-import { Link } from "react-router-dom";
-import { useParams } from "react-router-dom";
+import { Link, useParams, useNavigate } from "react-router-dom";
+import { useCart } from "../CartContext";
 import gemstone from "../Data/Detail.img/Qulity.webp";
 import cartat from "../Data/Detail.img/carat-weight.webp";
 import metalrosegold from "../Data/Detail.img/metal-rose-Gold.webp";
@@ -23,8 +23,10 @@ import sub from "./assets/sub.svg";
 
 const Image = () => {
   const { id } = useParams();
-  const product = products.find((p) => p.id === parseInt(id));
+  const navigate = useNavigate();
+  const { addToCart } = useCart();
 
+  const product = products.find((p) => p.id === parseInt(id));
   if (!product) return <div>Product not found!</div>;
 
   const [Recent, setRecent] = useState([]);
@@ -34,17 +36,9 @@ const Image = () => {
   }, []);
 
   const [isOpen, setIsOpen] = useState(false);
-  const handleClick = () => {
-    setIsOpen(!isOpen);
-  };
   const [isOpenB, setIsOpenB] = useState(false);
-  const handleClick1 = () => {
-    setIsOpenB(!isOpenB);
-  };
   const [isOpenM, setIsOpenM] = useState(false);
-  const handleClick2 = () => {
-    setIsOpenM(!isOpenM);
-  };
+
   const [favorites, setFavorites] = useState(() => {
     try {
       const saved = localStorage.getItem("favorites");
@@ -63,59 +57,70 @@ const Image = () => {
     });
   };
 
-  const [addBag, setAddBag] = useState(() => {
-    try {
-      const saved = localStorage.getItem("Addbag");
-      return saved ? JSON.parse(saved) : {};
-    } catch {
-      return {};
-    }
+  const [zoomed, setZoomed] = useState({
+    a: false,
+    b: false,
+    c: false,
+    d: false,
   });
 
-  const toggleAddBag = (id) => {
-    setAddBag((prev) => {
-      const updated = { ...prev, [id]: !prev[id] };
-      localStorage.setItem("Addbag", JSON.stringify(updated));
-      return updated;
+  const handleZoom = (img) => {
+    // Reset all zooms
+    setZoomed({
+      a: false,
+      b: false,
+      c: false,
+      d: false,
+      [img]: !zoomed[img], // toggle clicked image
     });
   };
+
+  const imageClass = (isZoomed) =>
+    `h-1/2 w-1/2 cursor-zoom-in transition-transform duration-300 ease-in-out ${
+      isZoomed ? "scale-150  cursor-zoom-out" : ""
+    }`;
+
   return (
-    <div className="flex justify-center align-middle items-center px-60 w-screen">
-      <div className="w-8/12 flex flex-wrap  gap-10">
+    <div className="flex justify-center align-middle px-60 w-screen">
+      <div className="w-8/12 flex flex-wrap ">
         <img
-          className="h-1/2 w-1/3"
+          className={imageClass(zoomed.a)}
+          onClick={() => handleZoom("a")}
           src={product.image}
-          alt={product.name.toUpperCase()}
+          alt={product.name}
         />
         <img
-          className="h-1/2 w-1/3"
+          className={imageClass(zoomed.b)}
+          onClick={() => handleZoom("b")}
           src={product.image1}
-          alt="TRUST ANGARA GIVEN"
+          alt="TRUST ANGARA"
         />
         <img
-          className="h-1/2 w-1/3"
+          className={imageClass(zoomed.c)}
+          onClick={() => handleZoom("c")}
           src={product.image2}
-          alt="CERTIFICATESTONE"
+          alt="CERTIFICATE"
         />
         <img
-          className="h-1/2 w-1/3"
+          className={imageClass(zoomed.d)}
+          onClick={() => handleZoom("d")}
           src={product.image3}
-          alt="TRUST ANGARA GIVEN"
+          alt="TRUST ANGARA"
         />
       </div>
+
       <div className="w-4/12">
-        {/*This is name of the product */}
         <span className="font-semibold text-xl">
           {product.name.toUpperCase()}
         </span>
-        {/*This is review */}
+
         <div className="flex align-middle items-center">
-          <img src={star} className="h-6 mt-3" alt="" />
+          <img src={star} className="h-6 mt-3" alt="star" />
           <span className="shadow-[0_2px_0_0_rgba(0,0,0,1)] ml-3">
             (0) Reviews
           </span>
         </div>
-        {/*This is for Mrp */}
+
         <div className="flex items-end mt-2">
           <span className="text-2xl mr-2">{product.price}</span>
           <span className="text-xl text-gray-600 line-through mr-2">
@@ -125,168 +130,12 @@ const Image = () => {
             (MRP incl. of all taxes)
           </span>
         </div>
-        {/* this is dicount option */}
-        <div className="text-green-600 mt-2 text-sm ">
+
+        <div className="text-green-600 mt-2 text-sm">
           Exclusive Offer:Flat 5% Off
         </div>
-        {/*This is filter of light */}
-        <div className="flex mt-5 flex-col">
-          {/*THis is types and diffrent qalities */}
-          <div className="flex flex-col  shadow-[0_0_0_1px_rgba(0,0,0,0.25)] p-5">
-            <div className="flex justify-between">
-              <span>
-                GEMSTONE QUALITY : {product["GemStone Quality"].toUpperCase()}
-              </span>
-              <div className="flex gap-2">
-                <button>
-                  <img src={compare} alt="compare" className="h-5" />
-                </button>
-                <p className="text-sm">Compare</p>
-              </div>
-            </div>
-            <div className="flex gap-7 items-center mt-5">
-              <div className="flex flex-col items-center  text-gray-600 cursor-pointer">
-                <img
-                  src={gemstone}
-                  className="h-11 shadow-[0_0_0_1px_rgba(0,0,0,0.10)] p-2"
-                  alt=""
-                />
-                <p className="text-xs">F-G VS</p>
-              </div>
-              <div className="flex flex-col items-center  text-gray-600 cursor-pointer">
-                <img
-                  src={gemstone}
-                  className="h-11 shadow-[0_0_0_1px_rgba(0,0,0,0.10)] p-2"
-                  alt=""
-                />
-                <p className="text-xs">E VVS</p>
-              </div>
-              <div className="flex flex-col items-center  text-gray-600 cursor-pointer">
-                <img
-                  src={gemstone}
-                  className="h-11 shadow-[0_0_0_1px_rgba(0,0,0,0.10)] p-2"
-                  alt=""
-                />
-                <p className="text-xs">D VVS</p>
-              </div>
-            </div>
-          </div>
-          {/*This is Total Carat */}
-          <div className="flex flex-col shadow-[0_0_0_1px_rgba(0,0,0,0.25)] p-5">
-            <div className="flex justify-between">
-              <span>
-                TOTAL CARAT WEIGHT: <>{product.Carat.toUpperCase()}</>
-              </span>
-              <div className="flex gap-2">
-                <button>
-                  <img src={compare} alt="compare" className="h-5" />
-                </button>
-                <p className="text-sm">Compare</p>
-              </div>
-            </div>
-            {/*This is sub img  */}
-            <div className="flex gap-7 items-center mt-5">
-              <div className="flex flex-col items-center  text-gray-600 cursor-pointer ">
-                <img
-                  src={cartat}
-                  className="flex  h-16 focus:shadow-[0_0_0_1px_rgba(0,0,0,0.5)] shadow-[0_0_0_1px_rgba(0,0,0,0.10)] gap-5 p-2"
-                  alt="carat 1"
-                />
-                <p className="text-sm">1 CTS</p>
-              </div>
-              <div className="flex flex-col items-center  text-gray-600 cursor-pointer ">
-                <img
-                  src={cartat}
-                  className="flex  h-16 focus:shadow-[0_0_0_1px_rgba(0,0,0,0.5)] shadow-[0_0_0_1px_rgba(0,0,0,0.10)] gap-5 p-2"
-                  alt="carat 3"
-                />
-                <p className="text-sm">3 CTS</p>
-              </div>
-              <div className="flex flex-col items-center  text-gray-600 cursor-pointer ">
-                <img
-                  src={cartat}
-                  className="flex  h-16 focus:shadow-[0_0_0_1px_rgba(0,0,0,0.5)] shadow-[0_0_0_1px_rgba(0,0,0,0.10)] gap-5 p-2"
-                  alt="carat 5"
-                />
-                <p className="text-sm">5 CTS</p>
-              </div>
-              <div className="flex flex-col items-center  text-gray-600 cursor-pointer ">
-                <img
-                  src={cartat}
-                  className="flex  h-16 focus:shadow-[0_0_0_1px_rgba(0,0,0,0.5)] shadow-[0_0_0_1px_rgba(0,0,0,0.10)] gap-5 p-2"
-                  alt="carat 7"
-                />
-                <p className="text-sm">7 CTS</p>
-              </div>
-            </div>
-          </div>
-          {/*This is Metal Type */}
-          <div className="flex flex-col shadow-[0_0_0_1px_rgba(0,0,0,0.25)] p-5">
-            <div className="flex justify-between">
-              <span>
-                METAL TYPE : <>{product.Metal.toUpperCase()}</>
-              </span>
-              <div className="flex gap-2">
-                <button>
-                  <img src={compare} alt="compare" className="h-5" />
-                </button>
-                <p className="text-sm">Compare</p>
-              </div>
-            </div>
-            <div className="flex gap-7 items-center mt-5">
-              <div className="flex flex-col items-center  text-gray-600 cursor-pointer">
-                <img
-                  className="flex  h-12 focus:shadow-[0_0_0_1px_rgba(0,0,0,0.5)] shadow-[0_0_0_1px_rgba(0,0,0,0.10)] gap-5 p-2"
-                  src={metalsilver}
-                  alt=""
-                />
-                <p className="text-sm">White Glod</p>
-              </div>
-              <div className="flex flex-col items-center  text-gray-600 cursor-pointer">
-                <img
-                  className="flex  h-12 focus:shadow-[0_0_0_1px_rgba(0,0,0,0.5)] shadow-[0_0_0_1px_rgba(0,0,0,0.10)] gap-5 p-2"
-                  src={metalgold}
-                  alt=""
-                />
-                <p className="text-sm">Yellow Gold</p>
-              </div>
-              <div className="flex flex-col items-center  text-gray-600 cursor-pointer">
-                <img
-                  className="flex  h-12 focus:shadow-[0_0_0_1px_rgba(0,0,0,0.5)] shadow-[0_0_0_1px_rgba(0,0,0,0.10)] gap-5 p-2"
-                  src={metalrosegold}
-                  alt=""
-                />
-                <p className="text-sm">Rose Gold</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div className="mt-5">
-          <span className="font-normal ">CERTIFICATE ADD ONS</span>
-          <div className="flex gap-5 mt-2">
-            <div className="flex shadow-[0_0_0_1px_rgba(0,0,0,0.25)] p-2 gap-5">
-              <div className="flex ">
-                <input type="radio" name="IGI" />
-                <img src={IGI} className="h-12" alt="" />
-              </div>
-              <div>
-                <p className="font-semibold">+₹1,000</p>
-                <p className="font-semibold">+3 days</p>
-              </div>
-            </div>
-            <div className="flex shadow-[0_0_0_1px_rgba(0,0,0,0.25)] p-2 gap-5">
-              <div className="flex ">
-                <input type="radio" name="SGL" />
-                <img src={SGL} className="h-12" alt="" />
-              </div>
-              <div>
-                <p className="font-semibold">+₹500</p>
-                <p className="font-semibold">+1 days</p>
-              </div>
-            </div>
-          </div>
-        </div>
-        {/*This is button section*/}
+
+        {/* Buttons */}
         <div className="flex justify-between gap-10 mt-5 items-center hover:underline">
           <button
             className="shadow-[0_0_0_1px_rgba(0,0,0,1)] hover:shadow-[0_0_0_2px_rgba(0,0,0,1)] p-3"
@@ -298,10 +147,14 @@ const Image = () => {
               <img src={nonFavirateIcon} alt="nonfavorite" className="h-7" />
             )}
           </button>
+
           <button
             className="flex justify-between items-center bg-black text-white w-full p-3 cursor-pointer"
-            onClick={() => toggleAddBag(product.id)}
-          ><Link to="/ShoppingBag" className="flex  justify-between w-full items-center">
+            onClick={() => {
+              addToCart(product); // add to cart
+              navigate("/cart"); // navigate to cart page
+            }}
+          >
             <span className="text-xl font-semibold">
               ₹{product.price}
               <span className="line-through text-sm ml-1">
@@ -309,79 +162,19 @@ const Image = () => {
               </span>
             </span>
             <span className="font-bold">ADD TO BAG</span>
-            </Link>
           </button>
         </div>
-        {/*This is some info*/}
-        <span className="flex justify-center mt-5 gap-1 text-sm">
-          Order <p className="text-yellow-700 font-medium text-sm">Now</p>
-          and get it by
-          <p className="text-yellow-700 font-medium text-sm">Web,24th Sept</p>
-        </span>
-        {/* This is Archivement */}
-        <div className="flex ">
-          <div className="flex flex-col gap-5 text-gray-600 text-xs font-medium mt-5 ">
-            <img
-              src={trust2}
-              className="h-10 w-10 rounded-xl bg-gray-700 border-gray-700"
-              alt=""
-            />
-            <p className="text-black flex justify-center items-center align-middle">
-              BIS HallMark
-            </p>
-          </div>
-          <div className="flex flex-col gap-5 text-gray-600 text-xs font-medium mt-5 ">
-            <img
-              src={trust3}
-              className="h-10 w-10 rounded-xl bg-gray-700 border-gray-700"
-              alt=""
-            />
-            <p className="text-black flex justify-center items-center align-middle">
-              Angara Certified
-            </p>
-          </div>
-          <div className="flex flex-col gap-5 text-gray-600 text-xs font-medium mt-5 ">
-            <img
-              src={trust4}
-              className="h-10 w-10 rounded-xl bg-gray-700 border-gray-700"
-              alt=""
-            />
-            <p className="text-black flex justify-center items-center align-middle">
-              Rated 4.7/5 Globally
-            </p>
-          </div>
-          <div className="flex flex-col gap-5 text-gray-600 text-xs font-medium mt-5 ">
-            <img
-              src={trust6}
-              className="h-10 w-10 rounded-xl bg-gray-700 border-gray-700"
-              alt=""
-            />
-            <p className="text-black flex justify-center items-center align-middle">
-              15 Days Returns
-            </p>
-          </div>
-          <div className="flex flex-col gap-5 text-gray-600 text-xs font-medium mt-5 ">
-            <img
-              src={trust5}
-              className="h-10 w-10 rounded-xl bg-gray-700 border-gray-700"
-              alt=""
-            />
-            <p className="text-black flex justify-center items-center align-middle">
-              lifetime Exchange & buy back
-            </p>
-          </div>
-          <div></div>
-        </div>
+
+        {/* Product details toggle */}
         <div className="flex justify-between items-center gap-15 mt-3 mb- ml-3 p-4 bg-gray-100 font-[rubik] shadow-[0_0_0_1px_rgba(0,0,0,0.5)]">
-          <p className=" text-gray-700">Product Detail</p>
+          <p className="text-gray-700">Product Detail</p>
           <img
             src={isOpen ? sub : add}
             alt="toggle"
             className="cursor-pointer w-5 h-5"
-            onClick={handleClick}
+            onClick={() => setIsOpen(!isOpen)}
           />
         </div>
-        {/* Yeh content sirf tab dikhega jab isOpen true hoga */}
         {isOpen && (
           <div className="ml-6 text-gray-600 flex flex-col gap-2 shadow-[0_1px_0_rgba(0,0,0,0.1)]">
             <span className="text-sm">
@@ -391,41 +184,39 @@ const Image = () => {
             </span>
           </div>
         )}
-        <div className="flex justify-between items-center gap-15  mb- ml-3 p-4 bg-gray-100 font-[rubik] shadow-[0_0_0_1px_rgba(0,0,0,0.5)]">
-          <p className=" text-gray-700">Price Break Up</p>
+
+        {/* Price Breakup toggle */}
+        <div className="flex justify-between items-center gap-15 mb- ml-3 p-4 bg-gray-100 font-[rubik] shadow-[0_0_0_1px_rgba(0,0,0,0.5)]">
+          <p className="text-gray-700">Price Break Up</p>
           <img
             src={isOpenB ? sub : add}
             alt="toggle"
             className="cursor-pointer w-5 h-5"
-            onClick={handleClick1}
+            onClick={() => setIsOpenB(!isOpenB)}
           />
         </div>
-        {/* Yeh content sirf tab dikhega jab isOpen true hoga */}
         {isOpenB && (
           <div className="ml-6 text-gray-600 flex flex-col gap-2 shadow-[0_1px_0_rgba(0,0,0,0.1)]">
             <span className="text-sm">
-              This 14kt white gold tennis bracelet looks classic with a
-              distinctive edge. It is embellished with glittering lab-grown
-              diamonds that are secured in a unique prong setting.
+              Price details for the selected product variant.
             </span>
           </div>
         )}
+
+        {/* Manufacturer toggle */}
         <div className="flex justify-between items-center gap-15 mb- ml-3 p-4 bg-gray-100 font-[rubik] shadow-[0_0_0_1px_rgba(0,0,0,0.5)]">
-          <p className=" text-gray-700">Manufacturer & Origin</p>
+          <p className="text-gray-700">Manufacturer & Origin</p>
           <img
             src={isOpenM ? sub : add}
             alt="toggle"
             className="cursor-pointer w-5 h-5"
-            onClick={handleClick2}
+            onClick={() => setIsOpenM(!isOpenM)}
           />
         </div>
-        {/* Yeh content sirf tab dikhega jab isOpen true hoga */}
         {isOpenM && (
           <div className="ml-6 text-gray-600 flex flex-col gap-2 shadow-[0_1px_0_rgba(0,0,0,0.1)]">
             <span className="text-sm">
-              This 14kt white gold tennis bracelet looks classic with a
-              distinctive edge. It is embellished with glittering lab-grown
-              diamonds that are secured in a unique prong setting.
+              Manufacturer details and origin info.
             </span>
           </div>
         )}

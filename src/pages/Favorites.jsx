@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 import nonFavirateIcon from "../component/assets/non-fav.svg";
 import FavirateIcon from "../component/assets/fav.svg";
 import products from "../Data/products.json";
-import nonfav from "../Data/img/nonfav.png";
+import nonfav from "../assets/nonfav.png";
 
 const Favorites = () => {
   const [favorites, setFavorites] = useState({});

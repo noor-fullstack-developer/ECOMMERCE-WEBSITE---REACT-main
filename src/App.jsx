@@ -1,7 +1,7 @@
 import { Routes, Route } from "react-router-dom";
 import Navbar from "./component/navbar";
 import Favorites from "./pages/Favorites.jsx";
-import ShoppingBag from "./pages/Shoppingbag.jsx";
+import Cart from "./pages/Cart.jsx";
 import Ring from "./pages/Ring";
 import Nacklace from "./pages/Nacklace";
 import Mangalsutra from "./pages/Mangalsutra";
@@ -20,7 +20,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/Favorites" element={<Favorites />} />
-        <Route path="/ShoppingBag" element={<ShoppingBag />} />
+        <Route path="/Cart" element={<Cart />} />
         <Route path="/rings" element={<Ring />} />
         <Route path="/necklaces" element={<Nacklace />} />
         <Route path="/mangalsutra" element={<Mangalsutra />} />

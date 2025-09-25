@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+
 import { useParams } from "react-router-dom";
 import Footer from "../component/footer";
 import Angarnewslink from "../component/angarnewslink.jsx";
@@ -8,7 +9,6 @@ import Favcard from "../component/favcard.jsx";
 import Reviewform from "../component/reviewform.jsx";
 import Questionform from "../component/Questionform.jsx";
 import Deatails from "../component/Detail.jsx";
-import image from "../Data/img/earring-01.png" 
 
 function PDetail() {
   const { id } = useParams(); // get product id from URL
