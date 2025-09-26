@@ -1,9 +1,9 @@
 [
   {
     "id": 1,
-    "name": "tragient ring ",
-    "oldprice": "1,12,000",
-    "price": 4299,
+    "name": "Celestial Moonstone Solitaire Ring",
+    "oldprice": "₹40159.7",
+    "price": 38990,
     "material": "Sterling Silver",
     "stone": "Moonstone",
     "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
@@ -14,13 +14,13 @@
     "image3": "/img/PDF-trust.webp",
     "GemStone Quality": "F-G VS",
     "Carat": "1 carats",
-    "Metal": "14K Yellow Gold"
+    "Metal Purity": "18K white gold"
   },
   {
     "id": 2,
-    "name": "Emrald Daimond ring ",
-    "oldprice": "1,12,000",
-    "price": 4399,
+    "name": "Veridian Emerald Diamond Halo Ring",
+    "oldprice": "₹50490.0",
+    "price": 49500,
     "material": "Sterling Silver",
     "stone": "Moonstone",
     "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
@@ -31,13 +31,13 @@
     "image3": "/img/PDF-trust.webp",
     "GemStone Quality": "F-G VS",
     "Carat": "1 carats",
-    "Metal": "14K Yellow Gold"
+    "Metal Purity": "14K rose gold"
   },
   {
     "id": 3,
-    "name": "heart daimond ring  ",
-    "oldprice": "1,12,000",
-    "price": 4499,
+    "name": "Romantic Heart-Cut Diamond Ring",
+    "oldprice": "₹53760.0",
+    "price": 51200,
     "material": "Sterling Silver",
     "stone": "Moonstone",
     "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
@@ -48,13 +48,13 @@
     "image3": "/img/PDF-trust.webp",
     "GemStone Quality": "F-G VS",
     "Carat": "1 carats",
-    "Metal": "14K Yellow Gold"
+    "Metal Purity": "14K Yellow Gold"
   },
   {
     "id": 4,
-    "name": "oval daimond ring",
-    "oldprice": "1,12,000",
-    "price": 4599,
+    "name": "Timeless Oval Diamond Accent Ring",
+    "oldprice": "₹55620.0",
+    "price": 54000,
     "material": "Sterling Silver",
     "stone": "Moonstone",
     "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
@@ -66,13 +66,13 @@
     "image3": "/img/PDF-trust.webp",
     "GemStone Quality": "F-G VS",
     "Carat": "1 carats",
-    "Metal": "14K Yellow Gold"
+    "Metal Purity": "14K white gold"
   },
   {
     "id": 5,
-    "name": "Black Onyx Pendant ",
-    "oldprice": "1,12,000",
-    "price": 4299,
+    "name": "Shadow Black Onyx Silver Pendant 05",
+    "oldprice": "₹38625.0",
+    "price": 37500,
     "material": "Sterling Silver",
     "stone": "Moonstone",
     "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
@@ -83,13 +83,13 @@
     "image3": "/img/PDF-trust.webp",
     "GemStone Quality": "F-G VS",
     "Carat": "1 carats",
-    "Metal": "14K Yellow Gold"
+    "Metal Purity": "18K Yellow gold"
   },
   {
     "id": 6,
-    "name": "Black Onyx Pendant ",
-    "oldprice": "1,12,000",
-    "price": 4299,
+    "name": "Geometric Black Onyx Pendant Ring",
+    "oldprice": "₹41189.7",
+    "price": 39990,
     "material": "Sterling Silver",
     "stone": "Moonstone",
     "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
@@ -100,13 +100,13 @@
     "image3": "/img/PDF-trust.webp",
     "GemStone Quality": "F-G VS",
     "Carat": "1 carats",
-    "Metal": "14K Yellow Gold"
+    "Metal Purity": "14K rose gold"
   },
   {
     "id": 7,
-    "name": "Black Onyx Pendant ",
-    "oldprice": "1,12,000",
-    "price": 4299,
+    "name": "Bold Silver Onyx Statement Ring",
+    "oldprice": "₹42745.0",
+    "price": 41500,
     "material": "Sterling Silver",
     "stone": "Moonstone",
     "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
@@ -117,13 +117,13 @@
     "image3": "/img/PDF-trust.webp",
     "GemStone Quality": "F-G VS",
     "Carat": "1 carats",
-    "Metal": "14K Yellow Gold"
+    "Metal Purity": "14K Yellow Gold"
   },
   {
     "id": 8,
-    "name": "Black Onyx Pendant ",
-    "oldprice": "1,12,000",
-    "price": 4299,
+    "name": "Intricate Onyx & Silver Ring",
+    "oldprice": "₹42219.7",
+    "price": 40990,
     "material": "Sterling Silver",
     "stone": "Moonstone",
     "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
@@ -135,13 +135,13 @@
     "image3": "/img/PDF-trust.webp",
     "GemStone Quality": "F-G VS",
     "Carat": "1 carats",
-    "Metal": "14K Yellow Gold"
+    "Metal Purity": "14K white gold"
   },
   {
     "id": 9,
-    "name": "Black Onyx Pendant ",
-    "oldprice": "1,12,000",
-    "price": 4299,
+    "name": "Wide Band Black Onyx Ring",
+    "oldprice": "₹46453.0",
+    "price": 45100,
     "material": "Sterling Silver",
     "stone": "Moonstone",
     "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
@@ -154,13 +154,13 @@
     "image3": "/img/PDF-trust.webp",
     "GemStone Quality": "F-G VS",
     "Carat": "1 carats",
-    "Metal": "14K Yellow Gold"
+    "Metal Purity": "18K white gold"
   },
   {
     "id": 10,
-    "name": "Black Onyx Pendant ",
-    "oldprice": "1,12,000",
-    "price": 4299,
+    "name": "Minimalist Silver Onyx Ring",
+    "oldprice": "₹38243.0",
+    "price": 36700,
     "material": "Sterling Silver",
     "stone": "Moonstone",
     "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
@@ -172,13 +172,13 @@
     "image3": "/img/PDF-trust.webp",
     "GemStone Quality": "F-G VS",
     "Carat": "1 carats",
-    "Metal": "14K Yellow Gold"
+    "Metal Purity": "14K rose gold"
   },
   {
     "id": 11,
-    "name": "Black Onyx Pendant ",
-    "oldprice": "1,12,000",
-    "price": 4299,
+    "name": "Sleek Black Onyx Design Ring",
+    "oldprice": "₹44805.0",
+    "price": 43500,
     "material": "Sterling Silver",
     "stone": "Moonstone",
     "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
@@ -189,13 +189,13 @@
     "image3": "/img/PDF-trust.webp",
     "GemStone Quality": "F-G VS",
     "Carat": "1 carats",
-    "Metal": "14K Yellow Gold"
+    "Metal Purity": "14K Yellow Gold"
   },
   {
     "id": 12,
-    "name": "Black Onyx Pendant ",
-    "oldprice": "1,12,000",
-    "price": 4299,
+    "name": "Polished Black Onyx Ring 12",
+    "oldprice": "₹43875.0",
+    "price": 42500,
     "material": "Sterling Silver",
     "stone": "Moonstone",
     "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
@@ -206,13 +206,13 @@
     "image3": "/img/PDF-trust.webp",
     "GemStone Quality": "F-G VS",
     "Carat": "1 carats",
-    "Metal": "14K Yellow Gold"
+    "Metal Purity": "14K white gold"
   },
   {
     "id": 13,
-    "name": "Black Onyx Pendant ",
-    "oldprice": "1,12,000",
-    "price": 4299,
+    "name": "Classic Black Onyx Silver Ring",
+    "oldprice": "₹43249.7",
+    "price": 41990,
     "material": "Sterling Silver",
     "stone": "Moonstone",
     "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
@@ -223,13 +223,13 @@
     "image3": "/img/PDF-trust.webp",
     "GemStone Quality": "F-G VS",
     "Carat": "1 carats",
-    "Metal": "14K Yellow Gold"
+    "Metal Purity": "18K Yellow gold"
   },
   {
     "id": 14,
-    "name": "Black Onyx Pendant ",
-    "oldprice": "1,12,000",
-    "price": 4299,
+    "name": "Art Deco Onyx Silver Ring",
+    "oldprice": "₹46092.5",
+    "price": 44750,
     "material": "Sterling Silver",
     "stone": "Moonstone",
     "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
@@ -241,13 +241,13 @@
     "image3": "/img/PDF-trust.webp",
     "GemStone Quality": "F-G VS",
     "Carat": "1 carats",
-    "Metal": "14K Yellow Gold"
+    "Metal Purity": "18K white gold"
   },
   {
     "id": 15,
-    "name": "Black Onyx Pendant ",
-    "oldprice": "1,12,000",
-    "price": 4299,
+    "name": "Elegance Onyx Drop Ring",
+    "oldprice": "₹42525.0",
+    "price": 40500,
     "material": "Sterling Silver",
     "stone": "Moonstone",
     "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
@@ -258,13 +258,13 @@
     "image3": "/img/PDF-trust.webp",
     "GemStone Quality": "F-G VS",
     "Carat": "1 carats",
-    "Metal": "14K Yellow Gold"
+    "Metal Purity": "14K Yellow Gold"
   },
   {
     "id": 16,
-    "name": "Black Onyx Pendant ",
-    "oldprice": "1,12,000",
-    "price": 4299,
+    "name": "Modern Black Onyx Square Ring",
+    "oldprice": "₹38760.0",
+    "price": 38000,
     "material": "Sterling Silver",
     "stone": "Moonstone",
     "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
@@ -275,13 +275,13 @@
     "image3": "/img/PDF-trust.webp",
     "GemStone Quality": "F-G VS",
     "Carat": "1 carats",
-    "Metal": "14K Yellow Gold"
+    "Metal Purity": "14K rose gold"
   },
   {
     "id": 17,
-    "name": "Black Onyx Pendant ",
-    "oldprice": "1,12,000",
-    "price": 4299,
+    "name": "Signature Black Onyx Ring",
+    "oldprice": "₹43260.0",
+    "price": 42000,
     "material": "Sterling Silver",
     "stone": "Moonstone",
     "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
@@ -293,13 +293,13 @@
     "image3": "/img/PDF-trust.webp",
     "GemStone Quality": "F-G VS",
     "Carat": "1 carats",
-    "Metal": "14K Yellow Gold"
+    "Metal Purity": "18K Yellow gold"
   },
   {
     "id": 18,
-    "name": "Black Onyx Pendant ",
-    "oldprice": "1,12,000",
-    "price": 4299,
+    "name": "Delicate Onyx Accent Ring",
+    "oldprice": "₹40685.0",
+    "price": 39500,
     "material": "Sterling Silver",
     "stone": "Moonstone",
     "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
@@ -310,13 +310,13 @@
     "image3": "/img/PDF-trust.webp",
     "GemStone Quality": "F-G VS",
     "Carat": "1 carats",
-    "Metal": "14K Yellow Gold"
+    "Metal Purity": "14K white gold"
   },
   {
     "id": 19,
-    "name": "Black Onyx Pendant ",
-    "oldprice": "1,12,000",
-    "price": 4299,
+    "name": "Crested Black Onyx Ring",
+    "oldprice": "₹44403.0",
+    "price": 43100,
     "material": "Sterling Silver",
     "stone": "Moonstone",
     "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
@@ -327,13 +327,13 @@
     "image3": "/img/PDF-trust.webp",
     "GemStone Quality": "F-G VS",
     "Carat": "1 carats",
-    "Metal": "14K Yellow Gold"
+    "Metal Purity": "14K Yellow Gold"
   },
   {
     "id": 20,
-    "name": "Black Onyx Pendant ",
-    "oldprice": "1,12,000",
-    "price": 4299,
+    "name": "Streamline Onyx Silver Ring",
+    "oldprice": "₹46620.0",
+    "price": 44400,
     "material": "Sterling Silver",
     "stone": "Moonstone",
     "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
@@ -344,13 +344,13 @@
     "image3": "/img/PDF-trust.webp",
     "GemStone Quality": "F-G VS",
     "Carat": "1 carats",
-    "Metal": "14K Yellow Gold"
+    "Metal Purity": "18K white gold"
   },
   {
     "id": 21,
-    "name": "Black Onyx Pendant ",
-    "oldprice": "1,12,000",
-    "price": 4299,
+    "name": "Solstice Silver & Onyx Necklace",
+    "oldprice": "₹43157.7",
+    "price": 41900,
     "material": "Sterling Silver",
     "stone": "Moonstone",
     "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
@@ -362,13 +362,13 @@
     "image3": "/img/PDF-trust.webp",
     "GemStone Quality": "F-G VS",
     "Carat": "1 carats",
-    "Metal": "14K Yellow Gold"
+    "Metal Purity": "18K Yellow gold"
   },
   {
     "id": 22,
-    "name": "Black Onyx Pendant ",
-    "oldprice": "1,12,000",
-    "price": 4299,
+    "name": "Midnight Onyx Droplet Necklace",
+    "oldprice": "₹44500.0",
+    "price": 43200,
     "material": "Sterling Silver",
     "stone": "Moonstone",
     "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
@@ -379,13 +379,13 @@
     "image3": "/img/PDF-trust.webp",
     "GemStone Quality": "F-G VS",
     "Carat": "1 carats",
-    "Metal": "14K Yellow Gold"
+    "Metal Purity": "14K rose gold"
   },
   {
     "id": 23,
-    "name": "Black Onyx Pendant ",
-    "oldprice": "1,12,000",
-    "price": 4299,
+    "name": "Eternity Circle Onyx Pendant",
+    "oldprice": "₹46305.0",
+    "price": 44100,
     "material": "Sterling Silver",
     "stone": "Moonstone",
     "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
@@ -396,13 +396,13 @@
     "image3": "/img/PDF-trust.webp",
     "GemStone Quality": "F-G VS",
     "Carat": "1 carats",
-    "Metal": "14K Yellow Gold"
+    "Metal Purity": "14K Yellow Gold"
   },
   {
     "id": 24,
-    "name": "Black Onyx Pendant ",
-    "oldprice": "1,12,000",
-    "price": 4299,
+    "name": "Square-Cut Black Onyx Necklace",
+    "oldprice": "₹44032.5",
+    "price": 42750,
     "material": "Sterling Silver",
     "stone": "Moonstone",
     "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
@@ -413,13 +413,13 @@
     "image3": "/img/PDF-trust.webp",
     "GemStone Quality": "F-G VS",
     "Carat": "1 carats",
-    "Metal": "14K Yellow Gold"
+    "Metal Purity": "14K white gold"
   },
   {
     "id": 25,
-    "name": "Black Onyx Pendant ",
-    "oldprice": "1,12,000",
-    "price": 4299,
+    "name": "Ornate Black Onyx Teardrop Pendant",
+    "oldprice": "₹46659.9",
+    "price": 45300,
     "material": "Sterling Silver",
     "stone": "Moonstone",
     "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
@@ -432,13 +432,13 @@
     "image3": "/img/PDF-trust.webp",
     "GemStone Quality": "F-G VS",
     "Carat": "1 carats",
-    "Metal": "14K Yellow Gold"
+    "Metal Purity": "18K white gold"
   },
   {
     "id": 26,
-    "name": "Black Onyx Pendant 26",
-    "oldprice": "1,12,000",
-    "price": 2047,
+    "name": "Golden Topaz-Accent Onyx Pendant",
+    "oldprice": "₹29859.7",
+    "price": 28990,
     "material": "22k Gold",
     "stone": "Topaz",
     "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
@@ -449,13 +449,13 @@
     "image3": "/img/PDF-trust.webp",
     "GemStone Quality": "F-G VS",
     "Carat": "1 carats",
-    "Metal": "14K Yellow Gold"
+    "Metal Purity": "14K rose gold"
   },
   {
     "id": 27,
-    "name": "Dual Ring Diamond Mangalsutra 27",
-    "oldprice": "1,12,000",
-    "price": 1727,
+    "name": "Dual Ring Diamond Mangalsutra Pendant",
+    "oldprice": "₹26265.0",
+    "price": 25500,
     "material": "18k Gold",
     "stone": "Onyx",
     "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
@@ -466,13 +466,13 @@
     "image3": "/img/PDF-trust.webp",
     "GemStone Quality": "F-G VS",
     "Carat": "1 carats",
-    "Metal": "14K Yellow Gold"
+    "Metal Purity": "14K Yellow Gold"
   },
   {
     "id": 28,
-    "name": "Diamond Mangalsutra 28",
-    "oldprice": "1,12,000",
-    "price": 6,
+    "name": "Contemporary Diamond Mangalsutra Drop",
+    "oldprice": "₹21619.7",
+    "price": 20990,
     "material": "18k Gold",
     "stone": "Moonstone",
     "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
@@ -484,13 +484,13 @@
     "image3": "/img/PDF-trust.webp",
     "GemStone Quality": "F-G VS",
     "Carat": "1 carats",
-    "Metal": "14K Yellow Gold"
+    "Metal Purity": "14K white gold"
   },
   {
     "id": 29,
-    "name": "Black Onyx Pendant 29",
-    "oldprice": "1,12,000",
-    "price": 4512,
+    "name": "Sapphire-Accented Onyx Pendant",
+    "oldprice": "₹48616.0",
+    "price": 47200,
     "material": "Sterling Silver",
     "stone": "Sapphire",
     "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
@@ -501,13 +501,13 @@
     "image3": "/img/PDF-trust.webp",
     "GemStone Quality": "F-G VS",
     "Carat": "1 carats",
-    "Metal": "14K Yellow Gold"
+    "Metal Purity": "18K Yellow gold"
   },
   {
     "id": 30,
-    "name": "Ruby Solitaire Mangalsutra 30",
-    "oldprice": "1,12,000",
-    "price": 4543,
+    "name": "Ruby Solitaire Gold Mangalsutra",
+    "oldprice": "₹32130.0",
+    "price": 31500,
     "material": "22k Gold",
     "stone": "Topaz",
     "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
@@ -519,13 +519,13 @@
     "image3": "/img/PDF-trust.webp",
     "GemStone Quality": "F-G VS",
     "Carat": "1 carats",
-    "Metal": "14K Yellow Gold"
+    "Metal Purity": "18K white gold"
   },
   {
     "id": 31,
-    "name": "Ruby Diamond Pendant 31",
-    "oldprice": "1,12,000",
-    "price": 3351,
+    "name": "Platinum Ruby Diamond Pendant",
+    "oldprice": "₹53025.0",
+    "price": 50500,
     "material": "Platinum",
     "stone": "Emerald",
     "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
@@ -537,13 +537,13 @@
     "image3": "/img/PDF-trust.webp",
     "GemStone Quality": "F-G VS",
     "Carat": "1 carats",
-    "Metal": "14K Yellow Gold"
+    "Metal Purity": "14K rose gold"
   },
   {
     "id": 32,
-    "name": "Love Birds Mangalsutra 32",
-    "oldprice": "1,12,000",
-    "price": 3341,
+    "name": "Platinum Love Birds Mangalsutra",
+    "oldprice": "₹50459.7",
+    "price": 48990,
     "material": "Platinum",
     "stone": "Sapphire",
     "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
@@ -554,13 +554,13 @@
     "image3": "/img/PDF-trust.webp",
     "GemStone Quality": "F-G VS",
     "Carat": "1 carats",
-    "Metal": "14K Yellow Gold"
+    "Metal Purity": "14K Yellow Gold"
   },
   {
     "id": 33,
-    "name": "Lotus Diamond Mangalsutra 33",
-    "oldprice": "1,12,000",
-    "price": 60,
+    "name": "22K Gold Lotus Diamond Mangalsutra",
+    "oldprice": "₹34669.8",
+    "price": 33990,
     "material": "22k Gold",
     "stone": "Topaz",
     "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
@@ -571,13 +571,13 @@
     "image3": "/img/PDF-trust.webp",
     "GemStone Quality": "F-G VS",
     "Carat": "1 carats",
-    "Metal": "14K Yellow Gold"
+    "Metal Purity": "14K white gold"
   },
   {
     "id": 34,
-    "name": "Ruby Solitaire Mangalsutra 34",
-    "oldprice": "1,12,000",
-    "price": 3977,
+    "name": "Plain Gold Solitaire Mangalsutra",
+    "oldprice": "₹31415.0",
+    "price": 30500,
     "material": "22k Gold",
     "stone": "None",
     "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
@@ -588,13 +588,13 @@
     "image3": "/img/PDF-trust.webp",
     "GemStone Quality": "F-G VS",
     "Carat": "1 carats",
-    "Metal": "14K Yellow Gold"
+    "Metal Purity": "18K Yellow gold"
   },
   {
     "id": 35,
-    "name": "Silver Moonstone Pendant 35",
-    "oldprice": "1,12,000",
-    "price": 4575,
+    "name": "Emerald & Gold Moonstone Pendant",
+    "oldprice": "₹35689.8",
+    "price": 34990,
     "material": "18k Gold",
     "stone": "Emerald",
     "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
@@ -605,13 +605,13 @@
     "image3": "/img/PDF-trust.webp",
     "GemStone Quality": "F-G VS",
     "Carat": "1 carats",
-    "Metal": "14K Yellow Gold"
+    "Metal Purity": "18K white gold"
   },
   {
     "id": 36,
-    "name": "Blue Topaz Heart Necklace 36",
-    "oldprice": "1,12,000",
-    "price": 2455,
+    "name": "18K Blue Topaz Heart Necklace",
+    "oldprice": "₹28325.0",
+    "price": 27500,
     "material": "18k Gold",
     "stone": "Topaz",
     "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
@@ -622,13 +622,13 @@
     "image3": "/img/PDF-trust.webp",
     "GemStone Quality": "F-G VS",
     "Carat": "1 carats",
-    "Metal": "14K Yellow Gold"
+    "Metal Purity": "14K rose gold"
   },
   {
     "id": 37,
-    "name": "Ruby Solitaire Mangalsutra 37",
-    "oldprice": "1,12,000",
-    "price": 2273,
+    "name": "Ruby Solitaire 22K Mangalsutra",
+    "oldprice": "₹30385.0",
+    "price": 29500,
     "material": "22k Gold",
     "stone": "Ruby",
     "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
@@ -639,13 +639,13 @@
     "image3": "/img/PDF-trust.webp",
     "GemStone Quality": "F-G VS",
     "Carat": "1 carats",
-    "Metal": "14K Yellow Gold"
+    "Metal Purity": "14K Yellow Gold"
   },
   {
     "id": 38,
-    "name": "Silver Moonstone Pendant 38",
-    "oldprice": "1,12,000",
-    "price": 903,
+    "name": "Platinum Diamond Moonstone Pendant",
+    "oldprice": "₹47895.0",
+    "price": 46500,
     "material": "Platinum",
     "stone": "Diamond",
     "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
@@ -656,13 +656,13 @@
     "image3": "/img/PDF-trust.webp",
     "GemStone Quality": "F-G VS",
     "Carat": "1 carats",
-    "Metal": "14K Yellow Gold"
+    "Metal Purity": "14K white gold"
   },
   {
     "id": 39,
-    "name": "Love Birds Mangalsutra 39",
-    "oldprice": "1,12,000",
-    "price": 2130,
+    "name": "Ruby-Heart Love Birds Mangalsutra",
+    "oldprice": "₹32742.0",
+    "price": 32100,
     "material": "22k Gold",
     "stone": "Ruby",
     "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
@@ -673,13 +673,13 @@
     "image3": "/img/PDF-trust.webp",
     "GemStone Quality": "F-G VS",
     "Carat": "1 carats",
-    "Metal": "14K Yellow Gold"
+    "Metal Purity": "18K Yellow gold"
   },
   {
     "id": 40,
-    "name": "Lotus Diamond Mangalsutra 40",
-    "oldprice": "1,12,000",
-    "price": 2644,
+    "name": "Onyx & Silver Lotus Diamond Mangalsutra",
+    "oldprice": "₹41303.0",
+    "price": 40100,
     "material": "Sterling Silver",
     "stone": "Onyx",
     "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
@@ -690,13 +690,13 @@
     "image3": "/img/PDF-trust.webp",
     "GemStone Quality": "F-G VS",
     "Carat": "1 carats",
-    "Metal": "14K Yellow Gold"
+    "Metal Purity": "18K white gold"
   },
   {
     "id": 41,
-    "name": "Ruby Diamond Pendant 41",
-    "oldprice": "1,12,000",
-    "price": 1728,
+    "name": "22K Gold Ruby Diamond Mangalsutra",
+    "oldprice": "₹28458.0",
+    "price": 27900,
     "material": "22k Gold",
     "stone": "None",
     "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
@@ -707,13 +707,13 @@
     "image3": "/img/PDF-trust.webp",
     "GemStone Quality": "F-G VS",
     "Carat": "1 carats",
-    "Metal": "14K Yellow Gold"
+    "Metal Purity": "14K rose gold"
   },
   {
     "id": 42,
-    "name": "Silver Moonstone Pendant 42",
-    "oldprice": "1,12,000",
-    "price": 1458,
+    "name": "Emerald-Laced Gold Mangalsutra",
+    "oldprice": "₹25235.0",
+    "price": 24500,
     "material": "22k Gold",
     "stone": "Emerald",
     "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
@@ -725,13 +725,13 @@
     "image3": "/img/PDF-trust.webp",
     "GemStone Quality": "F-G VS",
     "Carat": "1 carats",
-    "Metal": "14K Yellow Gold"
+    "Metal Purity": "14K Yellow Gold"
   },
   {
     "id": 43,
-    "name": "Ruby Solitaire Mangalsutra 43",
-    "oldprice": "1,12,000",
-    "price": 4972,
+    "name": "Moonstone Ruby Solitaire Mangalsutra",
+    "oldprice": "₹54600.0",
+    "price": 52000,
     "material": "Platinum",
     "stone": "Moonstone",
     "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
@@ -743,13 +743,13 @@
     "image3": "/img/PDF-trust.webp",
     "GemStone Quality": "F-G VS",
     "Carat": "1 carats",
-    "Metal": "14K Yellow Gold"
+    "Metal Purity": "14K white gold"
   },
   {
     "id": 44,
-    "name": "Love Birds Mangalsutra 44",
-    "oldprice": "1,12,000",
-    "price": 4373,
+    "name": "Topaz Love Birds Gold Mangalsutra",
+    "oldprice": "₹50573.3",
+    "price": 49100,
     "material": "18k Gold",
     "stone": "Topaz",
     "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
@@ -761,13 +761,13 @@
     "image3": "/img/PDF-trust.webp",
     "GemStone Quality": "F-G VS",
     "Carat": "1 carats",
-    "Metal": "14K Yellow Gold"
+    "Metal Purity": "18K Yellow gold"
   },
   {
     "id": 45,
-    "name": "Black Onyx Pendant 45",
-    "oldprice": "1,12,000",
-    "price": 4669,
+    "name": "Platinum Topaz Onyx Mangalsutra",
+    "oldprice": "₹53045.0",
+    "price": 51500,
     "material": "Platinum",
     "stone": "Topaz",
     "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
@@ -778,13 +778,13 @@
     "image3": "/img/PDF-trust.webp",
     "GemStone Quality": "F-G VS",
     "Carat": "1 carats",
-    "Metal": "14K Yellow Gold"
+    "Metal Purity": "18K white gold"
   },
   {
     "id": 46,
-    "name": "Diamond Mangalsutra 46",
-    "oldprice": "1,12,000",
-    "price": 47,
+    "name": "Classic 18K Diamond Mangalsutra",
+    "oldprice": "₹30889.7",
+    "price": 29990,
     "material": "18k Gold",
     "stone": "None",
     "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
@@ -795,13 +795,13 @@
     "image3": "/img/PDF-trust.webp",
     "GemStone Quality": "F-G VS",
     "Carat": "1 carats",
-    "Metal": "14K Yellow Gold"
+    "Metal Purity": "14K Yellow Gold"
   },
   {
     "id": 47,
-    "name": "Diamond Mangalsutra 47",
-    "oldprice": "1,12,000",
-    "price": 43,
+    "name": "Silver Ruby Diamond Mangalsutra",
+    "oldprice": "₹31930.0",
+    "price": 31000,
     "material": "Sterling Silver",
     "stone": "Ruby",
     "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
@@ -812,13 +812,13 @@
     "image3": "/img/PDF-trust.webp",
     "GemStone Quality": "F-G VS",
     "Carat": "1 carats",
-    "Metal": "14K Yellow Gold"
+    "Metal Purity": "14K white gold"
   },
   {
     "id": 48,
-    "name": "Ruby Solitaire Mangalsutra 48",
-    "oldprice": "1,12,000",
-    "price": 4987,
+    "name": "Emerald Solitaire Silver Mangalsutra",
+    "oldprice": "₹49955.0",
+    "price": 48500,
     "material": "Sterling Silver",
     "stone": "Emerald",
     "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
@@ -829,13 +829,13 @@
     "image3": "/img/PDF-trust.webp",
     "GemStone Quality": "F-G VS",
     "Carat": "1 carats",
-    "Metal": "14K Yellow Gold"
+    "Metal Purity": "18K Yellow gold"
   },
   {
     "id": 49,
-    "name": "Love Birds Mangalsutra 49",
-    "oldprice": "1,12,000",
-    "price": 2364,
+    "name": "Simple Gold Love Birds Mangalsutra",
+    "oldprice": "₹27707.0",
+    "price": 26900,
     "material": "22k Gold",
     "stone": "None",
     "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
@@ -846,13 +846,13 @@
     "image3": "/img/PDF-trust.webp",
     "GemStone Quality": "F-G VS",
     "Carat": "1 carats",
-    "Metal": "14K Yellow Gold"
+    "Metal Purity": "18K white gold"
   },
   {
     "id": 50,
-    "name": "Black Onyx Pendant 50",
-    "oldprice": "1,12,000",
-    "price": 856,
+    "name": "Platinum Minimalist Mangalsutra",
+    "oldprice": "₹36665.0",
+    "price": 35500,
     "material": "Platinum",
     "stone": "None",
     "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
@@ -863,13 +863,13 @@
     "image3": "/img/PDF-trust.webp",
     "GemStone Quality": "F-G VS",
     "Carat": "1 carats",
-    "Metal": "14K Yellow Gold"
+    "Metal Purity": "14K rose gold"
   },
   {
     "id": 51,
-    "name": "Ruby Solitaire Mangalsutra 51",
-    "oldprice": "1,12,000",
-    "price": 3083,
+    "name": "Sapphire Solitaire Gold Mangalsutra",
+    "oldprice": "₹38109.7",
+    "price": 36990,
     "material": "18k Gold",
     "stone": "Sapphire",
     "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
@@ -880,13 +880,13 @@
     "image3": "/img/PDF-trust.webp",
     "GemStone Quality": "F-G VS",
     "Carat": "1 carats",
-    "Metal": "14K Yellow Gold"
+    "Metal Purity": "14K Yellow Gold"
   },
   {
     "id": 52,
-    "name": "Blue Topaz Heart Necklace 52",
-    "oldprice": "1,12,000",
-    "price": 4967,
+    "name": "Ruby-Heart 22K Mangalsutra",
+    "oldprice": "₹51102.0",
+    "price": 50100,
     "material": "22k Gold",
     "stone": "Ruby",
     "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
@@ -898,13 +898,13 @@
     "image3": "/img/PDF-trust.webp",
     "GemStone Quality": "F-G VS",
     "Carat": "1 carats",
-    "Metal": "14K Yellow Gold"
+    "Metal Purity": "14K white gold"
   },
   {
     "id": 53,
-    "name": "Diamond Mangalsutra 53",
-    "oldprice": "1,12,000",
-    "price": 2651,
+    "name": "Emerald Diamond Silver Mangalsutra",
+    "oldprice": "₹42436.6",
+    "price": 41200,
     "material": "Sterling Silver",
     "stone": "Emerald",
     "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
@@ -915,13 +915,13 @@
     "image3": "/img/PDF-trust.webp",
     "GemStone Quality": "F-G VS",
     "Carat": "1 carats",
-    "Metal": "14K Yellow Gold"
+    "Metal Purity": "18K Yellow gold"
   },
   {
     "id": 54,
-    "name": "Ruby Solitaire Mangalsutra 54",
-    "oldprice": "1,12,000",
-    "price": 1244,
+    "name": "Moonstone Solitaire Gold Mangalsutra",
+    "oldprice": "₹33907.7",
+    "price": 32900,
     "material": "18k Gold",
     "stone": "Moonstone",
     "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
@@ -932,13 +932,13 @@
     "image3": "/img/PDF-trust.webp",
     "GemStone Quality": "F-G VS",
     "Carat": "1 carats",
-    "Metal": "14K Yellow Gold"
+    "Metal Purity": "18K white gold"
   },
   {
     "id": 55,
-    "name": "Ruby Solitaire Mangalsutra 55",
-    "oldprice": "1,12,000",
-    "price": 4440,
+    "name": "Ruby Solitaire Silver Mangalsutra",
+    "oldprice": "₹45217.0",
+    "price": 43900,
     "material": "Sterling Silver",
     "stone": "Ruby",
     "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
@@ -949,13 +949,13 @@
     "image3": "/img/PDF-trust.webp",
     "GemStone Quality": "F-G VS",
     "Carat": "1 carats",
-    "Metal": "14K Yellow Gold"
+    "Metal Purity": "14K rose gold"
   },
   {
     "id": 56,
-    "name": "Ruby Solitaire Mangalsutra 56",
-    "oldprice": "1,12,000",
-    "price": 1194,
+    "name": "Emerald Solitaire 18K Mangalsutra",
+    "oldprice": "₹29355.0",
+    "price": 28500,
     "material": "18k Gold",
     "stone": "Emerald",
     "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
@@ -966,13 +966,13 @@
     "image3": "/img/PDF-trust.webp",
     "GemStone Quality": "F-G VS",
     "Carat": "1 carats",
-    "Metal": "14K Yellow Gold"
+    "Metal Purity": "14K Yellow Gold"
   },
   {
     "id": 57,
-    "name": "Ruby Solitaire Mangalsutra 57",
-    "oldprice": "1,12,000",
-    "price": 1513,
+    "name": "Moonstone Solitaire 22K Mangalsutra",
+    "oldprice": "₹28560.0",
+    "price": 27200,
     "material": "22k Gold",
     "stone": "Moonstone",
     "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
@@ -983,13 +983,13 @@
     "image3": "/img/PDF-trust.webp",
     "GemStone Quality": "F-G VS",
     "Carat": "1 carats",
-    "Metal": "14K Yellow Gold"
+    "Metal Purity": "14K white gold"
   },
   {
     "id": 58,
-    "name": "Lotus Diamond Mangalsutra 58",
-    "oldprice": "1,12,000",
-    "price": 3332,
+    "name": "Topaz Lotus Platinum Mangalsutra",
+    "oldprice": "₹"1,12,000",
+    "price": 45500,
     "material": "Platinum",
     "stone": "Topaz",
     "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
@@ -1000,30 +1000,31 @@
     "image3": "/img/PDF-trust.webp",
     "GemStone Quality": "F-G VS",
     "Carat": "1 carats",
-    "Metal": "14K Yellow Gold"
+    "Metal Purity": "18K Yellow gold"
   },
   {
     "id": 59,
-    "name": "Lotus Diamond Mangalsutra 59",
-    "oldprice": "1,12,000",
-    "price": 2237,
-    "material": "22k Gold",
-    "stone": "Moonstone",
+    "name": "Diamond-Accented Gold Mangalsutra",
+    "oldprice": "₹"1,12,000",
+    "price": 37500,
+    "material": "18k Gold",
+    "stone": "Diamond",
     "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
     "category": "mangalsutra",
     "image1": "/img/greybox-bracelet.webp",
+    "categorie": "favorite",
     "image": "/img/mangalsutra-19.png",
     "image2": "/img/certificatestone.webp",
     "image3": "/img/PDF-trust.webp",
     "GemStone Quality": "F-G VS",
     "Carat": "1 carats",
-    "Metal": "14K Yellow Gold"
+    "Metal Purity": "18K white gold"
   },
   {
     "id": 60,
-    "name": "Ruby Solitaire Mangalsutra 60",
-    "oldprice": "1,12,000",
-    "price": 2786,
+    "name": "Topaz Solitaire Mangalsutra",
+    "oldprice": "₹34557,
+    "price": 33550,
     "material": "Sterling Silver",
     "stone": "Topaz",
     "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
@@ -1034,13 +1035,13 @@
     "image3": "/img/PDF-trust.webp",
     "GemStone Quality": "F-G VS",
     "Carat": "1 carats",
-    "Metal": "14K Yellow Gold"
+    "Metal Purity": "18K white gold"
   },
   {
     "id": 61,
-    "name": "Dual Ring Diamond Mangalsutra 61",
-    "oldprice": "1,12,000",
-    "price": 4143,
+    "name": "Diamond Dual Ring Drop Earrings",
+    "oldprice": "₹14567,
+    "price": 14143,
     "material": "Sterling Silver",
     "stone": "Diamond",
     "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
@@ -1052,13 +1053,13 @@
     "image3": "/img/PDF-trust.webp",
     "GemStone Quality": "F-G VS",
     "Carat": "1 carats",
-    "Metal": "14K Yellow Gold"
+    "Metal Purity": "14K rose gold"
   },
   {
     "id": 62,
-    "name": "Lotus Diamond Mangalsutra 62",
-    "oldprice": "1,12,000",
-    "price": 1919,
+    "name": "Platinum Lotus Topaz Earrings",
+    "oldprice": "₹12272,
+    "price": 11919,
     "material": "Platinum",
     "stone": "Topaz",
     "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
@@ -1070,13 +1071,13 @@
     "image3": "/img/PDF-trust.webp",
     "GemStone Quality": "F-G VS",
     "Carat": "1 carats",
-    "Metal": "14K Yellow Gold"
+    "Metal Purity": "18K Yellow gold"
   },
   {
     "id": 63,
-    "name": "Gold Infinity Necklace 63",
-    "oldprice": "1,12,000",
-    "price": 3465,
+    "name": "Sapphire Gold Infinity Earrings",
+    "oldprice": "₹13734,
+    "price": 13465,
     "material": "22k Gold",
     "stone": "Sapphire",
     "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
@@ -1087,13 +1088,13 @@
     "image3": "/img/PDF-trust.webp",
     "GemStone Quality": "F-G VS",
     "Carat": "1 carats",
-    "Metal": "14K Yellow Gold"
+    "Metal Purity": "14K white gold"
   },
   {
     "id": 64,
-    "name": "Lotus Diamond Mangalsutra 64",
-    "oldprice": "1,12,000",
-    "price": 724,
+    "name": "Simple Gold Lotus Earrings",
+    "oldprice": "₹11046,
+    "price": 10724,
     "material": "18k Gold",
     "stone": "None",
     "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
@@ -1104,13 +1105,13 @@
     "image3": "/img/PDF-trust.webp",
     "GemStone Quality": "F-G VS",
     "Carat": "1 carats",
-    "Metal": "14K Yellow Gold"
+    "Metal Purity": "14K rose gold"
   },
   {
     "id": 65,
-    "name": "Black Onyx Pendant 65",
-    "oldprice": "1,12,000",
-    "price": 3791,
+    "name": "22K Gold Sapphire Drop Earrings",
+    "oldprice": "₹14205,
+    "price": 13791,
     "material": "22k Gold",
     "stone": "Sapphire",
     "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
@@ -1122,13 +1123,13 @@
     "image3": "/img/PDF-trust.webp",
     "GemStone Quality": "F-G VS",
     "Carat": "1 carats",
-    "Metal": "14K Yellow Gold"
+    "Metal Purity": "14K Yellow Gold"
   },
   {
     "id": 66,
-    "name": "Gold Infinity Necklace 66",
-    "oldprice": "1,12,000",
-    "price": 3184,
+    "name": "Platinum Ruby Infinity Earrings",
+    "oldprice": "₹13579,
+    "price": 13184,
     "material": "Platinum",
     "stone": "Ruby",
     "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
@@ -1140,13 +1141,13 @@
     "image3": "/img/PDF-trust.webp",
     "GemStone Quality": "F-G VS",
     "Carat": "1 carats",
-    "Metal": "14K Yellow Gold"
+    "Metal Purity": "18K white gold"
   },
   {
     "id": 67,
-    "name": "Diamond Mangalsutra 67",
-    "oldprice": "1,12,000",
-    "price": 4275,
+    "name": "Minimalist Sterling Silver Earrings",
+    "oldprice": "₹14703,
+    "price": 14275,
     "material": "Sterling Silver",
     "stone": "None",
     "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
@@ -1157,13 +1158,13 @@
     "image3": "/img/PDF-trust.webp",
     "GemStone Quality": "F-G VS",
     "Carat": "1 carats",
-    "Metal": "14K Yellow Gold"
+    "Metal Purity": "18K Yellow gold"
   },
   {
     "id": 68,
-    "name": "Blue Topaz Heart Necklace 68",
-    "oldprice": "1,12,000",
-    "price": 592,
+    "name": "Gold Moonstone Heart Earrings",
+    "oldprice": "₹10900,
+    "price": 10592,
     "material": "18k Gold",
     "stone": "Moonstone",
     "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
@@ -1174,13 +1175,13 @@
     "image3": "/img/PDF-trust.webp",
     "GemStone Quality": "F-G VS",
     "Carat": "1 carats",
-    "Metal": "14K Yellow Gold"
+    "Metal Purity": "14K Yellow Gold"
   },
   {
     "id": 69,
-    "name": "Gold Infinity Necklace 69",
-    "oldprice": "1,12,000",
-    "price": 3400,
+    "name": "Sterling Diamond Infinity Earrings",
+    "oldprice": "₹13735,
+    "price": 13400,
     "material": "Sterling Silver",
     "stone": "Diamond",
     "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
@@ -1191,13 +1192,13 @@
     "image3": "/img/PDF-trust.webp",
     "GemStone Quality": "F-G VS",
     "Carat": "1 carats",
-    "Metal": "14K Yellow Gold"
+    "Metal Purity": "14K white gold"
   },
   {
     "id": 70,
-    "name": "Ruby Diamond Pendant 70",
-    "oldprice": "1,12,000",
-    "price": 984,
+    "name": "Platinum Sapphire Ruby Drop",
+    "oldprice": "₹11314,
+    "price": 10984,
     "material": "Platinum",
     "stone": "Sapphire",
     "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
@@ -1208,13 +1209,13 @@
     "image3": "/img/PDF-trust.webp",
     "GemStone Quality": "F-G VS",
     "Carat": "1 carats",
-    "Metal": "14K Yellow Gold"
+    "Metal Purity": "18K white gold"
   },
   {
     "id": 71,
-    "name": "Diamond Mangalsutra 71",
-    "oldprice": "1,12,000",
-    "price": 1360,
+    "name": "Moonstone Diamond Cluster Earrings",
+    "oldprice": "₹11603,
+    "price": 11360,
     "material": "Sterling Silver",
     "stone": "Moonstone",
     "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
@@ -1225,13 +1226,13 @@
     "image3": "/img/PDF-trust.webp",
     "GemStone Quality": "F-G VS",
     "Carat": "1 carats",
-    "Metal": "14K Yellow Gold"
+    "Metal Purity": "14K rose gold"
   },
   {
     "id": 72,
-    "name": "Blue Topaz Heart Necklace 72",
-    "oldprice": "1,12,000",
-    "price": 5,
+    "name": "18K Diamond Heart Studs",
+    "oldprice": "₹10305,
+    "price": 10005,
     "material": "18k Gold",
     "stone": "Diamond",
     "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
@@ -1242,13 +1243,13 @@
     "image3": "/img/PDF-trust.webp",
     "GemStone Quality": "F-G VS",
     "Carat": "1 carats",
-    "Metal": "14K Yellow Gold"
+    "Metal Purity": "18K Yellow gold"
   },
   {
     "id": 73,
-    "name": "Dual Ring Diamond Mangalsutra 73",
-    "oldprice": "1,12,000",
-    "price": 2415,
+    "name": "Gold Ruby Dual Hoop Earrings",
+    "oldprice": "₹12787,
+    "price": 12415,
     "material": "18k Gold",
     "stone": "Ruby",
     "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
@@ -1259,13 +1260,13 @@
     "image3": "/img/PDF-trust.webp",
     "GemStone Quality": "F-G VS",
     "Carat": "1 carats",
-    "Metal": "14K Yellow Gold"
+    "Metal Purity": "14K Yellow Gold"
   },
   {
     "id": 74,
-    "name": "Lotus Diamond Mangalsutra 74",
-    "oldprice": "1,12,000",
-    "price": 2803,
+    "name": "Platinum Emerald Lotus Earrings",
+    "oldprice": "₹13187,
+    "price": 12803,
     "material": "Platinum",
     "stone": "Emerald",
     "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
@@ -1276,13 +1277,13 @@
     "image3": "/img/PDF-trust.webp",
     "GemStone Quality": "F-G VS",
     "Carat": "1 carats",
-    "Metal": "14K Yellow Gold"
+    "Metal Purity": "18K white gold"
   },
   {
     "id": 75,
-    "name": "Dual Ring Diamond Mangalsutra 75",
-    "oldprice": "1,12,000",
-    "price": 935,
+    "name": "Platinum Onyx Dual Ring Earrings",
+    "oldprice": "₹11303,
+    "price": 10935,
     "material": "Platinum",
     "stone": "Onyx",
     "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
@@ -1293,13 +1294,13 @@
     "image3": "/img/PDF-trust.webp",
     "GemStone Quality": "F-G VS",
     "Carat": "1 carats",
-    "Metal": "14K Yellow Gold"
+    "Metal Purity": "14K white gold"
   },
   {
     "id": 76,
-    "name": "Lotus Diamond Mangalsutra 76",
-    "oldprice": "1,12,000",
-    "price": 604,
+    "name": "18K Diamond Lotus Studs",
+    "oldprice": "₹10922,
+    "price": 10604,
     "material": "18k Gold",
     "stone": "Diamond",
     "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
@@ -1310,13 +1311,13 @@
     "image3": "/img/PDF-trust.webp",
     "GemStone Quality": "F-G VS",
     "Carat": "1 carats",
-    "Metal": "14K Yellow Gold"
+    "Metal Purity": "14K rose gold"
   },
   {
     "id": 77,
-    "name": "Love Birds Mangalsutra 77",
-    "oldprice": "1,12,000",
-    "price": 579,
+    "name": "Gold Moonstone Love Birds Earrings",
+    "oldprice": "₹10896,
+    "price": 10579,
     "material": "18k Gold",
     "stone": "Moonstone",
     "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
@@ -1327,13 +1328,13 @@
     "image3": "/img/PDF-trust.webp",
     "GemStone Quality": "F-G VS",
     "Carat": "1 carats",
-    "Metal": "14K Yellow Gold"
+    "Metal Purity": "18K Yellow gold"
   },
   {
     "id": 78,
-    "name": "Dual Ring Diamond Mangalsutra 78",
-    "oldprice": "1,12,000",
-    "price": 3413,
+    "name": "22K Topaz Dual Ring Earrings",
+    "oldprice": "₹13745,
+    "price": 13413,
     "material": "22k Gold",
     "stone": "Topaz",
     "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
@@ -1344,13 +1345,13 @@
     "image3": "/img/PDF-trust.webp",
     "GemStone Quality": "F-G VS",
     "Carat": "1 carats",
-    "Metal": "14K Yellow Gold"
+    "Metal Purity": "14K Yellow Gold"
   },
   {
     "id": 79,
-    "name": "Black Onyx Pendant 79",
-    "oldprice": "1,12,000",
-    "price": 4515,
+    "name": "Sterling Silver Onyx Drop Earrings",
+    "oldprice": "₹14950,
+    "price": 14515,
     "material": "Sterling Silver",
     "stone": "Onyx",
     "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
@@ -1361,13 +1362,13 @@
     "image3": "/img/PDF-trust.webp",
     "GemStone Quality": "F-G VS",
     "Carat": "1 carats",
-    "Metal": "14K Yellow Gold"
+    "Metal Purity": "18K white gold"
   },
   {
     "id": 80,
-    "name": "Dual Ring Diamond Mangalsutra 80",
-    "oldprice": "1,12,000",
-    "price": 2917,
+    "name": "Platinum Emerald Dual Ring Earrings",
+    "oldprice": "₹13305,
+    "price": 12917,
     "material": "Platinum",
     "stone": "Emerald",
     "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
@@ -1378,13 +1379,13 @@
     "image3": "/img/PDF-trust.webp",
     "GemStone Quality": "F-G VS",
     "Carat": "1 carats",
-    "Metal": "14K Yellow Gold"
+    "Metal Purity": "14K white gold"
   },
   {
     "id": 81,
-    "name": "Dual Ring Diamond Mangalsutra 81",
-    "oldprice": "1,12,000",
-    "price": 3828,
+    "name": "Sapphire Sterling Silver Bracelet",
+    "oldprice": "₹14243,
+    "price": 13828,
     "material": "Sterling Silver",
     "stone": "Sapphire",
     "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
@@ -1396,13 +1397,13 @@
     "image3": "/img/PDF-trust.webp",
     "GemStone Quality": "F-G VS",
     "Carat": "1 carats",
-    "Metal": "14K Yellow Gold"
+    "Metal Purity": "18K Yellow gold"
   },
   {
     "id": 82,
-    "name": "Ruby Diamond Pendant 82",
-    "oldprice": "1,12,000",
-    "price": 3221,
+    "name": "Diamond Ruby Link Bracelet",
+    "oldprice": "₹13618,
+    "price": 13221,
     "material": "Sterling Silver",
     "stone": "Diamond",
     "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
@@ -1413,13 +1414,13 @@
     "image3": "/img/PDF-trust.webp",
     "GemStone Quality": "F-G VS",
     "Carat": "1 carats",
-    "Metal": "14K Yellow Gold"
+    "Metal Purity": "14K Yellow Gold"
   },
   {
     "id": 83,
-    "name": "Black Onyx Pendant 83",
-    "oldprice": "1,12,000",
-    "price": 3122,
+    "name": "18K Gold Topaz Chain Bracelet",
+    "oldprice": "₹13516,
+    "price": 13122,
     "material": "18k Gold",
     "stone": "Topaz",
     "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
@@ -1430,13 +1431,13 @@
     "image3": "/img/PDF-trust.webp",
     "GemStone Quality": "F-G VS",
     "Carat": "1 carats",
-    "Metal": "14K Yellow Gold"
+    "Metal Purity": "14K white gold"
   },
   {
     "id": 84,
-    "name": "Diamond Mangalsutra 84",
-    "oldprice": "1,12,000",
-    "price": 4390,
+    "name": "22K Gold Sapphire Cuff Bracelet",
+    "oldprice": "₹14821,
+    "price": 14390,
     "material": "22k Gold",
     "stone": "Sapphire",
     "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
@@ -1447,13 +1448,13 @@
     "image3": "/img/PDF-trust.webp",
     "GemStone Quality": "F-G VS",
     "Carat": "1 carats",
-    "Metal": "14K Yellow Gold"
+    "Metal Purity": "18K white gold"
   },
   {
     "id": 85,
-    "name": "Love Birds Mangalsutra 85",
-    "oldprice": "1,12,000",
-    "price": 4451,
+    "name": "Moonstone Love Birds Bangle",
+    "oldprice": "₹14885,
+    "price": 14451,
     "material": "22k Gold",
     "stone": "Moonstone",
     "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
@@ -1465,13 +1466,13 @@
     "image3": "/img/PDF-trust.webp",
     "GemStone Quality": "F-G VS",
     "Carat": "1 carats",
-    "Metal": "14K Yellow Gold"
+    "Metal Purity": "14K rose gold"
   },
   {
     "id": 86,
-    "name": "Dual Ring Diamond Mangalsutra 86",
-    "oldprice": "1,12,000",
-    "price": 3295,
+    "name": "Plain Platinum Dual Loop Bracelet",
+    "oldprice": "₹13694,
+    "price": 13295,
     "material": "Platinum",
     "stone": "None",
     "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
@@ -1483,13 +1484,13 @@
     "image3": "/img/PDF-trust.webp",
     "GemStone Quality": "F-G VS",
     "Carat": "1 carats",
-    "Metal": "14K Yellow Gold"
+    "Metal Purity": "14K Yellow Gold"
   },
   {
     "id": 87,
-    "name": "Lotus Diamond Mangalsutra 87",
-    "oldprice": "1,12,000",
-    "price": 3436,
+    "name": "22K Sapphire Lotus Bracelet",
+    "oldprice": "₹13839,
+    "price": 13436,
     "material": "22k Gold",
     "stone": "Sapphire",
     "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
@@ -1500,13 +1501,13 @@
     "image3": "/img/PDF-trust.webp",
     "GemStone Quality": "F-G VS",
     "Carat": "1 carats",
-    "Metal": "14K Yellow Gold"
+    "Metal Purity": "18K white gold"
   },
   {
     "id": 88,
-    "name": "Ruby Solitaire Mangalsutra 88",
-    "oldprice": "1,12,000",
-    "price": 4283,
+    "name": "Sterling Emerald Solitaire Bracelet",
+    "oldprice": "₹14711,
+    "price": 14283,
     "material": "Sterling Silver",
     "stone": "Emerald",
     "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
@@ -1517,13 +1518,13 @@
     "image3": "/img/PDF-trust.webp",
     "GemStone Quality": "F-G VS",
     "Carat": "1 carats",
-    "Metal": "14K Yellow Gold"
+    "Metal Purity": "14K white gold"
   },
   {
     "id": 89,
-    "name": "Ruby Diamond Pendant 89",
-    "oldprice": "1,12,000",
-    "price": 1196,
+    "name": "Platinum Diamond Ruby Bracelet",
+    "oldprice": "₹11532,
+    "price": 11196,
     "material": "Platinum",
     "stone": "Diamond",
     "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
@@ -1534,13 +1535,13 @@
     "image3": "/img/PDF-trust.webp",
     "GemStone Quality": "F-G VS",
     "Carat": "1 carats",
-    "Metal": "14K Yellow Gold"
+    "Metal Purity": "18K Yellow gold"
   },
   {
     "id": 90,
-    "name": "Dual Ring Diamond Mangalsutra 90",
-    "oldprice": "1,12,000",
-    "price": 4077,
+    "name": "18K Gold Dual Ring Minimalist Bracelet",
+    "oldprice": "₹14499,
+    "price": 14077,
     "material": "18k Gold",
     "stone": "None",
     "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
@@ -1551,13 +1552,13 @@
     "image3": "/img/PDF-trust.webp",
     "GemStone Quality": "F-G VS",
     "Carat": "1 carats",
-    "Metal": "14K Yellow Gold"
+    "Metal Purity": "14K rose gold"
   },
   {
     "id": 91,
-    "name": "Black Onyx Pendant 91",
-    "oldprice": "1,12,000",
-    "price": 2760,
+    "name": "18K Gold Ruby Onyx Bracelet",
+    "oldprice": "₹13143,
+    "price": 12760,
     "material": "18k Gold",
     "stone": "Ruby",
     "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
@@ -1568,13 +1569,13 @@
     "image3": "/img/PDF-trust.webp",
     "GemStone Quality": "F-G VS",
     "Carat": "1 carats",
-    "Metal": "14K Yellow Gold"
+    "Metal Purity": "14K Yellow Gold"
   },
   {
     "id": 92,
-    "name": "Dual Ring Diamond Mangalsutra 92",
-    "oldprice": "1,12,000",
-    "price": 1377,
+    "name": "Sterling Silver Plain Dual Ring Bracelet",
+    "oldprice": "₹11718,
+    "price": 11377,
     "material": "Sterling Silver",
     "stone": "None",
     "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
@@ -1587,13 +1588,13 @@
     "image3": "/img/PDF-trust.webp",
     "GemStone Quality": "F-G VS",
     "Carat": "1 carats",
-    "Metal": "14K Yellow Gold"
+    "Metal Purity": "18K white gold"
   },
   {
     "id": 93,
-    "name": "Dual Ring Diamond Mangalsutra 93",
-    "oldprice": "1,12,000",
-    "price": 1882,
+    "name": "Sterling Silver Interlocking Rings Bracelet",
+    "oldprice": "₹12119,
+    "price": 11882,
     "material": "Sterling Silver",
     "stone": "None",
     "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
@@ -1604,13 +1605,13 @@
     "image3": "/img/PDF-trust.webp",
     "GemStone Quality": "F-G VS",
     "Carat": "1 carats",
-    "Metal": "14K Yellow Gold"
+    "Metal Purity": "14K white gold"
   },
   {
     "id": 94,
-    "name": "Gold Infinity Necklace 94",
-    "oldprice": "1,12,000",
-    "price": 2878,
+    "name": "18K Sapphire Infinity Bracelet",
+    "oldprice": "₹13264,
+    "price": 12878,
     "material": "18k Gold",
     "stone": "Sapphire",
     "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
@@ -1621,13 +1622,13 @@
     "image3": "/img/PDF-trust.webp",
     "GemStone Quality": "F-G VS",
     "Carat": "1 carats",
-    "Metal": "14K Yellow Gold"
+    "Metal Purity": "18K Yellow gold"
   },
   {
     "id": 95,
-    "name": "Lotus Diamond Mangalsutra 95",
-    "oldprice": "1,12,000",
-    "price": 4994,
+    "name": "Sterling Diamond Lotus Charm Bracelet",
+    "oldprice": "₹15444,
+    "price": 14994,
     "material": "Sterling Silver",
     "stone": "Diamond",
     "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
@@ -1638,13 +1639,13 @@
     "image3": "/img/PDF-trust.webp",
     "GemStone Quality": "F-G VS",
     "Carat": "1 carats",
-    "Metal": "14K Yellow Gold"
+    "Metal Purity": "14K rose gold"
   },
   {
     "id": 96,
-    "name": "Blue Topaz Heart Necklace 96",
-    "oldprice": "1,12,000",
-    "price": 1083,
+    "name": "Sterling Silver Ruby Heart Bracelet",
+    "oldprice": "₹11415,
+    "price": 11083,
     "material": "Sterling Silver",
     "stone": "Ruby",
     "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
@@ -1655,13 +1656,13 @@
     "image3": "/img/PDF-trust.webp",
     "GemStone Quality": "F-G VS",
     "Carat": "1 carats",
-    "Metal": "14K Yellow Gold"
+    "Metal Purity": "14K Yellow Gold"
   },
   {
     "id": 97,
-    "name": "Silver Moonstone Pendant 97",
-    "oldprice": "1,12,000",
-    "price": 4655,
+    "name": "18K Gold Emerald Moonstone Bracelet",
+    "oldprice": "₹15105,
+    "price": 14655,
     "material": "18k Gold",
     "stone": "Emerald",
     "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
@@ -1672,13 +1673,13 @@
     "image3": "/img/PDF-trust.webp",
     "GemStone Quality": "F-G VS",
     "Carat": "1 carats",
-    "Metal": "14K Yellow Gold"
+    "Metal Purity": "18K white gold"
   },
   {
     "id": 98,
-    "name": "Lotus Diamond Mangalsutra 98",
-    "oldprice": "1,12,000",
-    "price": 949,
+    "name": "22K Emerald Lotus Band Bracelet",
+    "oldprice": "₹11277,
+    "price": 10949,
     "material": "22k Gold",
     "stone": "Emerald",
     "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
@@ -1689,13 +1690,13 @@
     "image3": "/img/PDF-trust.webp",
     "GemStone Quality": "F-G VS",
     "Carat": "1 carats",
-    "Metal": "14K Yellow Gold"
+    "Metal Purity": "14K white gold"
   },
   {
     "id": 99,
-    "name": "Diamond Mangalsutra 99",
-    "oldprice": "1,12,000",
-    "price": 1163,
+    "name": "Platinum Diamond Link Bracelet",
+    "oldprice": "₹11508,
+    "price": 11163,
     "material": "Platinum",
     "stone": "Diamond",
     "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
@@ -1706,13 +1707,13 @@
     "image3": "/img/PDF-trust.webp",
     "GemStone Quality": "F-G VS",
     "Carat": "1 carats",
-    "Metal": "14K Yellow Gold"
+    "Metal Purity": "14K rose gold"
   },
   {
     "id": 100,
-    "name": "Diamond Mangalsutra 100",
-    "oldprice": "1,12,000",
-    "price": 2630,
+    "name": "Plain Platinum Interlocking Bracelet",
+    "oldprice": "₹13009,
+    "price": 12630,
     "material": "Platinum",
     "stone": "None",
     "description": "A beautifully designed piece of jewelry with premium craftsmanship.",
@@ -1723,6 +1724,6 @@
     "image3": "/img/PDF-trust.webp",
     "GemStone Quality": "F-G VS",
     "Carat": "1 carats",
-    "Metal": "14K Yellow Gold"
+    "Metal Purity": "18K Yellow gold"
   }
 ]

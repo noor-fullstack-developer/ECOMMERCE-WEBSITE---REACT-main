@@ -9,12 +9,41 @@ import Register from "../component/register";
 import Cart from "./Favorites";
 
 function Ring() {
-  const [Ring, setRing] = useState([]);
+  const [rings, setRings] = useState([]); //new
+  const [ProductData, setProductData] = useState([]); //new
+  const [selectedRanges, setSelectedRanges] = useState([]); //new
+
+  useEffect(() => {
+    //new
+    const filtered = productsData.filter((p) => p.category === "rings"); //new
+    setRings(filtered); //new
+    setProductData(filtered); //new
+  }, []); //new
+
+  useEffect(() => {
+    //new
+    if (selectedRanges.length === 0) {
+      //new
+      setProductData(rings); //new
+      return; //new
+    } //new
+
+    const updated = rings.filter((p) => {
+      //new
+      return selectedRanges.some((range) => {
+        //new
+        const [min, max] = range.split("-").map(Number); //new
+        return p.price >= min && p.price <= max; //new
+      }); //new
+    }); //new
+
+    setProductData(updated); //new
+  }, [selectedRanges, rings]); //new
 
   useEffect(() => {
     // filter only rings
     const filtered = productsData.filter((p) => p.category === "rings");
-    setRing(filtered);
+    setRings(filtered);
   }, []);
 
   const [Isvisible, setIsvisible] = useState(false);
@@ -70,12 +99,12 @@ function Ring() {
         </div>
         <div className="bg-white rounded-xl shadow-lg p-0 m-0 w-full flex felx-col">
           <div className="w-1/4">
-            <Filters />
+            <Filters onpriceChange={setSelectedRanges} />
           </div>
           <div className="w-5/4">
             <div className="flex justify-between align-middle">
               <div className="flex align-middle">
-                <span className="text-xl">{Ring.length} Custom Rings</span>
+                <span className="text-xl">{rings.length} Custom Rings</span>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
@@ -114,8 +143,9 @@ function Ring() {
                 </select>
               </div>
             </div>
-            <div className="p-6">
-              <Cards products={Ring} /> {/* ✅ Pass only rings */}
+            <div className="p-6 ">
+              <Cards products={ProductData} />
+              {/* ✅ Pass only rings */}
             </div>
           </div>
         </div>

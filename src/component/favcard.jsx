@@ -60,7 +60,7 @@ const Cards = ({ products = [] }) => {
       <div className="grid grid-cols-5 gap-4">
         {currentpost.map((record) => (
           <div
-            className="hover:shadow-gray-500 hover:shadow-lg p-2 gap-2.5"
+            className="hover:shadow-gray-500 hover:shadow-md p-2 h-[300px] w-[210px] gap-2.5"
             key={record.id}
           >
             <Link to={`/Detail/${record.id}${record.name}`}>

@@ -7,27 +7,46 @@ import Filters from "../component/filters";
 import Cart from "./Favorites";
 
 function Bracelets() {
-  const [Brasletes, setBrasletes] = useState([]);
+ const [braslet, setbraslet] = useState([]);
+  const [filteredbraslet, setFilteredbraslet] = useState([]);
+  const [selectedRanges, setSelectedRanges] = useState([]);
+  const [Isvisible, setIsvisible] = useState(false);
+  const [great, setgreat] = useState([]);
 
+  // Load only braslet category on first render
   useEffect(() => {
-    // filter only rings
     const filtered = productsData.filter((p) => p.category === "braslet");
-    setBrasletes(filtered);
+    setbraslet(filtered);
+    setFilteredbraslet(filtered);
   }, []);
 
-  const [Isvisible, setIsvisible] = useState(false)
+  // Filter by selected price ranges
+  useEffect(() => {
+    if (selectedRanges.length === 0) {
+      setFilteredbraslet(braslet);
+      return;
+    }
+
+    const updated = braslet.filter((p) => {
+      return selectedRanges.some((range) => {
+        const [min, max] = range.split("-").map(Number);
+        return p.price >= min && p.price <= max;
+      });
+    });
+
+    setFilteredbraslet(updated);
+  }, [selectedRanges, braslet]);
 
   const paravisible = () =>{
     setIsvisible(!Isvisible)
   }
 
       useEffect(() => {
-    // filter only rings
+    // filter only braslet
     const filtered = productsData.filter((p) => p.grade === "great");
     setgreat(filtered);
   }, []);
 
-  const [great, setgreat] = useState([]);
   
   return (
     <div className="flex  justify-center items-center">
@@ -61,12 +80,12 @@ function Bracelets() {
         </div>
         <div className="bg-white rounded-xl shadow-lg p-0 m-0 w-full flex felx-col">
           <div className="w-1/4">
-            <Filters />
+            <Filters onpriceChange={setSelectedRanges} />
           </div>
           <div className="w-5/4">
             <div className="flex justify-between align-middle">
               <div className="flex align-middle">
-                <span className="text-xl">{Brasletes.length} Custom Bracletes</span>
+                <span className="text-xl">{braslet.length} Custom Bracletes</span>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
@@ -106,7 +125,7 @@ function Bracelets() {
               </div>
             </div>
             <div className="p-6">
-              <Cards products={Brasletes} /> {/* ✅ Pass only rings */}
+              <Cards products={filteredbraslet} />
             </div>
           </div>
         </div>

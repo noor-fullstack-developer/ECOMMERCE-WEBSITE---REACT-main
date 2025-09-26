@@ -3,7 +3,24 @@ import { useState } from "react";
 import add from "/src/component/assets/add.svg";
 import sub from "/src/component/assets/sub.svg";
 
-const Filters = () => {
+const Filters = ({ onpriceChange }) => {
+  const [selectedRanges, setSelectedRanges] = useState([]);
+
+  const handleChange = (e) => {
+    const { value, checked } = e.target;
+
+    let updated = [...selectedRanges];
+    if (checked) {
+      updated.push(value);
+    } else {
+      updated = updated.filter((v) => v !== value);
+    }
+
+    setSelectedRanges(updated);
+    onpriceChange(updated); // 🔥 send selected ranges to parent (Ring.jsx)
+  };
+
+
   const [isOpen, setIsOpen] = useState(false);
   const handleClick = () => {
     setIsOpen(!isOpen);
@@ -42,41 +59,6 @@ const Filters = () => {
     <>
       <div className="m-5 ml-1">
         <h2 className="text-2xl">Filters</h2>
-
-        <div className="cursor-pointer flex justify-between items-center gap-15 mt-6 mb-6 ml-3 pb-4 font-[rubik] shadow-[0_1px_0_rgba(0,0,0,0.1)] ">
-          <p className="font-extralight text-gray-700">Jewellery Types</p>
-          <img
-            src={isopenJ ? sub : add}
-            alt="toggle"
-            className="w-5 h-5"
-            onClick={handleclickJ}
-          />
-        </div>
-        {isopenJ && (
-          <div className="ml-6 text-gray-600 flex flex-col gap-2 shadow-[0_1px_0_rgba(0,0,0,0.1)] ">
-            <label className="font-thin font-[rubik] text-sm">
-              <input type="checkbox" value="RING" className="mr-2" />
-              RINGS
-            </label>
-            <label className="font-thin font-[rubik] text-sm ">
-              <input type="checkbox" value="NECKLACES" className="mr-2" />
-              NECKLACES
-            </label>
-            <label className="font-thin font-[rubik] text-sm">
-              <input type="checkbox" value="MANGALSUTRAS" className="mr-2" />
-              MANGALSUTRAS
-            </label>
-            <label className="font-thin font-[rubik] text-sm">
-              <input type="checkbox" value="EARRINGS" className="mr-2" />
-              EARRINGS
-            </label>
-            <label className="font-thin font-[rubik] text-sm ">
-              <input type="checkbox" value="BRACELETS" className="mr-2" />
-              BRACELETS
-            </label>
-          </div>
-        )}
-
         {/* Price Range Section */}
         <div className="cursor-pointer flex justify-between items-center gap-15 mt-3 mb-6 ml-3 pb-4 font-[rubik] shadow-[0_1px_0_rgba(0,0,0,0.1)] ">
           <p className=" text-gray-700">Price Range</p>
@@ -91,19 +73,19 @@ const Filters = () => {
         {/* Yeh content sirf tab dikhega jab isOpen true hoga */}
         {isOpen && (
           <div className="ml-6 text-gray-600 flex flex-col gap-2 shadow-[0_1px_0_rgba(0,0,0,0.1)]">
-            <label className="font-medium">
+            <label className="font-medium" onChange={handleChange}>
               <input type="checkbox" value="10000-20000" className="mr-2" />
               10,000-20,000
             </label>
-            <label className="font-medium">
+            <label className="font-medium" onChange={handleChange}>
               <input type="checkbox" value="20001-30000" className="mr-2" />
               20,000-30,000
             </label>
-            <label className="font-medium">
+            <label className="font-medium" onChange={handleChange}>
               <input type="checkbox" value="30001-40000" className="mr-2" />
               30,000-40,000
             </label>
-            <label className="font-medium">
+            <label className="font-medium" onChange={handleChange}>
               <input type="checkbox" value="40001-50000" className="mr-2" />
               40,000-50,000
             </label>
@@ -296,7 +278,7 @@ const Filters = () => {
             </label>
             <label className="font-thin font-[rubik] text-sm ">
               <input type="checkbox" value="BRACELETS" className="mr-2" />
-              Heart
+              Heart<hi></hi>
             </label>
           </div>
         )}

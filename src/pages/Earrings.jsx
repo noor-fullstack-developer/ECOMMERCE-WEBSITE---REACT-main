@@ -9,27 +9,47 @@ import Register from "../component/register";
 import Cart from "./Favorites";
 
 function Earring() {
-  const [earrings, setEarrings] = useState([]);
+const [earring, setearring] = useState([]);
+  const [filteredearring, setFilteredearring] = useState([]);
+  const [selectedRanges, setSelectedRanges] = useState([]);
+  const [Isvisible, setIsvisible] = useState(false);
+  const [great, setgreat] = useState([]);
 
+  // Load only earring category on first render
   useEffect(() => {
-    // filter only rings
     const filtered = productsData.filter((p) => p.category === "earring");
-    setEarrings(filtered);
+    setearring(filtered);
+    setFilteredearring(filtered);
   }, []);
 
-  const [Isvisible, setIsvisible] = useState(false)
+  // Filter by selected price ranges
+  useEffect(() => {
+    if (selectedRanges.length === 0) {
+      setFilteredearring(earring);
+      return;
+    }
+
+    const updated = earring.filter((p) => {
+      return selectedRanges.some((range) => {
+        const [min, max] = range.split("-").map(Number);
+        return p.price >= min && p.price <= max;
+      });
+    });
+
+    setFilteredearring(updated);
+  }, [selectedRanges, earring]);
+
 
   const paravisible = () =>{
     setIsvisible(!Isvisible)
   }
 
       useEffect(() => {
-    // filter only rings
+    // filter only earring
     const filtered = productsData.filter((p) => p.grade === "great");
     setgreat(filtered);
   }, []);
 
-  const [great, setgreat] = useState([]);
   
   return (
     <div className="flex  justify-center items-center">
@@ -40,18 +60,18 @@ function Earring() {
         {/* Breadcrumb */}
         <div className="text-grayscale-700 font-normal truncate bg-grayscale-300 px-4 py-3">
           <span
-            title="Earrings"
+            title="earring"
             className="flex text-[10px] pt-3 pb-3 pl-4 pr-4 bg-gray-50 rounded-2xl"
           >
-            Home / Jewellery / Earrings
+            Home / Jewellery / earring
           </span>
         </div>
 
         {/* Section */}
         <div className="flex flex-col justify-center items-center mb-5 p-6 shadow-gray-300 shadow-sm pt-4 mt-4">
-          <h1 className="text-2xl flex justify-center items-center">Earrings</h1>
+          <h1 className="text-2xl flex justify-center items-center">earring</h1>
           <p className="flex justify-center items-center mt-4 text-gray-400">
-            Drape a piece of luxury around your ear with handcrafted earrings
+            Drape a piece of luxury around your ear with handcrafted earring
             from Angara. Whether you're a fan o...
           </p>
           {Isvisible && ( <p className="flex justify-center items-center text-gray-400">this will show on click</p> )}
@@ -63,12 +83,12 @@ function Earring() {
         </div>
         <div className="bg-white rounded-xl shadow-lg p-0 m-0 w-full flex felx-col">
           <div className="w-1/4">
-            <Filters />
+            <Filters onpriceChange={setSelectedRanges} />
           </div>
           <div className="w-5/4">
             <div className="flex justify-between align-middle">
               <div className="flex align-middle">
-                <span className="text-xl">{earrings.length} Custom Earrings</span>
+                <span className="text-xl">{earring.length} Custom earring</span>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
@@ -108,7 +128,7 @@ function Earring() {
               </div>
             </div>
             <div className="p-6">
-              <Cards products={earrings} /> {/* ✅ Pass only earrings */}
+             <Cards products={filteredearring} /> {/* ✅ Pass only earring */}
             </div>
           </div>
         </div>

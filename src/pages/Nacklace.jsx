@@ -1,38 +1,53 @@
-import { useState , useEffect } from "react";
-import { Routes, Route } from "react-router-dom";
+import { useState, useEffect } from "react";
 import poster from "../Data/img.home/blue-sapphirebanner.webp";
-import productsData from "../Data/products.json"
-import Favcard from "../component/favcard.jsx"
+import productsData from "../Data/products.json";
+import Favcard from "../component/favcard.jsx";
 import Cards from "../component/cards";
 import Filters from "../component/filters";
-import Register from "../component/register";
-import Cart from "./Favorites";
 
 function Necklace() {
   const [Necklace, setNecklace] = useState([]);
+  const [filteredNecklace, setFilteredNecklace] = useState([]);
+  const [selectedRanges, setSelectedRanges] = useState([]);
+  const [Isvisible, setIsvisible] = useState(false);
+  const [great, setgreat] = useState([]);
 
+  // Load only Necklace category on first render
   useEffect(() => {
-    // filter only Necklace
     const filtered = productsData.filter((p) => p.category === "Necklace");
     setNecklace(filtered);
+    setFilteredNecklace(filtered);
   }, []);
 
-  const [Isvisible, setIsvisible] = useState(false)
+  // Filter by selected price ranges
+  useEffect(() => {
+    if (selectedRanges.length === 0) {
+      setFilteredNecklace(Necklace);
+      return;
+    }
 
-  const paravisible = () =>{
-    setIsvisible(!Isvisible)
-  }
+    const updated = Necklace.filter((p) => {
+      return selectedRanges.some((range) => {
+        const [min, max] = range.split("-").map(Number);
+        return p.price >= min && p.price <= max;
+      });
+    });
 
-    useEffect(() => {
-    // filter only rings
+    setFilteredNecklace(updated);
+  }, [selectedRanges, Necklace]);
+
+  // Load "great" products
+  useEffect(() => {
     const filtered = productsData.filter((p) => p.grade === "great");
     setgreat(filtered);
   }, []);
 
-  const [great, setgreat] = useState([]);
-  
+  const paravisible = () => {
+    setIsvisible(!Isvisible);
+  };
+
   return (
-    <div className="flex  justify-center items-center">
+    <div className="flex justify-center items-center">
       <div className="flex flex-col align-middle mt-8 pt-4 pr-8 pl-8 pb-4 ">
         {/* Poster */}
         <img src={poster} alt="poster" className="w-full" />
@@ -54,21 +69,30 @@ function Necklace() {
             Drape a piece of luxury around your Neck with handcrafted Necklace
             from Angara. Whether you're a fan o...
           </p>
-          {Isvisible && ( <p className="flex justify-center items-center text-gray-400">this will show on click</p> )}
+          {Isvisible && (
+            <p className="flex justify-center items-center text-gray-400">
+              this will show on click
+            </p>
+          )}
           <div className="flex justify-center w-full mt-1 text-gray-600">
-            <button className="underline text-sm cursor-pointer" onClick={paravisible}>
+            <button
+              className="underline text-sm cursor-pointer"
+              onClick={paravisible}
+            >
               Read More
             </button>
           </div>
         </div>
+
+        {/* Filter + Products */}
         <div className="bg-white rounded-xl shadow-lg p-0 m-0 w-full flex felx-col">
           <div className="w-1/4">
-            <Filters />
+            <Filters onpriceChange={setSelectedRanges} />
           </div>
           <div className="w-5/4">
             <div className="flex justify-between align-middle">
               <div className="flex align-middle">
-                <span className="text-xl">{Necklace.length} Custom Necklace</span>
+                <span className="text-xl">{filteredNecklace.length} Custom Necklace</span>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   viewBox="0 0 24 24"
@@ -108,10 +132,12 @@ function Necklace() {
               </div>
             </div>
             <div className="p-6">
-              <Cards products={Necklace} /> {/* ✅ Pass only Necklace */}
+              <Cards products={filteredNecklace} />
             </div>
           </div>
         </div>
+
+        {/* Bottom Section */}
         <span className="text-2xl tracking-wider flex justify-center items-center align-middle font-semibold mt-20 my-10">
           Need a Second Look?
         </span>
