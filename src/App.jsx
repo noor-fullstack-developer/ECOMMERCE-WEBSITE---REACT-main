@@ -12,6 +12,7 @@ import Home from "./pages/home";
 import Detail from "./pages/PDetail.jsx";
 import AngaraNews from "./pages/news.jsx";
 import whatapp from "./assets/Whatsapp.png";
+import Register from "./pages/register.jsx";
 
 function App() {
   return (
@@ -29,6 +30,7 @@ function App() {
         <Route path="/gifts" element={<Gifts />} />
         <Route path="/Detail/:id" element={<Detail />} />
         <Route path="/AngaraNews" element={<AngaraNews />} />
+        <Route path="/Register" element={<Register />} />
       </Routes>
       <a href="https://api.whatsapp.com/send?phone=917666666061&text=Hi">
         <img

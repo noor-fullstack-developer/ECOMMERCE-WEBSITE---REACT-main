@@ -1,12 +1,9 @@
 import { useState , useEffect } from "react";
-import { Routes, Route } from "react-router-dom";
 import poster from "../Data/img.home/blue-sapphirebanner.webp";
 import productsData from "../Data/products.json"
 import Favcard from "../component/favcard.jsx"
 import Cards from "../component/cards";
 import Filters from "../component/filters";
-import Register from "../component/register";
-import Cart from "./Favorites";
 
 function Earring() {
 const [earring, setearring] = useState([]);

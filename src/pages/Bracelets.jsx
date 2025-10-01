@@ -4,7 +4,6 @@ import productsData from "../Data/products.json"
 import Favcard from "../component/favcard.jsx"
 import Cards from "../component/cards";
 import Filters from "../component/filters";
-import Cart from "./Favorites";
 
 function Bracelets() {
  const [braslet, setbraslet] = useState([]);

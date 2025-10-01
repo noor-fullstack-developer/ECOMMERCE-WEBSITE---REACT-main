@@ -52,13 +52,15 @@ const Navbar = () => {
                 placeholder="Search..."
               />
             </div>
-            <img
-              src={Usericon}
-              alt="user"
-              className="h-7 cursor-pointer"
-              height="24"
-              width="24"
-            />
+            <Link to="Register">
+              <img
+                src={Usericon}
+                alt="user"
+                className="h-7 cursor-pointer"
+                height="24"
+                width="24"
+              />
+            </Link>
             <Link to="/Favorites">
               <img
                 src={FavirateIcon}

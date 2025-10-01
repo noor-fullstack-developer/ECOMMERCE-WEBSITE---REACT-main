@@ -7,7 +7,7 @@ import productsData from "../Data/products.json";
 import ShopperD from "../component/shoppingdetail.jsx";
 import { useCart } from "../CartContext";
 import Cards from "../component/favcard.jsx";
-import { div } from "framer-motion/client";
+
 
 const Shoppingbag = () => {
   const { cartItems } = useCart();
@@ -108,11 +108,11 @@ const Shoppingbag = () => {
             </div>
 
             {/* Secure Checkout Button */}
-            <button className="flex justify-evenly items-center bg-black p-3">
+            <span className="flex justify-evenly items-center bg-black p-3">
               <img src={sheild} alt="" />
-              <span className="font-medium text-white">Secure Checkout</span>
+              <button className="font-medium text-white">Secure Checkout</button>
               <img src={right} alt="" />
-            </button>
+            </span>
           </div>
         </div>
       )}

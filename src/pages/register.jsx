@@ -1,8 +1,7 @@
-import bg from "./assets/reg-bg.jpg";
-import ring from "./assets/hidden.png";
-import ring1 from "./assets/hidden1.png";
-import angara from "./assets/angara.svg";
-import "./all.css";
+import bg from "../component/assets/reg-bg.jpg";
+import ring from "../component//assets/hidden.png";
+// import ring1 from "../component/assets/hidden1.png";
+import angara from "../component/assets/angara.svg";
 import { useState } from "react";
 
 const Register = () => {
@@ -21,9 +20,8 @@ const Register = () => {
   return (
     <div
       style={{ backgroundImage: `url(${bg})` }}
-      className="bg-no-repeat bg-cover flex justify-evenly items-center fixed left-[20%] top-[20%] bottom-[35%] right-[20%] overflow-hidden rounded-2xl shadow-lg"
+      className="bg-no-repeat bg-cover flex justify-evenly items-center h-full overflow-hidden rounded-2xl shadow-lg"
     >
-      {/* Cross button at top right */}
       <button
         onClick={() => setHidden(true)}
         type="button"
