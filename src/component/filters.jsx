@@ -19,6 +19,24 @@ const Filters = ({ onpriceChange }) => {
     setSelectedRanges(updated);
     onpriceChange(updated); // 🔥 send selected ranges to parent (Ring.jsx)
   };
+  {
+    const [selectedRanges, setSelectedRanges] = useState([]);
+
+  const handleChange = (e) => {
+    const { value, checked } = e.target;
+
+    let updated = [...selectedRanges];
+    if (checked) {
+      updated.push(value);
+    } else {
+      updated = updated.filter((v) => v !== value);
+    }
+
+    setSelectedRanges(updated);
+    onpriceChange(updated); // 🔥 send selected ranges to parent (Ring.jsx)
+  };
+  }
+
 
 
   const [isOpen, setIsOpen] = useState(false);
