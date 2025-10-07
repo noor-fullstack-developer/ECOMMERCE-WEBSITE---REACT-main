@@ -17,27 +17,8 @@ const Filters = ({ onpriceChange }) => {
     }
 
     setSelectedRanges(updated);
-    onpriceChange(updated); // 🔥 send selected ranges to parent (Ring.jsx)
+    onpriceChange(updated); // send selected ranges to parent (Ring.jsx)
   };
-  {
-    const [selectedRanges, setSelectedRanges] = useState([]);
-
-  const handleChange = (e) => {
-    const { value, checked } = e.target;
-
-    let updated = [...selectedRanges];
-    if (checked) {
-      updated.push(value);
-    } else {
-      updated = updated.filter((v) => v !== value);
-    }
-
-    setSelectedRanges(updated);
-    onpriceChange(updated); // 🔥 send selected ranges to parent (Ring.jsx)
-  };
-  }
-
-
 
   const [isOpen, setIsOpen] = useState(false);
   const handleClick = () => {
@@ -90,20 +71,20 @@ const Filters = ({ onpriceChange }) => {
 
         {/* Yeh content sirf tab dikhega jab isOpen true hoga */}
         {isOpen && (
-          <div className="ml-6 text-gray-600 flex flex-col gap-2 shadow-[0_1px_0_rgba(0,0,0,0.1)]">
-            <label className="font-medium" onChange={handleChange}>
+          <div className="ml-6 overflow-y-scroll max-h-50 text-gray-600 flex flex-col gap-2 shadow-[0_1px_0_rgba(0,0,0,0.1)]">
+            <label className="font-thin font-[rubik] text-sm" onChange={handleChange}>
               <input type="checkbox" value="10000-20000" className="mr-2" />
               10,000-20,000
             </label>
-            <label className="font-medium" onChange={handleChange}>
+            <label className="font-thin font-[rubik] text-sm" onChange={handleChange}>
               <input type="checkbox" value="20001-30000" className="mr-2" />
               20,000-30,000
             </label>
-            <label className="font-medium" onChange={handleChange}>
+            <label className="font-thin font-[rubik] text-sm" onChange={handleChange}>
               <input type="checkbox" value="30001-40000" className="mr-2" />
               30,000-40,000
             </label>
-            <label className="font-medium" onChange={handleChange}>
+            <label className="font-thin font-[rubik] text-sm" onChange={handleChange}>
               <input type="checkbox" value="40001-50000" className="mr-2" />
               40,000-50,000
             </label>
@@ -120,29 +101,30 @@ const Filters = ({ onpriceChange }) => {
           />
         </div>
 
+        {/* Yeh content sirf tab dikhega jab isOpen true hoga */}
         {isOpenP && (
-          <div className="ml-6 text-gray-600 flex flex-col gap-2 shadow-[0_1px_0_rgba(0,0,0,0.1)]">
-            <label className="font-thin font-[rubik] text-sm">
+          <div className="ml-6 overflow-y-scroll max-h-50 text-gray-600 flex flex-col gap-2 shadow-[0_1px_0_rgba(0,0,0,0.1)]">
+            <label className="font-thin font-[rubik] text-sm" >
               <input type="checkbox" value="RING" className="mr-2" />
               14K Yellow gold
             </label>
-            <label className="font-thin font-[rubik] text-sm ">
+            <label className="font-thin font-[rubik] text-sm" >
               <input type="checkbox" value="NECKLACES" className="mr-2" />
               14K white gold
             </label>
-            <label className="font-thin font-[rubik] text-sm">
+            <label className="font-thin font-[rubik] text-sm" >
               <input type="checkbox" value="MANGALSUTRAS" className="mr-2" />
               14K rose gold
             </label>
-            <label className="font-thin font-[rubik] text-sm">
+            <label className="font-thin font-[rubik] text-sm" >
               <input type="checkbox" value="EARRINGS" className="mr-2" />
               18K Yellow gold
             </label>
-            <label className="font-thin font-[rubik] text-sm ">
+            <label className="font-thin font-[rubik] text-sm" >
               <input type="checkbox" value="BRACELETS" className="mr-2" />
               18K white gold
             </label>
-            <label className="font-thin font-[rubik] text-sm ">
+            <label className="font-thin font-[rubik] text-sm" >
               <input type="checkbox" value="BRACELETS" className="mr-2" />
               18K rose gold
             </label>
@@ -159,8 +141,9 @@ const Filters = ({ onpriceChange }) => {
           />
         </div>
 
+        {/* Yeh content sirf tab dikhega jab isOpen true hoga */}
         {isOpenW && (
-          <div className="ml-6 text-gray-600 flex flex-col gap-2 shadow-[0_1px_0_rgba(0,0,0,0.1)]">
+          <div className="ml-6 overflow-y-scroll max-h-50 text-gray-600 flex flex-col gap-2 shadow-[0_1px_0_rgba(0,0,0,0.1)]">
             <label className="font-thin font-[rubik] text-sm">
               <input type="checkbox" value="RING" className="mr-2" />
               Below 2 Grams
@@ -198,8 +181,9 @@ const Filters = ({ onpriceChange }) => {
           />
         </div>
 
+        {/* Yeh content sirf tab dikhega jab isOpen true hoga */}
         {isOpenC && (
-          <div className="ml-6 text-gray-600 flex flex-col gap-2 shadow-[0_1px_0_rgba(0,0,0,0.1)]">
+          <div className="ml-6 overflow-y-scroll max-h-50 text-gray-600 flex flex-col gap-2 shadow-[0_1px_0_rgba(0,0,0,0.1)]">
             <label className="font-thin font-[rubik] text-sm">
               <input type="checkbox" value="RING" className="mr-2" />
               0.01 - 0.50
@@ -233,8 +217,9 @@ const Filters = ({ onpriceChange }) => {
           />
         </div>
 
+        {/* Yeh content sirf tab dikhega jab isOpen true hoga */}
         {isOpenG && (
-          <div className="ml-6 text-gray-600 flex flex-col gap-2 shadow-[0_1px_0_rgba(0,0,0,0.1)]">
+          <div className="ml-6 overflow-y-scroll max-h-50 text-gray-600 flex flex-col gap-2 shadow-[0_1px_0_rgba(0,0,0,0.1)]">
             <label className="font-thin font-[rubik] text-sm">
               <input type="checkbox" value="RING" className="mr-2" />
               Amethyst
@@ -259,6 +244,14 @@ const Filters = ({ onpriceChange }) => {
               <input type="checkbox" value="BRACELETS" className="mr-2" />
               Emerald
             </label>
+            <label className="font-thin font-[rubik] text-sm ">
+              <input type="checkbox" value="BRACELETS" className="mr-2" />
+              Emerald
+            </label>
+            <label className="font-thin font-[rubik] text-sm ">
+              <input type="checkbox" value="BRACELETS" className="mr-2" />
+              Emerald
+            </label>
           </div>
         )}
 
@@ -272,8 +265,9 @@ const Filters = ({ onpriceChange }) => {
           />
         </div>
 
+        {/* Yeh content sirf tab dikhega jab isOpen true hoga */}
         {isOpenS && (
-          <div className="ml-6 text-gray-600 flex flex-col gap-2 shadow-[0_1px_0_rgba(0,0,0,0.1)]">
+          <div className="ml-6 overflow-y-scroll max-h-50 text-gray-600 flex flex-col gap-2 shadow-[0_1px_0_rgba(0,0,0,0.1)]">
             <label className="font-thin font-[rubik] text-sm">
               <input type="checkbox" value="RING" className="mr-2" />
               Asscher

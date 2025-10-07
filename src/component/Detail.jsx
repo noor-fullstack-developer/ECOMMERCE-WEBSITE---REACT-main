@@ -82,7 +82,7 @@ const Image = () => {
 
   return (
     <div className="flex justify-center align-middle px-60 w-screen">
-      <div className="w-8/12 flex flex-wrap ">
+      <div className="w-8/12 flex overflow--hidden h-[60rem] flex-wrap ">
         <img
           className={imageClass(zoomed.a)}
           onClick={() => handleZoom("a")}
