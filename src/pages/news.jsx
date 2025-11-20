@@ -6,7 +6,7 @@ import asia from "../assets/inftslider/asia.png";
 import indaiR from "../assets/inftslider/indairetailer.png";
 import Tech from "../assets/inftslider/Techcricle.png";
 import Zindagi from "../assets/inftslider/zindagi.png";
-import angar from "../assets/inftslider/thelist.png";
+import angar from "../assets/inftslider/thelist.PNG";
 import bride from "../assets/inftslider/bridetoday.png";
 import actor01 from "../assets/inftslider/actor-01.png";
 import actor02 from "../assets/inftslider/actor-02.png";
