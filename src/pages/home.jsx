@@ -31,11 +31,12 @@ import trust4 from "../data/img.home/trust04.png";
 import trust5 from "../data/img.home/trust05.png";
 import trust6 from "../data/img.home/trust06.png";
 import trust7 from "../data/img.home/trust07.png";
-import Footer from "../component/Footer.jsx";
-import Cards from "../component/Favcard.jsx";
+import Footer from "../component/footer.jsx";
+import Cards from "../component/favcard.jsx";
 import ImageSlider from "../component/Imageslider.jsx";
-import Aword from "../component/Aword.jsx";
-import Featuredin from "../component/Featuredin.jsx";
+import Aword from "../component/aword.jsx";
+import Featuredin from "../component/featuredin.jsx";
+
 
 const Home = () => {
   const [favorite, setfavorite] = useState([]);

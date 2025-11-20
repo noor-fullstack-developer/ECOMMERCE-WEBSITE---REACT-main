@@ -1,10 +1,10 @@
 import { useState, useEffect } from "react";
 import poster from "../Data/img.home/blue-sapphirebanner.webp";
 import productsData from "../Data/products.json";
-import Favcard from "../component/Cards.jsx";
-import Cards from "../component/Cards.jsx";
-import Footer from "../component/Footer.jsx";
-import Filters from "../component/Filters.jsx";
+import Favcard from "../component/cards.jsx";
+import Cards from "../component/cards.jsx";
+import Footer from "../component/footer.jsx";
+import Filters from "../component/filters.jsx";
 
 function Earring() {
   const [earring, setearring] = useState([]);

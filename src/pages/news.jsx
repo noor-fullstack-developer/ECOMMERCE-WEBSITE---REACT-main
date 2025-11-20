@@ -35,9 +35,9 @@ import Retail from "../assets/inftslider/Retail.svg";
 import News18 from "../assets/inftslider/news18.svg";
 import Vougue from "../assets/inftslider/VOUGE.svg";
 import Refine from "../assets/inftslider/Rifinary.svg";
-import Featuredin from "../component/Featuredin.jsx";
-import Footer from "../component/Footer.jsx";
-import Aword from "../component/Aword.jsx";
+import Featuredin from "../component/featuredin.jsx";
+import Footer from "../component/footer.jsx";
+import Aword from "../component/aword.jsx";
 
 const News = () => {
   const [ishover, setishover] = useState(false);

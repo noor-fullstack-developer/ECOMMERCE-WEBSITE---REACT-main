@@ -11,8 +11,8 @@ import Gifts from "./pages/Gifts.jsx";
 import Detail from "./pages/PDetail.jsx";
 import AngaraNews from "./pages/news.jsx";
 import whatapp from "./assets/Whatsapp.png";
-import Register from "./pages/Register.jsx";
-import Navbar from "./component/Navbar.jsx";
+import Register from "./pages/register.jsx";
+import Navbar from "./component/navbar.jsx";
 
 function App() {
   return (
