@@ -2,16 +2,16 @@ import { Routes, Route } from "react-router-dom";
 import Favorites from "./pages/Favorites.jsx";
 import Cart from "./pages/Cart.jsx";
 import Ring from "./pages/Ring.jsx";
+import Home from "./pages/Home.jsx";
 import Nacklace from "./pages/Nacklace.jsx";
 import Mangalsutra from "./pages/Mangalsutra.jsx";
 import Earrings from "./pages/Earrings.jsx";
 import Bracelets from "./pages/Bracelets.jsx";
 import Gifts from "./pages/Gifts.jsx";
-import Home from "./pages/Home.jsx";
 import Detail from "./pages/PDetail.jsx";
-import AngaraNews from "./pages/news.jsx";
+import AngaraNews from "./pages/News.jsx";
 import whatapp from "./assets/Whatsapp.png";
-import Register from "./pages/register.jsx";
+import Register from "./pages/Register.jsx";
 import Navbar from "./component/Navbar.jsx";
 
 function App() {

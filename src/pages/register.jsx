@@ -1,5 +1,5 @@
 import bg from "../component/assets/reg-bg.jpg";
-import ring from "../component//assets/hidden.png";
+import ring from "../component/assets/hidden.png";
 // import ring1 from "../component/assets/hidden1.png";
 import angara from "../component/assets/angara.svg";
 import { useState } from "react";
