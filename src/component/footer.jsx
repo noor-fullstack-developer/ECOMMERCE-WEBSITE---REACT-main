@@ -64,7 +64,7 @@ const Footer = () => {
         <div className="flex flex-wrap justify-between py-10 px-72 items-start w-full bg-[#f5f5f6] gap-10">
           {/* Assistance */}
           <div>
-            <span className="font-semibold text-lg text-black">Assistance</span>
+            <span className="font-semibold text-lg text-black">Assistances</span>
             <ul className="font-light">
               <li className="mt-3 hover:underline cursor-pointer">15-days Returns</li>
               <li className="mt-3 hover:underline cursor-pointer">Resizing Policy</li>
