@@ -7,7 +7,7 @@ import phone from "./assets/callIcon.svg";
 import email from "./assets/email.svg";
 import mg from "./assets/mg.svg";
 import location from "./assets/location.svg";
-import bhim from "../Data/img.home/BHIM-upi.png";
+import bhim from "../Data/img.home/BHIM-upi.PNG";
 import Master from "../Data/img.home/Mastercard-Logo.png";
 import Rupay from "../Data/img.home/Rupay.png";
 import Upi from "../Data/img.home/UPI.png";
