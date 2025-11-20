@@ -4,18 +4,18 @@ import { Link } from "react-router-dom";
 import sheild from "../assets/sheild.svg";
 import right from "../assets/right.svg";
 import productsData from "../Data/products.json";
-import ShopperD from "../component/shoppingdetail.jsx";
-import { useCart } from "../CartContext";
-import Cards from "../component/favcard.jsx";
+import ShopperD from "../component/Shoppingdetail.jsx";
+import { useCart } from "../CartContext.jsx";
+import Cards from "../component/Favcard.jsx";
 
 
 const Shoppingbag = () => {
   const { cartItems } = useCart();
-  const [favorite, setfavorite] = useState([]);
+  const [favorite, setFavorite] = useState([]);
   useEffect(() => {
     // filter only rings
     const filtered = productsData.filter((p) => p.categorie === "favorite");
-    setfavorite(filtered);
+    setFavorite(filtered);
   }, []);
 
   // Calculate subtotal dynamically

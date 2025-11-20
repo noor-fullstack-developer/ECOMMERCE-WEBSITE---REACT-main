@@ -1,5 +1,5 @@
-import React from 'react'
-import { Link } from 'react-router-dom';
+import React from "react";
+import { Link } from "react-router-dom";
 import vogue from "../assets/inftslider/VOUGE.svg";
 import Economic from "../assets/inftslider/Economic.svg";
 import india from "../assets/inftslider/indiatoday.svg";
@@ -19,39 +19,39 @@ const Angarnewslink = () => {
   return (
     <div>
       <Link to="/AngaraNews">
-              <div className="flex gap-20 marquee">
-                <img className="h-8" src={vogue} alt="" />
-                <img className="h-8" src={Economic} alt="" />
-                <img className="h-8" src={india} alt="" />
-                <img className="h-8" src={cnbc} alt="" />
-                <img className="h-8" src={retail} alt="" />
-                <img className="h-8" src={news} alt="" />
-                <img className="h-8" src={refine} alt="" />
-                <img className="h-8" src={forbos} alt="" />
-                <img className="h-8" src={hello} alt="" />
-                <img className="h-8" src={austrelia} alt="" />
-                <img className="h-8" src={by} alt="" />
-                <img className="h-8" src={knot} alt="" />
-                <img className="h-8" src={prevent} alt="" />
-                <img className="h-8" src={mideum} alt="" />
-                <img className="h-8" src={vogue} alt="" />
-                <img className="h-8" src={Economic} alt="" />
-                <img className="h-8" src={india} alt="" />
-                <img className="h-8" src={cnbc} alt="" />
-                <img className="h-8" src={retail} alt="" />
-                <img className="h-8" src={news} alt="" />
-                <img className="h-8" src={refine} alt="" />
-                <img className="h-8" src={forbos} alt="" />
-                <img className="h-8" src={hello} alt="" />
-                <img className="h-8" src={austrelia} alt="" />
-                <img className="h-8" src={by} alt="" />
-                <img className="h-8" src={knot} alt="" />
-                <img className="h-8" src={prevent} alt="" />
-                <img className="h-8" src={mideum} alt="" />
-              </div>
-            </Link>
+        <div className="flex gap-20 marquee">
+          <img className="h-8" src={vogue} alt="" />
+          <img className="h-8" src={Economic} alt="" />
+          <img className="h-8" src={india} alt="" />
+          <img className="h-8" src={cnbc} alt="" />
+          <img className="h-8" src={retail} alt="" />
+          <img className="h-8" src={news} alt="" />
+          <img className="h-8" src={refine} alt="" />
+          <img className="h-8" src={forbos} alt="" />
+          <img className="h-8" src={hello} alt="" />
+          <img className="h-8" src={austrelia} alt="" />
+          <img className="h-8" src={by} alt="" />
+          <img className="h-8" src={knot} alt="" />
+          <img className="h-8" src={prevent} alt="" />
+          <img className="h-8" src={mideum} alt="" />
+          <img className="h-8" src={vogue} alt="" />
+          <img className="h-8" src={Economic} alt="" />
+          <img className="h-8" src={india} alt="" />
+          <img className="h-8" src={cnbc} alt="" />
+          <img className="h-8" src={retail} alt="" />
+          <img className="h-8" src={news} alt="" />
+          <img className="h-8" src={refine} alt="" />
+          <img className="h-8" src={forbos} alt="" />
+          <img className="h-8" src={hello} alt="" />
+          <img className="h-8" src={austrelia} alt="" />
+          <img className="h-8" src={by} alt="" />
+          <img className="h-8" src={knot} alt="" />
+          <img className="h-8" src={prevent} alt="" />
+          <img className="h-8" src={mideum} alt="" />
+        </div>
+      </Link>
     </div>
-  )
-}
+  );
+};
 
-export default Angarnewslink
+export default Angarnewslink;

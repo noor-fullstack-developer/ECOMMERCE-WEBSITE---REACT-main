@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { Link } from "react-router-dom";
 import down from "../assets/down.svg";
 import tick from "../assets/tick.svg";
-import { useCart } from "../CartContext";
+import { useCart } from "../CartContext.jsx";
 import nonFavirateIcon from "./assets/non-fav.svg";
 import FavirateIcon from "./assets/fav.svg";
 

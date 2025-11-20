@@ -1,12 +1,12 @@
 import React, { useState, useEffect } from "react";
 
 import { useParams } from "react-router-dom";
-import Footer from "../component/footer";
-import Angarnewslink from "../component/angarnewslink.jsx";
+import Footer from "../component/Footer.jsx";
+import Angarnewslink from "../component/Angarnewslink.jsx";
 import star from "../assets/star.svg";
 import products from "../Data/products.json";
-import Favcard from "../component/favcard.jsx";
-import Reviewform from "../component/reviewform.jsx";
+import Favcard from "../component/Favcard.jsx";
+import Reviewform from "../component/Reviewform.jsx";
 import Questionform from "../component/Questionform.jsx";
 import Deatails from "../component/Detail.jsx";
 

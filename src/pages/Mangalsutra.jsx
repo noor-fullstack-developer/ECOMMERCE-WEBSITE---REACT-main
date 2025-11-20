@@ -1,10 +1,10 @@
 import { useState, useEffect } from "react";
 import poster from "../Data/img.home/blue-sapphirebanner.webp";
 import productsData from "../Data/products.json";
-import Favcard from "../component/favcard.jsx";
-import Cards from "../component/cards";
-import Footer from "../component/footer.jsx";
-import Filters from "../component/filters";
+import Favcard from "../component/Favcard.jsx";
+import Cards from "../component/Cards.jsx";
+import Footer from "../component/Footer.jsx";
+import Filters from "../component/Filters.jsx";
 
 function Mangalsutra() {
   const [mangalsutra, setMangalsutra] = useState([]);

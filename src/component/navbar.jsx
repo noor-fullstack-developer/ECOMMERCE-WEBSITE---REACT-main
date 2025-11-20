@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 import { useState, useEffect } from "react";
-import callicon from "./assets/callicon.svg";
+import callIcon from "./assets/callIcon.svg";
 import FavirateIcon from "./assets/non-fav.svg";
 import SearchIcon from "./assets/SearchIcon.svg";
 import ShoppingbagIcon from "./assets/ShoppingbagIcon.svg";
@@ -90,7 +90,7 @@ const Navbar = () => {
         <div className="flex justify-between items-center mb-10">
           {/* Contact */}
           <div className="flex gap-2 items-center">
-            <img src={callicon} alt="call" className="h-4 font-bold" />
+            <img src={callIcon} alt="call" className="h-4 font-bold" />
             <a
               href="tel:+919001001313"
               className="text-xs font-medium text-gray-700 hover:underline"

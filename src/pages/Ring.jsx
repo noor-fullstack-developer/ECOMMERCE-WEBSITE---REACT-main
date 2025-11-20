@@ -1,12 +1,10 @@
 import { useState, useEffect } from "react";
-import { Routes, Route } from "react-router-dom";
 import poster from "../Data/img.home/blue-sapphirebanner.webp";
-import Footer from "../component/footer.jsx";
+import Footer from "../component/Footer.jsx";
 import productsData from "../Data/products.json";
-import Favcard from "../component/favcard.jsx";
-import Cards from "../component/cards";
-import Filters from "../component/filters";
-import { div } from "framer-motion/client";
+import Favcard from "../component/Favcard.jsx";
+import Cards from "../component/Cards.jsx";
+import Filters from "../component/Filters.jsx";
 
 function Ring() {
   const [rings, setRings] = useState([]); //new
