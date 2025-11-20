@@ -2,7 +2,7 @@ import { Routes, Route } from "react-router-dom";
 import Favorites from "./pages/Favorites.jsx";
 import Cart from "./pages/Cart.jsx";
 import Ring from "./pages/Ring.jsx";
-import Home from "./pages/Home.jsx";
+import Home from "./pages/home.jsx";
 import Nacklace from "./pages/Nacklace.jsx";
 import Mangalsutra from "./pages/Mangalsutra.jsx";
 import Earrings from "./pages/Earrings.jsx";
