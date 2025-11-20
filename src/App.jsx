@@ -1,5 +1,4 @@
 import { Routes, Route } from "react-router-dom";
-import Navbar from "./component/Navbar.jsx";
 import Favorites from "./pages/Favorites.jsx";
 import Cart from "./pages/Cart.jsx";
 import Ring from "./pages/Ring.jsx";
@@ -13,6 +12,7 @@ import Detail from "./pages/PDetail.jsx";
 import AngaraNews from "./pages/news.jsx";
 import whatapp from "./assets/Whatsapp.png";
 import Register from "./pages/register.jsx";
+import Navbar from "./component/Navbar.jsx";
 
 function App() {
   return (
