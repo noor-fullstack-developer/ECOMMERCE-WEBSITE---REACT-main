@@ -142,7 +142,7 @@ const Edropdown = () => {
               South Sea Pearl EARRINGS
             </li>
           </ul>
-          <button className="bg-transparent border-0 underline text-orange-400 hover:text-orange-500">
+          <button className="bg-transparent border-0 hover:underline  hover:text-orange-500">
             Explore All
           </button>
         </div>
@@ -248,7 +248,7 @@ const Edropdown = () => {
               Above ₹2,00,000
             </li>
           </ul>
-          <button className="bg-transparent border-0 underline text-orange-400 hover:text-orange-500">
+          <button className="bg-transparent border-0 hover:underline hover:text-orange-500">
             Explore All
           </button>
         </div>
