@@ -9,7 +9,7 @@ import Earrings from "./pages/Earrings.jsx";
 import Bracelets from "./pages/Bracelets.jsx";
 import Gifts from "./pages/Gifts.jsx";
 import Detail from "./pages/PDetail.jsx";
-import AngaraNews from "./pages/News.jsx";
+import AngaraNews from "./pages/news.jsx";
 import whatapp from "./assets/Whatsapp.png";
 import Register from "./pages/Register.jsx";
 import Navbar from "./component/Navbar.jsx";
