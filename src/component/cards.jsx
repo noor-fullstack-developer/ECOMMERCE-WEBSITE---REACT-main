@@ -16,8 +16,8 @@ const Cards = ({ products = [] }) => {
   const [favorites, setFavorites] = useState(() => {
     try {
       const saved = localStorage.getItem("favorites");
-        return saved ? JSON.parse(saved) : {};
-      } catch {
+      return saved ? JSON.parse(saved) : {};
+    } catch {
       return {};
     }
   });

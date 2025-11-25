@@ -95,7 +95,7 @@ const Image = () => {
           alt="TRUST ANGARA"
         />
       </div>
-
+      
       <div className="w-4/12">
         <span className="font-semibold text-xl">
           {product.name.toUpperCase()}
